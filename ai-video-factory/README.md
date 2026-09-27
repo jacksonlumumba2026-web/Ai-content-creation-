@@ -5,18 +5,42 @@ A pipeline for producing **original 30–60 second vertical videos** (1080×1920
 
 It is built to be operated through **Claude Code** (locally or on claude.ai/code) and versioned on **GitHub**.
 
-> **Status: foundation only.** The folder structure, configuration system and environment
-> check exist. No video, voice, image or publishing provider is connected yet — every provider
-> in `config/settings.yaml` is set to `none`.
+> **Status: foundation + local tooling.** Folder structure, configuration, environment check,
+> **ffmpeg** (rendering) and **Piper** (free local text-to-speech) are set up. Image, stock,
+> caption and publishing providers are still `none`. No video has been generated yet.
 
 ---
 
 ## Quick start
 
 ```bash
-pip install -r ai-video-factory/requirements.txt     # just PyYAML for now
+bash ai-video-factory/scripts/setup_env.sh            # ffmpeg + PyYAML + piper-tts + Piper voice
 python3 ai-video-factory/scripts/check_env.py         # should end with: RESULT: READY
 ```
+
+`check_env.py` also encodes a 1-second 1080×1920 test clip with ffmpeg and, once a voice is
+installed, synthesizes a short test phrase with Piper.
+
+### Voiceovers (Piper, free & local)
+
+```bash
+python3 ai-video-factory/scripts/setup_piper_voice.py                 # voice from settings.yaml
+python3 ai-video-factory/scripts/voiceover.py --slug 2026-09-27-demo --text "Your narration."
+python3 ai-video-factory/scripts/voiceover.py --slug 2026-09-27-demo --file ai-video-factory/scripts/2026-09-27-demo.md
+```
+
+- Voice, speed and pauses live under `tts.piper` in `config/settings.yaml`. Preview voices at
+  <https://rhasspy.github.io/piper-samples/>.
+- Voice files (~60–110 MB) download from **huggingface.co** into `models/piper/` (git-ignored).
+  In Claude Code on the web, huggingface.co must be allowed in the environment's network settings.
+- From a script markdown file, only the `## Narration` section is read (falls back to the whole file).
+- Check each voice's `MODEL_CARD` for its license before commercial use.
+
+### Claude Code on the web
+
+Containers are fresh each session, so installed tools don't persist. Paste the contents of
+`scripts/setup_env.sh` into the environment's **Setup script** so every new session starts with
+ffmpeg, Piper and the voice ready.
 
 `check_env.py` exits `0` when the foundation works. Missing optional tools (ffmpeg, etc.)
 and missing API keys show as `WARN`, not failures.
@@ -33,11 +57,11 @@ re-run on its own and every step is reviewable in a Git diff.
 |---|-------|--------|--------|------------|
 | 1 | **Research** — pick a topic, collect facts + sources | `<slug>.md` | `research/` | Claude Code (web search) |
 | 2 | **Script** — hook (≤3s), body, CTA; 80–160 words | `<slug>.md` | `scripts/` | Claude Code → **human review** |
-| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | TTS provider *(not connected)* |
+| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | Piper (local, free) — `scripts/voiceover.py` |
 | 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt` | `captions/` | transcription *(not connected)* |
 | 5 | **Visuals** — b-roll, images, on-screen text | `<slug>/…` | `assets/images`, `assets/video` | stock / image provider *(not connected)* |
 | 6 | **Music** — royalty-free bed, ducked under voice | `…` | `music/` | local licensed library |
-| 7 | **Render** — assemble 1080×1920 MP4 | `<slug>.mp4` | `output/` | ffmpeg *(not installed)* |
+| 7 | **Render** — assemble 1080×1920 MP4 | `<slug>.mp4` | `output/` | ffmpeg *(installed; render stage not built yet)* |
 | 8 | **Review & publish** — human check, then schedule | — | — | manual → Metricool / OpusClip later |
 
 Guardrails baked into the config:
@@ -63,9 +87,14 @@ ai-video-factory/
 │   ├── .env.example         # template for API keys
 │   └── .env                 # your keys (git-ignored)
 ├── src/
-│   └── config.py        # loads + validates configuration
+│   ├── config.py        # loads + validates configuration
+│   └── tts.py           # text-to-speech (Piper)
 ├── scripts/
-│   └── check_env.py     # environment check
+│   ├── check_env.py         # environment check
+│   ├── setup_env.sh         # installs ffmpeg, Python deps, Piper voice
+│   ├── setup_piper_voice.py # downloads the configured Piper voice
+│   └── voiceover.py         # text/script -> voiceovers/<slug>.wav
+├── models/              # downloaded model files, e.g. Piper voices (git-ignored)
 ├── research/            # topic research + sources (committed)
 ├── assets/{images,video,audio}/   # visual/audio source material (media git-ignored)
 ├── voiceovers/          # narration audio (git-ignored)

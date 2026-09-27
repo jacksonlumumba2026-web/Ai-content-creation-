@@ -4,11 +4,17 @@ Instructions for Claude Code when working in this project. See README.md for the
 
 ## What this project is
 A pipeline for original 30–60s vertical (1080×1920) videos about AI, business, money and
-technology, for TikTok, YouTube Shorts and Instagram Reels. Currently **foundation only**.
+technology, for TikTok, YouTube Shorts and Instagram Reels. Built so far: config, environment
+check, ffmpeg (render), Piper (free local TTS). No render stage yet.
 
 ## Commands
 - Environment check: `python3 ai-video-factory/scripts/check_env.py` (must end `RESULT: READY`)
-- Install deps: `pip install -r ai-video-factory/requirements.txt`
+- Install deps (ffmpeg, PyYAML, piper-tts, voice): `bash ai-video-factory/scripts/setup_env.sh`
+- Download Piper voice: `python3 ai-video-factory/scripts/setup_piper_voice.py`
+- Voiceover: `python3 ai-video-factory/scripts/voiceover.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
+
+Containers on Claude Code on the web are fresh each session: if ffmpeg or piper is missing,
+run `setup_env.sh`. huggingface.co must be network-allowed for voice downloads.
 
 Run the environment check after any change to `config/` or `src/config.py`.
 

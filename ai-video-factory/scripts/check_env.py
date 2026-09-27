@@ -88,6 +88,54 @@ def check_tools() -> None:
         record(OK, f"Tool: {tool}", first[:70])
 
 
+def check_ffmpeg_render(settings) -> None:
+    """Encode a 1-second silent vertical clip and verify it with ffprobe."""
+    if not (shutil.which("ffmpeg") and shutil.which("ffprobe")):
+        record(WARN, "ffmpeg render test", "skipped — ffmpeg not installed")
+        return
+    v = settings["video"]
+    with tempfile.TemporaryDirectory() as tmp:
+        out = Path(tmp) / "smoke.mp4"
+        cmd = [
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-f", "lavfi", "-i", f"color=c=black:s={v['width']}x{v['height']}:r={v['fps']}:d=1",
+            "-f", "lavfi", "-i", f"anullsrc=r={v['audio_sample_rate']}:cl=stereo",
+            "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", str(out),
+        ]
+        run = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        if run.returncode != 0 or not out.exists():
+            record(FAIL, "ffmpeg render test", run.stderr.strip()[:120] or "no output")
+            return
+        probe = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+             "stream=width,height,codec_name", "-of", "csv=p=0", str(out)],
+            capture_output=True, text=True, timeout=30,
+        ).stdout.strip()
+        expected = f"h264,{v['width']},{v['height']}"
+        status = OK if probe == expected else FAIL
+        record(status, "ffmpeg render test", f"encoded 1s test clip: {probe} (expected {expected})")
+
+
+def check_tts(settings) -> None:
+    if settings["providers"]["tts"] != "piper":
+        return
+    import importlib.util
+    if importlib.util.find_spec("piper") is None:
+        record(FAIL, "TTS: Piper", "providers.tts=piper but piper-tts is not installed")
+        return
+    from src.tts import piper_model_path, piper_voice_installed, synthesize
+    model = piper_model_path(settings)
+    if not piper_voice_installed(settings):
+        record(WARN, "TTS: Piper voice", f"{model.name} missing — run scripts/setup_piper_voice.py")
+        return
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            secs = synthesize("Environment check.", Path(tmp) / "tts.wav", settings)
+            record(OK, "TTS: Piper voice", f"{model.stem} synthesized {secs:.1f}s test audio")
+        except Exception as exc:
+            record(FAIL, "TTS: Piper voice", str(exc)[:120])
+
+
 def check_python_packages() -> None:
     import importlib.util
     packages = {
@@ -95,6 +143,7 @@ def check_python_packages() -> None:
         "requests": ("requests", False),
         "PIL": ("Pillow — image/text frames", False),
         "moviepy": ("moviepy — Python video editing", False),
+        "piper": ("piper-tts — local text-to-speech", False),
     }
     for module, (label, required) in packages.items():
         found = importlib.util.find_spec(module) is not None
@@ -122,6 +171,9 @@ def main() -> int:
         check_providers_and_secrets(settings)
     check_tools()
     check_python_packages()
+    if settings:
+        check_ffmpeg_render(settings)
+        check_tts(settings)
 
     width = max(len(n) for _, n, _ in results)
     print(f"\nAI Video Factory — environment check ({ROOT})\n")

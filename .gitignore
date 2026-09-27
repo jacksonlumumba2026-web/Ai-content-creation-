@@ -30,3 +30,7 @@ ai-video-factory/assets/**/*.webp
 .DS_Store
 .idea/
 .vscode/
+
+# Downloaded models (large; re-download with scripts/setup_piper_voice.py)
+ai-video-factory/models/*
+!ai-video-factory/models/.gitkeep
