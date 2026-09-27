@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.env
+!*.env.example
+ai-video-factory/config/settings.local.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated / large media (keep folders via .gitkeep)
+ai-video-factory/output/*
+ai-video-factory/voiceovers/*
+ai-video-factory/music/*
+ai-video-factory/assets/**/*.mp4
+ai-video-factory/assets/**/*.mov
+ai-video-factory/assets/**/*.webm
+ai-video-factory/assets/**/*.wav
+ai-video-factory/assets/**/*.mp3
+ai-video-factory/assets/**/*.m4a
+ai-video-factory/assets/**/*.png
+ai-video-factory/assets/**/*.jpg
+ai-video-factory/assets/**/*.jpeg
+ai-video-factory/assets/**/*.webp
+!**/.gitkeep
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

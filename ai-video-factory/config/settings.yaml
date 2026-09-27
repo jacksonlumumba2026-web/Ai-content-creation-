@@ -1,0 +1,82 @@
+# AI Video Factory — default configuration
+#
+# This file is committed. Do NOT put secrets here.
+#   - Secrets (API keys)       -> config/.env            (git-ignored, copy from .env.example)
+#   - Personal overrides       -> config/settings.local.yaml (git-ignored, same shape as this file)
+#   - One-off overrides        -> environment variables: AVF__SECTION__KEY=value
+#                                 e.g. AVF__VIDEO__FPS=60
+#
+# Every provider defaults to "none" so nothing paid is ever called by accident.
+
+project:
+  name: ai-video-factory
+  language: en
+  niches:
+    - ai
+    - business
+    - money
+    - technology
+
+# Target output spec shared by TikTok, YouTube Shorts and Instagram Reels.
+video:
+  width: 1080
+  height: 1920          # 9:16 vertical
+  fps: 30
+  min_duration_sec: 30
+  max_duration_sec: 60
+  container: mp4
+  video_codec: h264
+  audio_codec: aac
+  audio_sample_rate: 48000
+  target_loudness_lufs: -14
+
+script:
+  words_per_minute: 160       # ~80–160 words for a 30–60s video
+  hook_max_sec: 3             # the first line must land within 3 seconds
+  require_sources: true       # every factual claim needs a source in research/
+  require_human_review: true  # scripts are drafts until a person approves them
+
+captions:
+  format: srt                 # srt | vtt | ass
+  max_chars_per_line: 32
+  max_lines: 2
+  font: "DejaVu Sans Bold"    # installed in this container; swap for a brand font later
+  position: lower_third       # keep clear of platform UI at the bottom and right edge
+
+# Providers: which service does each job. "none" = step not wired up yet.
+# Options listed in comments are candidates, not commitments.
+providers:
+  llm: claude_code            # scripts/research are written by Claude Code in-session
+  tts: none                   # none | piper | edge_tts | elevenlabs
+  images: none                # none | stock_pexels | canva | elevenlabs
+  stock_video: none           # none | pexels | pixabay
+  music: none                 # none | local_library
+  transcription: none         # none | whisper_local | elevenlabs
+  render: none                # none | ffmpeg | moviepy | descript
+  publish: none               # none | manual | metricool | opusclip
+
+publishing:
+  platforms:
+    tiktok:
+      enabled: false
+      max_duration_sec: 60
+    youtube_shorts:
+      enabled: false
+      max_duration_sec: 60
+    instagram_reels:
+      enabled: false
+      max_duration_sec: 60
+  auto_publish: false         # always false until explicitly approved
+  ai_disclosure: true         # label AI-generated/synthetic content where platforms require it
+
+# Relative to the ai-video-factory/ root.
+paths:
+  scripts: scripts
+  research: research
+  images: assets/images
+  video: assets/video
+  audio: assets/audio
+  voiceovers: voiceovers
+  captions: captions
+  music: music
+  output: output
