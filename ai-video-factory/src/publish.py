@@ -61,12 +61,17 @@ def quality_gate(script: Script, probe_info: dict, settings: Settings) -> list[s
     return problems
 
 
-def post_text(script: Script) -> str:
+def post_text(script: Script, credits: list[dict] | None = None) -> str:
     tags = " ".join("#" + re.sub(r"[^A-Za-z0-9]", "", str(t)) for t in script.meta.get("hashtags", []))
-    return f"{script.meta['caption'].strip()}\n\n{tags}".strip()
+    text = f"{script.meta['caption'].strip()}\n\n{tags}"
+    if credits:  # Pexels API guidelines: link to Pexels + credit the creators
+        authors = ", ".join(dict.fromkeys(c["author"] for c in credits if c.get("author")))
+        text += f"\n\nStock footage: Pexels (pexels.com)" + (f" — {authors}" if authors else "")
+    return text.strip()
 
 
-def metricool_info(script: Script, media_url: str, settings: Settings) -> dict:
+def metricool_info(script: Script, media_url: str, settings: Settings,
+                   credits: list[dict] | None = None) -> dict:
     """The `info` object for Metricool createScheduledPost (without date/blogId)."""
     pub = settings["publishing"]
     networks = [n for n, cfg in pub["platforms"].items() if cfg.get("enabled")]
@@ -79,7 +84,7 @@ def metricool_info(script: Script, media_url: str, settings: Settings) -> dict:
         # False = Metricool pushes a notification and the owner publishes from the app.
         "autoPublish": bool(pub["auto_publish"]),
         "draft": False,
-        "text": post_text(script),
+        "text": post_text(script, credits),
         "media": [media_url],
         "providers": providers,
         "shortener": False,

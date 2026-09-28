@@ -177,7 +177,7 @@ def check_stock(settings) -> None:
         record(WARN, "Stock footage: Pexels", "PEXELS_API_KEY not set — videos use gradient backgrounds")
         return
     try:
-        req = urllib.request.Request("https://api.pexels.com/videos/search?query=office&per_page=1",
+        req = urllib.request.Request("https://api.pexels.com/v1/videos/search?query=office&per_page=1",
                                      headers={"Authorization": settings.secret("PEXELS_API_KEY"),
                                               "User-Agent": "ai-video-factory"})
         with urllib.request.urlopen(req, timeout=20) as resp:

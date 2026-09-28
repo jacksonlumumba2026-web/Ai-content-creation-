@@ -9,7 +9,8 @@ Scripts list scenes in front matter; each scene's footage plays from the moment 
 
 Clips are searched in portrait orientation, downloaded once into assets/video/pexels/
 (git-ignored) and credited in output/<slug>.credits.json. The Pexels license allows free
-commercial use without attribution; we keep credits anyway.
+commercial use; the API guidelines ask for a visible link to Pexels and photographer credit,
+which publish.post_text adds to the post caption.
 
 Needs PEXELS_API_KEY and network access to api.pexels.com + videos.pexels.com.
 """
@@ -27,7 +28,7 @@ from src.captions import Word
 from src.config import ConfigError, Settings
 from src.visuals import find_phrase
 
-API = "https://api.pexels.com/videos/search"
+API = "https://api.pexels.com/v1/videos/search"  # /videos/ is deprecated per Pexels docs
 
 
 @dataclass

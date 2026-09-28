@@ -46,7 +46,9 @@ def main() -> int:
     local = datetime.fromisoformat(f"{day}T{pub['post_time']}:00").replace(tzinfo=ZoneInfo(pub["timezone"]))
 
     url = upload_media(out / f"{args.slug}.mp4", settings)
-    info = metricool_info(load_script(settings.path("scripts") / f"{args.slug}.md"), url, settings)
+    credits_file = out / f"{args.slug}.credits.json"
+    credits = json.loads(credits_file.read_text()) if credits_file.exists() else None
+    info = metricool_info(load_script(settings.path("scripts") / f"{args.slug}.md"), url, settings, credits)
     info["publicationDate"] = {"dateTime": local.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": pub["timezone"]}
     (out / f"{args.slug}.metricool.json").write_text(json.dumps(info, ensure_ascii=False))
 
