@@ -6,6 +6,13 @@ hashtags: [mrbeast, business, entrepreneur, creatoreconomy, marketing, mindset]
 sources:
   - https://fortune.com/2026/09/21/billionaire-youtuber-mrbeast-ghana-village-philanthropy-work-engagement/
   - https://www.pulse.com.gh/story/mrbeast-ghana-village-child-labour-2026092016314002746
+scenes:
+  - {at: "The biggest YouTuber", query: "content creator filming camera"}
+  - {at: "ten million dollars", query: "african village children"}
+  - {at: "Number one", query: "person scrolling phone social media"}
+  - {at: "Number two", query: "business handshake meeting"}
+  - {at: "Number three", query: "entrepreneur working laptop night"}
+  - {at: "run a business", query: "small business owner shop africa"}
 visuals:
   - at: "biggest YouTuber"
     type: icon

@@ -7,21 +7,21 @@
  {
   "text": "biggest",
   "start": 0.06,
-  "end": 0.3
+  "end": 0.28
  },
  {
   "text": "YouTuber",
-  "start": 0.3,
+  "start": 0.28,
   "end": 0.86
  },
  {
   "text": "in",
   "start": 0.86,
-  "end": 1.1
+  "end": 1.08
  },
  {
   "text": "the",
-  "start": 1.1,
+  "start": 1.08,
   "end": 1.18
  },
  {
@@ -32,676 +32,676 @@
  {
   "text": "just",
   "start": 1.38,
-  "end": 1.64
+  "end": 1.66
  },
  {
   "text": "admitted",
-  "start": 1.64,
-  "end": 1.84
+  "start": 1.66,
+  "end": 1.9
  },
  {
   "text": "something",
-  "start": 1.84,
-  "end": 2.22
+  "start": 1.9,
+  "end": 2.26
  },
  {
   "text": "most",
-  "start": 2.22,
-  "end": 2.52
+  "start": 2.26,
+  "end": 2.62
  },
  {
   "text": "creators",
-  "start": 2.52,
-  "end": 2.78
+  "start": 2.62,
+  "end": 2.9
  },
  {
   "text": "never",
-  "start": 2.78,
-  "end": 3.24
+  "start": 2.9,
+  "end": 3.28
  },
  {
   "text": "say",
-  "start": 3.24,
-  "end": 3.5
+  "start": 3.28,
+  "end": 3.58
  },
  {
   "text": "out",
-  "start": 3.5,
-  "end": 3.74
+  "start": 3.58,
+  "end": 3.84
  },
  {
   "text": "loud.",
-  "start": 3.74,
-  "end": 3.94
+  "start": 3.84,
+  "end": 4.1
  },
  {
   "text": "His",
-  "start": 4.26,
-  "end": 4.36
+  "start": 4.44,
+  "end": 4.5
  },
  {
   "text": "charity",
-  "start": 4.36,
-  "end": 4.68
+  "start": 4.5,
+  "end": 4.76
  },
  {
   "text": "videos",
-  "start": 4.68,
-  "end": 5.08
+  "start": 4.76,
+  "end": 5.18
  },
  {
   "text": "perform",
-  "start": 5.08,
-  "end": 5.36
+  "start": 5.18,
+  "end": 5.54
  },
  {
   "text": "worse.",
-  "start": 5.36,
-  "end": 5.86
+  "start": 5.54,
+  "end": 6.02
  },
  {
   "text": "MrBeast",
-  "start": 6.3,
-  "end": 6.68
+  "start": 6.5,
+  "end": 6.88
  },
  {
   "text": "spent",
-  "start": 6.68,
-  "end": 7.1
+  "start": 6.88,
+  "end": 7.22
  },
  {
   "text": "ten",
-  "start": 7.1,
-  "end": 7.5
+  "start": 7.22,
+  "end": 7.54
  },
  {
   "text": "million",
-  "start": 7.5,
-  "end": 7.76
+  "start": 7.54,
+  "end": 7.78
  },
  {
   "text": "dollars",
-  "start": 7.76,
-  "end": 8.24
+  "start": 7.78,
+  "end": 8.26
  },
  {
   "text": "building",
-  "start": 8.24,
-  "end": 8.46
+  "start": 8.26,
+  "end": 8.52
  },
  {
   "text": "a",
-  "start": 8.46,
-  "end": 8.72
+  "start": 8.52,
+  "end": 8.74
  },
  {
   "text": "village",
-  "start": 8.72,
-  "end": 8.92
+  "start": 8.74,
+  "end": 8.98
  },
  {
   "text": "in",
-  "start": 8.92,
-  "end": 9.18
+  "start": 8.98,
+  "end": 9.22
  },
  {
   "text": "Ghana,",
-  "start": 9.18,
-  "end": 9.4
+  "start": 9.22,
+  "end": 9.44
  },
  {
   "text": "and",
-  "start": 9.8,
-  "end": 9.86
+  "start": 9.82,
+  "end": 9.88
  },
  {
   "text": "when",
-  "start": 9.86,
+  "start": 9.88,
   "end": 10.0
  },
  {
   "text": "a",
   "start": 10.0,
-  "end": 10.1
+  "end": 10.08
  },
  {
   "text": "follower",
-  "start": 10.1,
-  "end": 10.4
+  "start": 10.08,
+  "end": 10.36
  },
  {
   "text": "pointed",
-  "start": 10.4,
-  "end": 10.76
+  "start": 10.36,
+  "end": 10.78
  },
  {
   "text": "out",
-  "start": 10.76,
-  "end": 11.04
+  "start": 10.78,
+  "end": 11.06
  },
  {
   "text": "that",
-  "start": 11.04,
+  "start": 11.06,
   "end": 11.2
  },
  {
   "text": "humanitarian",
   "start": 11.2,
-  "end": 11.46
+  "end": 11.42
  },
  {
   "text": "videos",
-  "start": 11.46,
-  "end": 12.32
+  "start": 11.42,
+  "end": 12.2
  },
  {
   "text": "get",
-  "start": 12.32,
-  "end": 12.54
+  "start": 12.2,
+  "end": 12.48
  },
  {
   "text": "less",
-  "start": 12.54,
-  "end": 12.78
+  "start": 12.48,
+  "end": 12.7
  },
  {
   "text": "engagement,",
-  "start": 12.78,
-  "end": 13.28
+  "start": 12.7,
+  "end": 13.18
  },
  {
   "text": "he",
-  "start": 13.78,
-  "end": 13.86
+  "start": 13.6,
+  "end": 13.68
  },
  {
   "text": "didn't",
-  "start": 13.86,
-  "end": 14.16
+  "start": 13.68,
+  "end": 13.94
  },
  {
   "text": "argue.",
-  "start": 14.16,
-  "end": 14.46
+  "start": 13.94,
+  "end": 14.2
  },
  {
   "text": "He",
-  "start": 14.84,
-  "end": 14.88
+  "start": 14.64,
+  "end": 14.66
  },
  {
   "text": "said",
-  "start": 14.88,
-  "end": 15.04
+  "start": 14.66,
+  "end": 14.84
  },
  {
   "text": "helping",
-  "start": 15.04,
-  "end": 15.3
+  "start": 14.84,
+  "end": 15.14
  },
  {
   "text": "people",
-  "start": 15.3,
-  "end": 15.62
+  "start": 15.14,
+  "end": 15.42
  },
  {
   "text": "brings",
-  "start": 15.62,
-  "end": 15.94
+  "start": 15.42,
+  "end": 15.72
  },
  {
   "text": "him",
-  "start": 15.94,
-  "end": 16.22
+  "start": 15.72,
+  "end": 16.0
  },
  {
   "text": "purpose,",
-  "start": 16.22,
-  "end": 16.54
+  "start": 16.0,
+  "end": 16.3
  },
  {
   "text": "and",
-  "start": 16.82,
-  "end": 16.94
+  "start": 16.6,
+  "end": 16.7
  },
  {
   "text": "even",
-  "start": 16.94,
-  "end": 17.18
+  "start": 16.7,
+  "end": 16.92
  },
  {
   "text": "if",
-  "start": 17.18,
-  "end": 17.34
+  "start": 16.92,
+  "end": 17.06
  },
  {
   "text": "no",
-  "start": 17.34,
-  "end": 17.54
+  "start": 17.06,
+  "end": 17.26
  },
  {
   "text": "one",
-  "start": 17.54,
-  "end": 17.74
+  "start": 17.26,
+  "end": 17.46
  },
  {
   "text": "watches,",
-  "start": 17.74,
-  "end": 17.98
+  "start": 17.46,
+  "end": 17.74
  },
  {
   "text": "he'll",
-  "start": 18.46,
-  "end": 18.64
+  "start": 18.14,
+  "end": 18.36
  },
  {
   "text": "keep",
-  "start": 18.64,
-  "end": 18.82
+  "start": 18.36,
+  "end": 18.52
  },
  {
   "text": "making",
-  "start": 18.82,
-  "end": 19.18
+  "start": 18.52,
+  "end": 18.88
  },
  {
   "text": "them.",
-  "start": 19.18,
-  "end": 19.54
+  "start": 18.88,
+  "end": 19.08
  },
  {
   "text": "Here's",
-  "start": 19.8,
-  "end": 20.04
+  "start": 19.36,
+  "end": 19.54
  },
  {
   "text": "why",
-  "start": 20.04,
-  "end": 20.16
+  "start": 19.54,
+  "end": 19.66
  },
  {
   "text": "that's",
-  "start": 20.16,
-  "end": 20.38
+  "start": 19.66,
+  "end": 19.9
  },
  {
   "text": "a",
-  "start": 20.38,
-  "end": 20.44
+  "start": 19.9,
+  "end": 19.96
  },
  {
   "text": "smart",
-  "start": 20.44,
-  "end": 20.62
+  "start": 19.96,
+  "end": 20.14
  },
  {
   "text": "business",
-  "start": 20.62,
-  "end": 20.92
+  "start": 20.14,
+  "end": 20.44
  },
  {
   "text": "lesson,",
-  "start": 20.92,
-  "end": 21.32
+  "start": 20.44,
+  "end": 20.98
  },
  {
   "text": "not",
-  "start": 21.72,
-  "end": 21.96
+  "start": 21.26,
+  "end": 21.46
  },
  {
   "text": "just",
-  "start": 21.96,
-  "end": 22.12
+  "start": 21.46,
+  "end": 21.62
  },
  {
   "text": "a",
-  "start": 22.12,
-  "end": 22.32
+  "start": 21.62,
+  "end": 21.82
  },
  {
   "text": "nice",
-  "start": 22.32,
-  "end": 22.46
+  "start": 21.82,
+  "end": 21.96
  },
  {
   "text": "quote.",
-  "start": 22.46,
+  "start": 21.96,
+  "end": 22.2
+ },
+ {
+  "text": "Number",
+  "start": 22.58,
   "end": 22.72
  },
  {
-  "text": "Number",
-  "start": 23.12,
-  "end": 23.34
- },
- {
   "text": "one:",
-  "start": 23.34,
-  "end": 23.6
+  "start": 22.72,
+  "end": 23.02
  },
  {
   "text": "not",
-  "start": 23.84,
-  "end": 24.1
+  "start": 23.24,
+  "end": 23.46
  },
  {
   "text": "every",
-  "start": 24.1,
-  "end": 24.26
+  "start": 23.46,
+  "end": 23.62
  },
  {
   "text": "piece",
-  "start": 24.26,
-  "end": 24.54
+  "start": 23.62,
+  "end": 23.88
  },
  {
   "text": "of",
-  "start": 24.54,
-  "end": 24.7
+  "start": 23.88,
+  "end": 24.08
  },
  {
   "text": "content",
-  "start": 24.7,
-  "end": 25.08
+  "start": 24.08,
+  "end": 24.46
  },
  {
   "text": "has",
-  "start": 25.08,
-  "end": 25.34
+  "start": 24.46,
+  "end": 24.68
  },
  {
   "text": "to",
-  "start": 25.34,
-  "end": 25.5
+  "start": 24.68,
+  "end": 24.82
  },
  {
   "text": "be",
-  "start": 25.5,
-  "end": 25.58
+  "start": 24.82,
+  "end": 24.92
  },
  {
   "text": "your",
-  "start": 25.58,
-  "end": 25.74
+  "start": 24.92,
+  "end": 25.04
  },
  {
   "text": "most",
-  "start": 25.74,
-  "end": 26.0
+  "start": 25.04,
+  "end": 25.26
  },
  {
   "text": "viral.",
-  "start": 26.0,
-  "end": 26.3
+  "start": 25.26,
+  "end": 25.56
  },
  {
   "text": "Number",
-  "start": 26.76,
-  "end": 26.94
+  "start": 26.02,
+  "end": 26.18
  },
  {
   "text": "two:",
-  "start": 26.94,
-  "end": 27.24
+  "start": 26.18,
+  "end": 26.48
  },
  {
   "text": "purpose",
-  "start": 27.74,
-  "end": 27.74
+  "start": 27.12,
+  "end": 27.12
  },
  {
   "text": "builds",
-  "start": 27.74,
-  "end": 28.08
+  "start": 27.12,
+  "end": 27.42
  },
  {
   "text": "trust,",
-  "start": 28.08,
-  "end": 28.3
+  "start": 27.42,
+  "end": 27.7
  },
  {
   "text": "and",
-  "start": 28.58,
-  "end": 28.78
+  "start": 28.0,
+  "end": 28.12
  },
  {
   "text": "trust",
-  "start": 28.78,
-  "end": 28.96
+  "start": 28.12,
+  "end": 28.28
  },
  {
   "text": "is",
-  "start": 28.96,
-  "end": 29.26
+  "start": 28.28,
+  "end": 28.54
  },
  {
   "text": "what",
-  "start": 29.26,
-  "end": 29.44
+  "start": 28.54,
+  "end": 28.7
  },
  {
   "text": "keeps",
-  "start": 29.44,
-  "end": 29.68
+  "start": 28.7,
+  "end": 28.9
  },
  {
   "text": "an",
-  "start": 29.68,
-  "end": 29.9
+  "start": 28.9,
+  "end": 29.14
  },
  {
   "text": "audience",
-  "start": 29.9,
-  "end": 29.98
+  "start": 29.14,
+  "end": 29.5
  },
  {
   "text": "for",
-  "start": 30.26,
-  "end": 30.56
+  "start": 29.5,
+  "end": 29.76
  },
  {
   "text": "years.",
-  "start": 30.56,
-  "end": 30.8
+  "start": 29.76,
+  "end": 29.98
  },
  {
   "text": "Number",
-  "start": 30.8,
-  "end": 31.41
+  "start": 29.98,
+  "end": 30.58
  },
  {
   "text": "three:",
-  "start": 31.41,
-  "end": 32.02
+  "start": 30.58,
+  "end": 31.18
  },
  {
   "text": "let",
-  "start": 32.02,
-  "end": 32.14
+  "start": 31.18,
+  "end": 31.32
  },
  {
   "text": "your",
-  "start": 32.14,
-  "end": 32.26
+  "start": 31.32,
+  "end": 31.44
  },
  {
   "text": "most",
-  "start": 32.26,
-  "end": 32.42
+  "start": 31.44,
+  "end": 31.62
  },
  {
   "text": "popular",
-  "start": 32.42,
-  "end": 32.88
+  "start": 31.62,
+  "end": 32.02
  },
  {
   "text": "work",
-  "start": 32.88,
-  "end": 33.2
+  "start": 32.02,
+  "end": 32.36
  },
  {
   "text": "fund",
-  "start": 33.2,
-  "end": 33.4
+  "start": 32.36,
+  "end": 32.58
  },
  {
   "text": "your",
-  "start": 33.4,
-  "end": 33.56
+  "start": 32.58,
+  "end": 32.78
  },
  {
   "text": "most",
-  "start": 33.56,
-  "end": 33.74
+  "start": 32.78,
+  "end": 32.98
  },
  {
   "text": "meaningful",
-  "start": 33.74,
-  "end": 34.06
+  "start": 32.98,
+  "end": 33.32
  },
  {
   "text": "work.",
-  "start": 34.06,
-  "end": 34.54
+  "start": 33.32,
+  "end": 33.72
  },
  {
   "text": "So",
-  "start": 34.76,
-  "end": 34.98
+  "start": 34.02,
+  "end": 34.14
  },
  {
   "text": "if",
-  "start": 34.98,
-  "end": 35.14
+  "start": 34.14,
+  "end": 34.32
  },
  {
   "text": "you",
-  "start": 35.14,
-  "end": 35.22
+  "start": 34.32,
+  "end": 34.44
  },
  {
   "text": "run",
-  "start": 35.22,
-  "end": 35.38
+  "start": 34.44,
+  "end": 34.58
  },
  {
   "text": "a",
-  "start": 35.38,
-  "end": 35.5
+  "start": 34.58,
+  "end": 34.68
  },
  {
   "text": "business,",
-  "start": 35.5,
-  "end": 35.76
+  "start": 34.68,
+  "end": 35.0
  },
  {
   "text": "ask",
-  "start": 36.12,
-  "end": 36.28
+  "start": 35.36,
+  "end": 35.58
  },
  {
   "text": "yourself:",
-  "start": 36.28,
-  "end": 36.62
+  "start": 35.58,
+  "end": 35.84
  },
  {
   "text": "what",
-  "start": 37.12,
-  "end": 37.2
+  "start": 36.48,
+  "end": 36.58
  },
  {
   "text": "would",
-  "start": 37.2,
-  "end": 37.34
+  "start": 36.58,
+  "end": 36.7
  },
  {
   "text": "you",
-  "start": 37.34,
-  "end": 37.48
+  "start": 36.7,
+  "end": 36.84
  },
  {
   "text": "keep",
-  "start": 37.48,
-  "end": 37.66
+  "start": 36.84,
+  "end": 37.04
  },
  {
   "text": "doing",
-  "start": 37.66,
-  "end": 37.88
+  "start": 37.04,
+  "end": 37.28
  },
  {
   "text": "even",
-  "start": 37.88,
-  "end": 38.18
+  "start": 37.28,
+  "end": 37.64
  },
  {
   "text": "if",
-  "start": 38.18,
-  "end": 38.4
+  "start": 37.64,
+  "end": 37.8
  },
  {
   "text": "no",
-  "start": 38.4,
-  "end": 38.56
+  "start": 37.8,
+  "end": 38.0
  },
  {
   "text": "one",
-  "start": 38.56,
-  "end": 38.7
+  "start": 38.0,
+  "end": 38.2
  },
  {
   "text": "clapped?",
-  "start": 38.7,
-  "end": 39.12
+  "start": 38.2,
+  "end": 38.62
  },
  {
   "text": "Follow",
-  "start": 39.46,
-  "end": 39.64
+  "start": 38.9,
+  "end": 39.14
  },
  {
   "text": "for",
-  "start": 39.64,
-  "end": 39.92
+  "start": 39.14,
+  "end": 39.42
  },
  {
   "text": "more",
-  "start": 39.92,
-  "end": 40.1
+  "start": 39.42,
+  "end": 39.58
  },
  {
   "text": "business",
-  "start": 40.1,
-  "end": 40.38
+  "start": 39.58,
+  "end": 39.86
  },
  {
   "text": "lessons",
-  "start": 40.38,
-  "end": 40.84
+  "start": 39.86,
+  "end": 40.32
  },
  {
   "text": "from",
-  "start": 40.84,
-  "end": 41.22
+  "start": 40.32,
+  "end": 40.62
  },
  {
   "text": "the",
-  "start": 41.22,
-  "end": 41.34
+  "start": 40.62,
+  "end": 40.74
  },
  {
   "text": "internet's",
-  "start": 41.34,
-  "end": 41.84
+  "start": 40.74,
+  "end": 41.22
  },
  {
   "text": "biggest",
-  "start": 41.84,
-  "end": 42.0
+  "start": 41.22,
+  "end": 41.36
  },
  {
   "text": "names.",
-  "start": 42.0,
-  "end": 42.38
+  "start": 41.36,
+  "end": 41.72
  }
 ]
