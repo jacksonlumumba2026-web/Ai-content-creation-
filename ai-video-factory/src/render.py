@@ -32,7 +32,7 @@ PALETTES = [
 TAIL_SEC = 0.6  # breathing room after the last word
 VISUAL_TOP = 0.235  # graphics card top edge, as a fraction of video height
 HANDLE_Y = 0.765   # channel handle, below the captions and above platform UI
-FOOTAGE_DIM = 0.45  # black overlay opacity on stock footage (text readability)
+FOOTAGE_DIM = 0.30  # black overlay opacity on stock footage (text readability)
 
 
 def pick_palette(slug: str) -> tuple[tuple[str, str, str], str]:

@@ -5,6 +5,13 @@ caption: "46% of small businesses already use AI, according to the Federal Reser
 hashtags: [ai, smallbusiness, entrepreneur, productivity, artificialintelligence, business]
 sources:
   - https://www.fedsmallbusiness.org/reports/survey/2026/2026-report-on-employer-firms
+scenes:
+  - {at: "Almost half", query: "small business owner shop"}
+  - {at: "actually using", query: "person typing laptop office"}
+  - {at: "Number two", query: "woman working laptop cafe"}
+  - {at: "Number three", query: "business charts analysis screen"}
+  - {at: "labor costs", query: "team working office"}
+  - {at: "competitors", query: "busy city street business"}
 visuals:
   - at: "Almost half"
     type: icon
