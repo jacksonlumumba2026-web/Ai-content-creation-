@@ -59,7 +59,7 @@ providers:
 # Local, free text-to-speech.
 tts:
   ffmpeg_flite:                 # zero-download fallback; sounds robotic — fine for drafts/timing
-    voice: slt                  # slt (female) | kal | awb | rms (male)
+    voice: rms                  # male: rms (US, default) | awb (Scottish) | kal (US, low-fi); female: slt
   piper:                        # natural voices: https://rhasspy.github.io/piper-samples/
     voice: en_US-ryan-high      # confident male narrator; alt: en_US-lessac-medium, en_US-amy-medium
     length_scale: 0.95          # < 1.0 = faster speech (shorts benefit from brisk pacing)
