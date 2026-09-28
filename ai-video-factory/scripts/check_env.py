@@ -117,7 +117,18 @@ def check_ffmpeg_render(settings) -> None:
 
 
 def check_tts(settings) -> None:
-    if settings["providers"]["tts"] != "piper":
+    provider = settings["providers"]["tts"]
+    if provider == "ffmpeg_flite":
+        from src.tts import synthesize
+        voice = settings["tts"]["ffmpeg_flite"]["voice"]
+        with tempfile.TemporaryDirectory() as tmp:
+            try:
+                secs = synthesize("Environment check.", Path(tmp) / "tts.wav", settings)
+                record(OK, "TTS: ffmpeg flite", f"voice {voice} synthesized {secs:.1f}s test audio")
+            except Exception as exc:
+                record(FAIL, "TTS: ffmpeg flite", str(exc)[:120])
+        return
+    if provider != "piper":
         return
     import importlib.util
     if importlib.util.find_spec("piper") is None:

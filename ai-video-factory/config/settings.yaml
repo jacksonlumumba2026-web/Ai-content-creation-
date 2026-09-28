@@ -47,7 +47,8 @@ captions:
 # Options listed in comments are candidates, not commitments.
 providers:
   llm: claude_code            # scripts/research are written by Claude Code in-session
-  tts: piper                  # none | piper | edge_tts | elevenlabs
+  tts: ffmpeg_flite           # none | ffmpeg_flite | piper | edge_tts | elevenlabs
+                              # ffmpeg_flite = built into ffmpeg, robotic; switch to piper once a voice is installed
   images: none                # none | stock_pexels | canva | elevenlabs
   stock_video: none           # none | pexels | pixabay
   music: none                 # none | local_library
@@ -55,9 +56,11 @@ providers:
   render: ffmpeg              # none | ffmpeg | moviepy | descript
   publish: none               # none | manual | metricool | opusclip
 
-# Local, free text-to-speech. Voices: https://rhasspy.github.io/piper-samples/
+# Local, free text-to-speech.
 tts:
-  piper:
+  ffmpeg_flite:                 # zero-download fallback; sounds robotic — fine for drafts/timing
+    voice: slt                  # slt (female) | kal | awb | rms (male)
+  piper:                        # natural voices: https://rhasspy.github.io/piper-samples/
     voice: en_US-ryan-high      # confident male narrator; alt: en_US-lessac-medium, en_US-amy-medium
     length_scale: 0.95          # < 1.0 = faster speech (shorts benefit from brisk pacing)
     sentence_silence: 0.15      # seconds of pause between sentences

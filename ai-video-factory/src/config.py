@@ -35,7 +35,7 @@ KNOWN_SECRETS = (
 
 VALID_PROVIDERS = {
     "llm": {"claude_code"},
-    "tts": {"none", "piper", "edge_tts", "elevenlabs"},
+    "tts": {"none", "ffmpeg_flite", "piper", "edge_tts", "elevenlabs"},
     "images": {"none", "stock_pexels", "canva", "elevenlabs"},
     "stock_video": {"none", "pexels", "pixabay"},
     "music": {"none", "local_library"},

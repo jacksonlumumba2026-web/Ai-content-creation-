@@ -1,7 +1,9 @@
-"""Text-to-speech. Currently supports the free, local Piper engine."""
+"""Text-to-speech. Free, local engines only: ffmpeg's built-in Flite and Piper."""
 
 from __future__ import annotations
 
+import subprocess
+import tempfile
 import wave
 from pathlib import Path
 
@@ -28,10 +30,12 @@ def piper_voice_installed(settings: Settings) -> bool:
 def synthesize(text: str, out_path: Path, settings: Settings) -> float:
     """Render `text` to a WAV file. Returns the audio duration in seconds."""
     provider = settings["providers"]["tts"]
-    if provider != "piper":
-        raise ConfigError(f"providers.tts={provider!r} is not implemented yet")
     if not text.strip():
         raise ValueError("text is empty")
+    if provider == "ffmpeg_flite":
+        return _synthesize_flite(text, out_path, settings)
+    if provider != "piper":
+        raise ConfigError(f"providers.tts={provider!r} is not implemented yet")
 
     from piper import PiperVoice, SynthesisConfig
 
@@ -56,5 +60,25 @@ def synthesize(text: str, out_path: Path, settings: Settings) -> float:
             wav.writeframes(chunk.audio_int16_bytes)
             wav.writeframes(silence)
 
+    with wave.open(str(out_path), "rb") as wav:
+        return wav.getnframes() / wav.getframerate()
+
+
+def _synthesize_flite(text: str, out_path: Path, settings: Settings) -> float:
+    """Use ffmpeg's libflite filter. Text goes via a file to avoid filtergraph escaping."""
+    voice = settings["tts"]["ffmpeg_flite"]["voice"]
+    rate = settings["video"]["audio_sample_rate"]
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        text_file = Path(tmp) / "text.txt"
+        text_file.write_text(" ".join(text.split()))
+        run = subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error",
+             "-f", "lavfi", "-i", f"flite=textfile={text_file}:voice={voice}",
+             "-ar", str(rate), "-ac", "1", str(out_path)],
+            capture_output=True, text=True,
+        )
+    if run.returncode != 0:
+        raise ConfigError(f"ffmpeg flite failed: {run.stderr.strip()[:200]}")
     with wave.open(str(out_path), "rb") as wav:
         return wav.getnframes() / wav.getframerate()

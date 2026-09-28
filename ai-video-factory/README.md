@@ -21,7 +21,13 @@ python3 ai-video-factory/scripts/check_env.py         # should end with: RESULT:
 `check_env.py` also encodes a 1-second 1080×1920 test clip with ffmpeg and, once a voice is
 installed, synthesizes a short test phrase with Piper.
 
-### Voiceovers (Piper, free & local)
+### Voiceovers (free & local)
+
+Two engines, chosen by `providers.tts` in `config/settings.yaml`:
+
+- `ffmpeg_flite` (current default): built into ffmpeg, no downloads, sounds robotic. Good for
+  drafts and checking timing. Voices: `slt`, `kal`, `awb`, `rms` (`tts.ffmpeg_flite.voice`).
+- `piper`: natural-sounding, needs a voice model download (below). Set `providers.tts: piper`.
 
 ```bash
 python3 ai-video-factory/scripts/setup_piper_voice.py                 # voice from settings.yaml
@@ -57,7 +63,7 @@ re-run on its own and every step is reviewable in a Git diff.
 |---|-------|--------|--------|------------|
 | 1 | **Research** — pick a topic, collect facts + sources | `<slug>.md` | `research/` | Claude Code (web search) |
 | 2 | **Script** — hook (≤3s), body, CTA; 80–160 words | `<slug>.md` | `scripts/` | Claude Code → **human review** |
-| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | Piper (local, free) — `scripts/voiceover.py` |
+| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | ffmpeg Flite now (robotic), Piper once a voice is installed — `scripts/voiceover.py` |
 | 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt` | `captions/` | transcription *(not connected)* |
 | 5 | **Visuals** — b-roll, images, on-screen text | `<slug>/…` | `assets/images`, `assets/video` | stock / image provider *(not connected)* |
 | 6 | **Music** — royalty-free bed, ducked under voice | `…` | `music/` | local licensed library |

@@ -5,7 +5,7 @@ Instructions for Claude Code when working in this project. See README.md for the
 ## What this project is
 A pipeline for original 30–60s vertical (1080×1920) videos about AI, business, money and
 technology, for TikTok, YouTube Shorts and Instagram Reels. Built so far: config, environment
-check, ffmpeg (render), Piper (free local TTS). No render stage yet.
+check, ffmpeg (render), TTS via ffmpeg Flite (default, robotic) or Piper (needs voice model). No render stage yet.
 
 ## Commands
 - Environment check: `python3 ai-video-factory/scripts/check_env.py` (must end `RESULT: READY`)
