@@ -20,18 +20,22 @@ echo ">> Installing Python packages"
 python3 -m pip install -q "PyYAML>=6.0" "piper-tts>=1.8,<2" "faster-whisper>=1.1,<2"
 
 # Piper voice (needs huggingface.co to be reachable). Non-fatal if blocked.
-VOICE="${PIPER_VOICE:-en_US-ryan-high}"
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." 2>/dev/null && pwd)"
 if [ -f "$REPO_DIR/config/settings.yaml" ]; then
-  MODELS="$REPO_DIR/models/piper"
-else
-  MODELS="${PIPER_MODELS_DIR:-$HOME/.local/share/piper-voices}"
-fi
-mkdir -p "$MODELS"
-if [ ! -f "$MODELS/$VOICE.onnx" ]; then
-  echo ">> Downloading Piper voice $VOICE -> $MODELS"
-  python3 -m piper.download_voices "$VOICE" --download-dir "$MODELS" \
+  # In the repo: verified download (size + MD5), repairs truncated files.
+  echo ">> Checking Piper voice"
+  python3 "$REPO_DIR/scripts/setup_piper_voice.py" \
     || echo "!! Voice download failed (is huggingface.co allowed?). Continuing."
+else
+  # Standalone (e.g. pasted as a setup script before the repo exists).
+  VOICE="${PIPER_VOICE:-en_US-ryan-high}"
+  MODELS="${PIPER_MODELS_DIR:-$HOME/.local/share/piper-voices}"
+  mkdir -p "$MODELS"
+  if [ ! -f "$MODELS/$VOICE.onnx" ]; then
+    echo ">> Downloading Piper voice $VOICE -> $MODELS"
+    python3 -m piper.download_voices "$VOICE" --download-dir "$MODELS" \
+      || echo "!! Voice download failed (is huggingface.co allowed?). Continuing."
+  fi
 fi
 
 ffmpeg -version | head -1

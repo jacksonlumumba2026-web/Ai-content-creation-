@@ -15,8 +15,9 @@ check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Fl
 - Captions: `python3 ai-video-factory/scripts/captions.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
   (always pass the script: caption words come from it, Whisper only supplies timing)
 
-Containers on Claude Code on the web are fresh each session: if ffmpeg or piper is missing,
-run `setup_env.sh`. huggingface.co must be network-allowed for voice downloads.
+On Claude Code on the web, `.claude/hooks/session-start.sh` runs `setup_env.sh` automatically
+at session start (ffmpeg, Python packages, verified Piper voice, Whisper model). If something is
+still missing, run `setup_env.sh` manually. huggingface.co and *.hf.co must be network-allowed.
 
 Run the environment check after any change to `config/` or `src/config.py`.
 

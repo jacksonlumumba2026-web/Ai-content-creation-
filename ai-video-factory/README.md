@@ -62,9 +62,12 @@ python3 ai-video-factory/scripts/captions.py --slug 2026-09-28-demo --file ai-vi
 
 ### Claude Code on the web
 
-Containers are fresh each session, so installed tools don't persist. Paste the contents of
-`scripts/setup_env.sh` into the environment's **Setup script** so every new session starts with
-ffmpeg, Piper and the voice ready.
+Containers are fresh each session, so installed tools don't persist. The repository's
+**SessionStart hook** (`.claude/hooks/session-start.sh`, registered in `.claude/settings.json`)
+runs `scripts/setup_env.sh` automatically in every web session: ffmpeg, Python packages, the
+Piper voice (verified by size + MD5, repaired if truncated) and the Whisper model. It is skipped
+outside the web environment. The environment's network access must allow `huggingface.co`,
+`*.huggingface.co` and `*.hf.co`.
 
 `check_env.py` exits `0` when the foundation works. Missing optional tools (ffmpeg, etc.)
 and missing API keys show as `WARN`, not failures.
