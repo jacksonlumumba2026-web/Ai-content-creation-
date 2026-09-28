@@ -16,6 +16,8 @@ check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Fl
 - Upload + Metricool payload: `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date YYYY-MM-DD --time HH:MM`
   (2 posts/day at `publishing.post_times`: 12:30 and 19:00 Nairobi)
 - Daily routine steps: `ai-video-factory/ROUTINE.md`
+- Quiz/challenge video: `python3 ai-video-factory/scripts/quiz.py --slug <slug>` (spec: `scripts/<slug>.quiz.yaml`;
+  question cards, 3 s countdown with ticks, green answer reveal, synthesized SFX + music bed or a track from `music/`)
 - Captions: `python3 ai-video-factory/scripts/captions.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
   (always pass the script: caption words come from it, Whisper only supplies timing)
 

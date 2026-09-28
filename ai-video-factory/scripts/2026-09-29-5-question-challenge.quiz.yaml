@@ -1,0 +1,45 @@
+# Owner-supplied challenge script (2026-09-28). Questions, options and answers are verbatim.
+# Hook line changed from "Only 1 in 10 people can pass this challenge!" because that figure is
+# not sourced (owner rule: no invented statistics).
+title: "CAN YOU PASS THIS 5-QUESTION CHALLENGE?"
+youtube_title: "CAN YOU PASS THIS 5-QUESTION CHALLENGE? #Shorts"
+caption: "5 questions. Get them all right and you're a genius. Comment your score and challenge a friend!"
+hashtags: [quiz, challenge, trivia, generalknowledge, brainteaser, shorts]
+hook:
+  narration: "Think you can pass this challenge? You have five questions. Get them all right, and you're a genius!"
+  scene: "classroom students exam desks"
+questions:
+  - narration: "Question one! What is the largest planet in our solar system?"
+    question: "What is the largest planet in our solar system?"
+    options: ["Earth", "Jupiter", "Mars"]
+    answer: 1
+    reveal: "Correct answer: Jupiter!"
+    scene: "student in a quiz"
+    reveal_photo: 12498752   # Pexels photo: Jupiter (Zelch Csaba); needs images.pexels.com
+  - narration: "Question two! What is 9 times 8?"
+    question: "What is 9 × 8?"
+    options: ["64", "72", "81"]
+    answer: 1
+    reveal: "The answer is 72!"
+    scene: "teacher writing on whiteboard"
+  - narration: "Question three! At standard atmospheric pressure, what temperature does water freeze at in Celsius?"
+    question: "At standard atmospheric pressure, what temperature does water freeze at in Celsius?"
+    options: ["0 degrees", "10 degrees", "100 degrees"]
+    answer: 0
+    reveal: "Zero degrees Celsius!"
+    scene: "confused student classroom"
+  - narration: "Question four! What is the capital city of Japan?"
+    question: "What is the capital city of Japan?"
+    options: ["Seoul", "Beijing", "Tokyo"]
+    answer: 2
+    reveal: "Tokyo!"
+    scene: "world map screen"
+  - narration: "Final question! How many sides does a triangle have?"
+    question: "How many sides does a triangle have?"
+    options: ["Three", "Four", "Five"]
+    answer: 0
+    reveal: "THREE! That's the correct answer!"
+    scene: "teacher walking classroom"
+ending:
+  narration: "How many did you get right? Comment your score below, and challenge a friend to beat you!"
+  scene: "teacher and student doing high five"

@@ -67,6 +67,19 @@ cards — drawn by `src/visuals.py`) that slide in when their `at` phrase is spo
 word-by-word captions with the spoken word highlighted, channel handle, progress bar.
 `text` cards use DejaVu Sans, so put emoji only in `icon` fields.
 
+### Quiz / challenge videos
+
+```bash
+python3 ai-video-factory/scripts/quiz.py --slug 2026-09-29-5-question-challenge
+```
+
+Spec: `scripts/<slug>.quiz.yaml` (hook, questions with exactly 3 options + answer index + reveal line,
+ending; a Pexels `scene` per block, optional `reveal_photo` Pexels photo id). Only the exact
+question and options are drawn, with a 3-second countdown (ticks), a chime and a green highlight
+on the correct answer. Music: the first track in `music/` if present (use licensed, royalty-free
+audio), otherwise a synthesized 120 BPM pulse bed. `reveal_photo` needs `images.pexels.com`
+network access.
+
 ### Voiceovers (free & local)
 
 Two engines, chosen by `providers.tts` in `config/settings.yaml`:
