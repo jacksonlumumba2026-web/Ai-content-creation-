@@ -1,3 +1,4 @@
 # System dependency (not pip): ffmpeg  ->  apt-get install -y ffmpeg
 PyYAML>=6.0
 piper-tts>=1.8,<2    # free local text-to-speech; voices via scripts/setup_piper_voice.py
+faster-whisper>=1.1,<2  # free local speech-to-text; used to time captions

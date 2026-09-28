@@ -5,13 +5,15 @@ Instructions for Claude Code when working in this project. See README.md for the
 ## What this project is
 A pipeline for original 30–60s vertical (1080×1920) videos about AI, business, money and
 technology, for TikTok, YouTube Shorts and Instagram Reels. Built so far: config, environment
-check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Flite until the voice model is downloaded). No render stage yet.
+check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Flite until the voice model is downloaded). Captions via faster-whisper aligned to the script. No render stage yet.
 
 ## Commands
 - Environment check: `python3 ai-video-factory/scripts/check_env.py` (must end `RESULT: READY`)
-- Install deps (ffmpeg, PyYAML, piper-tts, voice): `bash ai-video-factory/scripts/setup_env.sh`
+- Install deps (ffmpeg, PyYAML, piper-tts, faster-whisper, voice): `bash ai-video-factory/scripts/setup_env.sh`
 - Download Piper voice: `python3 ai-video-factory/scripts/setup_piper_voice.py`
 - Voiceover: `python3 ai-video-factory/scripts/voiceover.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
+- Captions: `python3 ai-video-factory/scripts/captions.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
+  (always pass the script: caption words come from it, Whisper only supplies timing)
 
 Containers on Claude Code on the web are fresh each session: if ffmpeg or piper is missing,
 run `setup_env.sh`. huggingface.co must be network-allowed for voice downloads.

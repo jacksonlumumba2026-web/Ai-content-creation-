@@ -14,7 +14,7 @@ It is built to be operated through **Claude Code** (locally or on claude.ai/code
 ## Quick start
 
 ```bash
-bash ai-video-factory/scripts/setup_env.sh            # ffmpeg + PyYAML + piper-tts + Piper voice
+bash ai-video-factory/scripts/setup_env.sh            # ffmpeg, PyYAML, piper-tts, faster-whisper, Piper voice
 python3 ai-video-factory/scripts/check_env.py         # should end with: RESULT: READY
 ```
 
@@ -46,6 +46,20 @@ python3 ai-video-factory/scripts/voiceover.py --slug 2026-09-27-demo --file ai-v
 - From a script markdown file, only the `## Narration` section is read (falls back to the whole file).
 - Check each voice's `MODEL_CARD` for its license before commercial use.
 
+### Captions (faster-whisper, free & local)
+
+```bash
+python3 ai-video-factory/scripts/captions.py --slug 2026-09-28-demo --file ai-video-factory/scripts/2026-09-28-demo.md
+```
+
+- Reads `voiceovers/<slug>.wav`; writes `captions/<slug>.srt` and `captions/<slug>.words.json`
+  (per-word timings for animated captions in the render stage).
+- **Whisper is used only for timing.** Caption words come from the script, so mishearings
+  ("thirty" → "30") and hallucinated extra text never appear on screen. Without a script
+  (and no `scripts/<slug>.md`), Whisper's own transcription is used and a warning is printed.
+- Cue style lives under `captions` in `config/settings.yaml` (words per cue, line length, pause breaks).
+- The Whisper model (`base.en`, ~140 MB) downloads from huggingface.co into `models/whisper/` on first use.
+
 ### Claude Code on the web
 
 Containers are fresh each session, so installed tools don't persist. Paste the contents of
@@ -68,7 +82,7 @@ re-run on its own and every step is reviewable in a Git diff.
 | 1 | **Research** — pick a topic, collect facts + sources | `<slug>.md` | `research/` | Claude Code (web search) |
 | 2 | **Script** — hook (≤3s), body, CTA; 80–160 words | `<slug>.md` | `scripts/` | Claude Code → **human review** |
 | 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | Piper (falls back to ffmpeg Flite until its voice is installed) — `scripts/voiceover.py` |
-| 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt` | `captions/` | transcription *(not connected)* |
+| 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt`, `<slug>.words.json` | `captions/` | faster-whisper (local, free) — `scripts/captions.py` |
 | 5 | **Visuals** — b-roll, images, on-screen text | `<slug>/…` | `assets/images`, `assets/video` | stock / image provider *(not connected)* |
 | 6 | **Music** — royalty-free bed, ducked under voice | `…` | `music/` | local licensed library |
 | 7 | **Render** — assemble 1080×1920 MP4 | `<slug>.mp4` | `output/` | ffmpeg *(installed; render stage not built yet)* |
@@ -98,12 +112,15 @@ ai-video-factory/
 │   └── .env                 # your keys (git-ignored)
 ├── src/
 │   ├── config.py        # loads + validates configuration
-│   └── tts.py           # text-to-speech (Piper)
+│   ├── tts.py           # text-to-speech (Piper, ffmpeg Flite)
+│   ├── captions.py      # word timing + script alignment + SRT/VTT
+│   └── scriptfile.py    # reads narration from script markdown
 ├── scripts/
 │   ├── check_env.py         # environment check
 │   ├── setup_env.sh         # installs ffmpeg, Python deps, Piper voice
 │   ├── setup_piper_voice.py # downloads the configured Piper voice
-│   └── voiceover.py         # text/script -> voiceovers/<slug>.wav
+│   ├── voiceover.py         # text/script -> voiceovers/<slug>.wav
+│   └── captions.py          # voiceover -> captions/<slug>.srt + words.json
 ├── models/              # downloaded model files, e.g. Piper voices (git-ignored)
 ├── research/            # topic research + sources (committed)
 ├── assets/{images,video,audio}/   # visual/audio source material (media git-ignored)

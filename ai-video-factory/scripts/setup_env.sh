@@ -17,7 +17,7 @@ if ! command -v ffmpeg >/dev/null; then
 fi
 
 echo ">> Installing Python packages"
-python3 -m pip install -q "PyYAML>=6.0" "piper-tts>=1.8,<2"
+python3 -m pip install -q "PyYAML>=6.0" "piper-tts>=1.8,<2" "faster-whisper>=1.1,<2"
 
 # Piper voice (needs huggingface.co to be reachable). Non-fatal if blocked.
 VOICE="${PIPER_VOICE:-en_US-ryan-high}"

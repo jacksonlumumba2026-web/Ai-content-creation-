@@ -19,17 +19,10 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from src.config import load_settings  # noqa: E402
+from src.scriptfile import narration_from_markdown  # noqa: E402
 from src.tts import effective_provider, synthesize  # noqa: E402
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-
-
-def narration_from_markdown(text: str) -> str:
-    """Use the '## Narration' section if present, otherwise the whole file minus headings."""
-    match = re.search(r"^##\s*Narration\s*$(.*?)(?=^##\s|\Z)", text, re.M | re.S | re.I)
-    body = match.group(1) if match else text
-    lines = [ln for ln in body.splitlines() if not ln.lstrip().startswith(("#", "<!--"))]
-    return " ".join(" ".join(lines).split())
 
 
 def main() -> int:

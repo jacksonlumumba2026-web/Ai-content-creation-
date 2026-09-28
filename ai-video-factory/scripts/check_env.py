@@ -148,6 +148,27 @@ def check_tts(settings) -> None:
         record(FAIL, "TTS: fallback", "no Piper voice and tts.fallback is none — voiceovers will fail")
 
 
+def check_captions(settings) -> None:
+    """Alignment logic check (no model needed) + whisper model presence."""
+    from src.captions import Word, align_to_script, group_cues, to_srt
+    heard = [Word("Hello", 0.0, 0.4), Word("world.", 0.5, 0.9), Word("In", 1.2, 1.3),
+             Word("30", 1.3, 1.6), Word("seconds.", 1.6, 2.0), Word("extra", 2.1, 2.4)]
+    try:
+        words = align_to_script("Hello world. In thirty seconds.", heard)
+        srt = to_srt(group_cues(words, settings))
+        assert [w.text for w in words][3] == "thirty" and "extra" not in srt
+        record(OK, "Captions: script alignment", f"{len(words)} words aligned, hallucinated text dropped")
+    except Exception as exc:
+        record(FAIL, "Captions: script alignment", str(exc)[:120])
+
+    if settings["providers"]["transcription"] == "whisper_local":
+        model = settings["transcription"]["whisper_local"]["model"]
+        cache = settings.path("models") / "whisper"
+        found = any(cache.glob(f"models--*faster-whisper-{model}"))
+        record(OK if found else WARN, "Captions: whisper model",
+               f"{model} downloaded" if found else f"{model} not downloaded yet (auto-downloads on first use, ~140 MB)")
+
+
 def check_python_packages() -> None:
     import importlib.util
     packages = {
@@ -156,6 +177,7 @@ def check_python_packages() -> None:
         "PIL": ("Pillow — image/text frames", False),
         "moviepy": ("moviepy — Python video editing", False),
         "piper": ("piper-tts — local text-to-speech", False),
+        "faster_whisper": ("faster-whisper — caption timing", False),
     }
     for module, (label, required) in packages.items():
         found = importlib.util.find_spec(module) is not None
@@ -186,6 +208,7 @@ def main() -> int:
     if settings:
         check_ffmpeg_render(settings)
         check_tts(settings)
+        check_captions(settings)
 
     width = max(len(n) for _, n, _ in results)
     print(f"\nAI Video Factory — environment check ({ROOT})\n")

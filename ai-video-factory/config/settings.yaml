@@ -40,6 +40,8 @@ captions:
   format: srt                 # srt | vtt | ass
   max_chars_per_line: 32
   max_lines: 2
+  max_words_per_cue: 5        # short, punchy cues read better on vertical video
+  break_on_pause_sec: 0.35    # start a new cue after a pause this long
   font: "DejaVu Sans Bold"    # installed in this container; swap for a brand font later
   position: lower_third       # keep clear of platform UI at the bottom and right edge
 
@@ -51,7 +53,7 @@ providers:
   images: none                # none | stock_pexels | canva | elevenlabs
   stock_video: none           # none | pexels | pixabay
   music: none                 # none | local_library
-  transcription: none         # none | whisper_local | elevenlabs
+  transcription: whisper_local # none | whisper_local | elevenlabs
   render: ffmpeg              # none | ffmpeg | moviepy | descript
   publish: none               # none | manual | metricool | opusclip
 
@@ -65,6 +67,14 @@ tts:
     length_scale: 0.95          # < 1.0 = faster speech (shorts benefit from brisk pacing)
     sentence_silence: 0.15      # seconds of pause between sentences
     volume: 1.0
+
+# Speech-to-text, used only to time captions (words come from the script).
+transcription:
+  whisper_local:
+    model: base.en              # tiny.en (fastest) | base.en | small.en (most accurate, slower)
+    device: cpu
+    compute_type: int8
+    beam_size: 5
 
 publishing:
   platforms:
