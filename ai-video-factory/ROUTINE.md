@@ -60,3 +60,6 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
     to `ai-video-factory/research/posted.jsonl`, commit and push.
 12. **Report** in one short message: for each video the topic, date/time and Metricool planner
     link, plus any problems (e.g. footage unavailable, gate failures).
+    End with the reminder: at each post time, publish from the Metricool notification, then finish
+    the TikTok post in the TikTok app (inbox/drafts → Post) and the Instagram Reel in the
+    Instagram app (→ Share) — with phone approval, those two only go live once finished there.

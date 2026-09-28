@@ -33,7 +33,8 @@ Run the environment check after any change to `config/` or `src/config.py`.
   (YouTube Shorts, TikTok, Facebook Reels, Instagram Reels) via Metricool, **always with `autoPublish: false`** so
   the owner approves each post from the Metricool phone app. Only schedule videos that passed the
   quality gate. Never set `publishing.auto_publish` to true or post directly unless the owner
-  explicitly asks for that change.
+  explicitly asks for that change. Owner confirmed (2026-09-28) to keep phone approval even though TikTok
+  and Instagram must then be finished in their own apps (Metricool hands those over).
 - Commentary on other creators' videos: our own script, voice and graphics only; never use
   their footage, audio or thumbnails; state facts only as far as the sources support.
 - **Never commit secrets.** Keys go in `config/.env` (git-ignored) or environment secrets.
