@@ -8,7 +8,7 @@ The owner (Jackson, Jackson web Solutions) has authorized this routine to:
 - commit and push to this repository's default branch,
 - host finished videos publicly on the `media` branch (`scripts/prepare_post.py` does this),
 - schedule posts through the Metricool connector to the Jackson web Solutions YouTube,
-  TikTok and Facebook accounts **with `autoPublish: false`** — Metricool sends the owner a
+  TikTok, Facebook and Instagram accounts **with `autoPublish: false`** — Metricool sends the owner a
   phone notification and nothing goes public until the owner publishes it.
 It does **not** authorize `autoPublish: true`, other accounts, paid services, or deleting posts.
 

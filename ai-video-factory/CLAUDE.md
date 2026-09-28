@@ -30,7 +30,7 @@ Run the environment check after any change to `config/` or `src/config.py`.
   OpusClip, Canva AI, etc.), create API keys, or install paid tools unless the user approves
   that specific action in the current conversation.
 - **Publishing (owner decision 2026-09-28):** videos go to the *Jackson web Solutions* accounts
-  (YouTube Shorts, TikTok, Facebook Reels) via Metricool, **always with `autoPublish: false`** so
+  (YouTube Shorts, TikTok, Facebook Reels, Instagram Reels) via Metricool, **always with `autoPublish: false`** so
   the owner approves each post from the Metricool phone app. Only schedule videos that passed the
   quality gate. Never set `publishing.auto_publish` to true or post directly unless the owner
   explicitly asks for that change.
