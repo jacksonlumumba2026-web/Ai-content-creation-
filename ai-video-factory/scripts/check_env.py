@@ -116,35 +116,36 @@ def check_ffmpeg_render(settings) -> None:
         record(status, "ffmpeg render test", f"encoded 1s test clip: {probe} (expected {expected})")
 
 
-def check_tts(settings) -> None:
-    provider = settings["providers"]["tts"]
-    if provider == "ffmpeg_flite":
-        from src.tts import synthesize
-        voice = settings["tts"]["ffmpeg_flite"]["voice"]
-        with tempfile.TemporaryDirectory() as tmp:
-            try:
-                secs = synthesize("Environment check.", Path(tmp) / "tts.wav", settings)
-                record(OK, "TTS: ffmpeg flite", f"voice {voice} synthesized {secs:.1f}s test audio")
-            except Exception as exc:
-                record(FAIL, "TTS: ffmpeg flite", str(exc)[:120])
-        return
-    if provider != "piper":
-        return
-    import importlib.util
-    if importlib.util.find_spec("piper") is None:
-        record(FAIL, "TTS: Piper", "providers.tts=piper but piper-tts is not installed")
-        return
-    from src.tts import piper_model_path, piper_voice_installed, synthesize
-    model = piper_model_path(settings)
-    if not piper_voice_installed(settings):
-        record(WARN, "TTS: Piper voice", f"{model.name} missing — run scripts/setup_piper_voice.py")
-        return
+def _tts_smoke_test(settings, label: str, voice: str) -> None:
+    from src.tts import synthesize
     with tempfile.TemporaryDirectory() as tmp:
         try:
             secs = synthesize("Environment check.", Path(tmp) / "tts.wav", settings)
-            record(OK, "TTS: Piper voice", f"{model.stem} synthesized {secs:.1f}s test audio")
+            record(OK, label, f"voice {voice} synthesized {secs:.1f}s test audio")
         except Exception as exc:
-            record(FAIL, "TTS: Piper voice", str(exc)[:120])
+            record(FAIL, label, str(exc)[:120])
+
+
+def check_tts(settings) -> None:
+    from src.tts import effective_provider, piper_model_path, piper_voice_installed
+    provider = settings["providers"]["tts"]
+    if provider == "piper":
+        import importlib.util
+        if importlib.util.find_spec("piper") is None:
+            record(FAIL, "TTS: Piper", "providers.tts=piper but piper-tts is not installed")
+            return
+        model = piper_model_path(settings)
+        if piper_voice_installed(settings):
+            _tts_smoke_test(settings, "TTS: Piper voice", model.stem)
+            return
+        record(WARN, "TTS: Piper voice", f"{model.name} missing — run scripts/setup_piper_voice.py")
+
+    active = effective_provider(settings)
+    if active == "ffmpeg_flite":
+        label = "TTS: ffmpeg flite" + (" (fallback)" if provider != active else "")
+        _tts_smoke_test(settings, label, settings["tts"]["ffmpeg_flite"]["voice"])
+    elif provider == "piper":
+        record(FAIL, "TTS: fallback", "no Piper voice and tts.fallback is none — voiceovers will fail")
 
 
 def check_python_packages() -> None:

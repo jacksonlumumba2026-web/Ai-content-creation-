@@ -25,9 +25,13 @@ installed, synthesizes a short test phrase with Piper.
 
 Two engines, chosen by `providers.tts` in `config/settings.yaml`:
 
-- `ffmpeg_flite` (current default): built into ffmpeg, no downloads, sounds robotic. Good for
-  drafts and checking timing. Voices: `slt`, `kal`, `awb`, `rms` (`tts.ffmpeg_flite.voice`).
-- `piper`: natural-sounding, needs a voice model download (below). Set `providers.tts: piper`.
+- `piper` (selected): natural-sounding male voice `en_US-ryan-high`; needs a one-time voice
+  model download (below).
+- `ffmpeg_flite`: built into ffmpeg, no downloads, sounds robotic. Male voice `rms` by default
+  (`tts.ffmpeg_flite.voice`: `rms`, `awb`, `kal`, or female `slt`).
+
+Until the Piper voice is installed, voiceovers automatically use `tts.fallback` (`ffmpeg_flite`)
+and print a warning. Set `tts.fallback: none` to fail instead.
 
 ```bash
 python3 ai-video-factory/scripts/setup_piper_voice.py                 # voice from settings.yaml
@@ -63,7 +67,7 @@ re-run on its own and every step is reviewable in a Git diff.
 |---|-------|--------|--------|------------|
 | 1 | **Research** — pick a topic, collect facts + sources | `<slug>.md` | `research/` | Claude Code (web search) |
 | 2 | **Script** — hook (≤3s), body, CTA; 80–160 words | `<slug>.md` | `scripts/` | Claude Code → **human review** |
-| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | ffmpeg Flite now (robotic), Piper once a voice is installed — `scripts/voiceover.py` |
+| 3 | **Voiceover** — narrate the approved script | `<slug>.wav` | `voiceovers/` | Piper (falls back to ffmpeg Flite until its voice is installed) — `scripts/voiceover.py` |
 | 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt` | `captions/` | transcription *(not connected)* |
 | 5 | **Visuals** — b-roll, images, on-screen text | `<slug>/…` | `assets/images`, `assets/video` | stock / image provider *(not connected)* |
 | 6 | **Music** — royalty-free bed, ducked under voice | `…` | `music/` | local licensed library |

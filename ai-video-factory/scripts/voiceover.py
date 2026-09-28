@@ -18,8 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.config import ConfigError, load_settings  # noqa: E402
-from src.tts import synthesize  # noqa: E402
+from src.config import load_settings  # noqa: E402
+from src.tts import effective_provider, synthesize  # noqa: E402
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
@@ -46,14 +46,18 @@ def main() -> int:
     settings = load_settings()
     text = args.text if args.text else narration_from_markdown(args.file.read_text())
     out = settings.path("voiceovers") / f"{args.slug}.wav"
+    engine = effective_provider(settings)
+    if engine != settings["providers"]["tts"]:
+        print(f"WARNING: {settings['providers']['tts']} voice not installed; using fallback {engine}. "
+              "Run scripts/setup_piper_voice.py for the natural voice.", file=sys.stderr)
     try:
         duration = synthesize(text, out, settings)
-    except (ConfigError, ValueError) as exc:
+    except Exception as exc:  # engine errors (bad model file, ffmpeg failure) -> clean message
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
 
     v = settings["video"]
-    print(f"Wrote {out.relative_to(ROOT)} ({duration:.1f}s, {len(text.split())} words)")
+    print(f"Wrote {out.relative_to(ROOT)} ({duration:.1f}s, {len(text.split())} words, {engine})")
     if not v["min_duration_sec"] <= duration <= v["max_duration_sec"]:
         print(f"WARNING: duration is outside {v['min_duration_sec']}-{v['max_duration_sec']}s")
     return 0

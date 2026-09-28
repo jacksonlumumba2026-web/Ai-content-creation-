@@ -27,9 +27,18 @@ def piper_voice_installed(settings: Settings) -> bool:
     return model.exists() and model.with_suffix(".onnx.json").exists()
 
 
+def effective_provider(settings: Settings) -> str:
+    """The engine that will actually run: piper falls back while its voice is missing."""
+    provider = settings["providers"]["tts"]
+    fallback = settings["tts"].get("fallback", "none")
+    if provider == "piper" and not piper_voice_installed(settings) and fallback != "none":
+        return fallback
+    return provider
+
+
 def synthesize(text: str, out_path: Path, settings: Settings) -> float:
     """Render `text` to a WAV file. Returns the audio duration in seconds."""
-    provider = settings["providers"]["tts"]
+    provider = effective_provider(settings)
     if not text.strip():
         raise ValueError("text is empty")
     if provider == "ffmpeg_flite":

@@ -47,8 +47,7 @@ captions:
 # Options listed in comments are candidates, not commitments.
 providers:
   llm: claude_code            # scripts/research are written by Claude Code in-session
-  tts: ffmpeg_flite           # none | ffmpeg_flite | piper | edge_tts | elevenlabs
-                              # ffmpeg_flite = built into ffmpeg, robotic; switch to piper once a voice is installed
+  tts: piper                  # none | ffmpeg_flite | piper | edge_tts | elevenlabs
   images: none                # none | stock_pexels | canva | elevenlabs
   stock_video: none           # none | pexels | pixabay
   music: none                 # none | local_library
@@ -58,6 +57,7 @@ providers:
 
 # Local, free text-to-speech.
 tts:
+  fallback: ffmpeg_flite        # used when the piper voice isn't installed yet (none = fail instead)
   ffmpeg_flite:                 # zero-download fallback; sounds robotic — fine for drafts/timing
     voice: rms                  # male: rms (US, default) | awb (Scottish) | kal (US, low-fi); female: slt
   piper:                        # natural voices: https://rhasspy.github.io/piper-samples/
