@@ -72,6 +72,8 @@ def main() -> int:
                 return 1
             print(f"WARNING: stock footage unavailable ({exc}); using gradient background",
                   file=sys.stderr)
+    if not scenes:  # don't let credits from an earlier footage render reach the post text
+        (settings.path("output") / f"{args.slug}.credits.json").unlink(missing_ok=True)
     try:
         video = render_video(args.slug, cues, script.title, settings,
                              visuals=script.meta.get("visuals"), words=words, scenes=scenes)
