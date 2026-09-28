@@ -1,0 +1,692 @@
+[
+ {
+  "text": "Eighty-two",
+  "start": 0.0,
+  "end": 0.38
+ },
+ {
+  "text": "percent",
+  "start": 0.38,
+  "end": 0.7
+ },
+ {
+  "text": "of",
+  "start": 0.7,
+  "end": 0.98
+ },
+ {
+  "text": "small",
+  "start": 0.98,
+  "end": 1.22
+ },
+ {
+  "text": "business",
+  "start": 1.22,
+  "end": 1.64
+ },
+ {
+  "text": "employers",
+  "start": 1.64,
+  "end": 2.04
+ },
+ {
+  "text": "have",
+  "start": 2.04,
+  "end": 2.62
+ },
+ {
+  "text": "already",
+  "start": 2.62,
+  "end": 2.98
+ },
+ {
+  "text": "invested",
+  "start": 2.98,
+  "end": 3.56
+ },
+ {
+  "text": "in",
+  "start": 3.56,
+  "end": 3.98
+ },
+ {
+  "text": "AI",
+  "start": 3.98,
+  "end": 4.2
+ },
+ {
+  "text": "tools.",
+  "start": 4.2,
+  "end": 4.66
+ },
+ {
+  "text": "That's",
+  "start": 5.08,
+  "end": 5.32
+ },
+ {
+  "text": "from",
+  "start": 5.32,
+  "end": 5.42
+ },
+ {
+  "text": "the",
+  "start": 5.42,
+  "end": 5.54
+ },
+ {
+  "text": "Small",
+  "start": 5.54,
+  "end": 5.76
+ },
+ {
+  "text": "Business",
+  "start": 5.76,
+  "end": 6.12
+ },
+ {
+  "text": "and",
+  "start": 6.12,
+  "end": 6.46
+ },
+ {
+  "text": "Entrepreneurship",
+  "start": 6.46,
+  "end": 7.18
+ },
+ {
+  "text": "Council's",
+  "start": 7.18,
+  "end": 7.76
+ },
+ {
+  "text": "2026",
+  "start": 7.76,
+  "end": 8.84
+ },
+ {
+  "text": "tech",
+  "start": 8.84,
+  "end": 9.08
+ },
+ {
+  "text": "survey.",
+  "start": 9.08,
+  "end": 9.46
+ },
+ {
+  "text": "But",
+  "start": 9.76,
+  "end": 9.82
+ },
+ {
+  "text": "buying",
+  "start": 9.82,
+  "end": 10.1
+ },
+ {
+  "text": "AI",
+  "start": 10.1,
+  "end": 10.46
+ },
+ {
+  "text": "and",
+  "start": 10.46,
+  "end": 11.0
+ },
+ {
+  "text": "getting",
+  "start": 11.0,
+  "end": 11.16
+ },
+ {
+  "text": "results",
+  "start": 11.16,
+  "end": 11.52
+ },
+ {
+  "text": "are",
+  "start": 11.52,
+  "end": 11.8
+ },
+ {
+  "text": "two",
+  "start": 11.8,
+  "end": 11.98
+ },
+ {
+  "text": "different",
+  "start": 11.98,
+  "end": 12.28
+ },
+ {
+  "text": "things.",
+  "start": 12.28,
+  "end": 12.6
+ },
+ {
+  "text": "Here's",
+  "start": 13.02,
+  "end": 13.22
+ },
+ {
+  "text": "a",
+  "start": 13.22,
+  "end": 13.3
+ },
+ {
+  "text": "simple",
+  "start": 13.3,
+  "end": 13.48
+ },
+ {
+  "text": "way",
+  "start": 13.48,
+  "end": 13.78
+ },
+ {
+  "text": "to",
+  "start": 13.78,
+  "end": 13.94
+ },
+ {
+  "text": "start:",
+  "start": 13.94,
+  "end": 14.24
+ },
+ {
+  "text": "the",
+  "start": 14.24,
+  "end": 14.66
+ },
+ {
+  "text": "thirty-day",
+  "start": 14.66,
+  "end": 15.08
+ },
+ {
+  "text": "test.",
+  "start": 15.08,
+  "end": 15.36
+ },
+ {
+  "text": "Step",
+  "start": 15.76,
+  "end": 15.9
+ },
+ {
+  "text": "one:",
+  "start": 15.9,
+  "end": 16.18
+ },
+ {
+  "text": "pick",
+  "start": 16.56,
+  "end": 16.76
+ },
+ {
+  "text": "one",
+  "start": 16.76,
+  "end": 17.0
+ },
+ {
+  "text": "task",
+  "start": 17.0,
+  "end": 17.32
+ },
+ {
+  "text": "you",
+  "start": 17.32,
+  "end": 17.54
+ },
+ {
+  "text": "repeat",
+  "start": 17.54,
+  "end": 17.74
+ },
+ {
+  "text": "every",
+  "start": 17.74,
+  "end": 18.12
+ },
+ {
+  "text": "week,",
+  "start": 18.12,
+  "end": 18.44
+ },
+ {
+  "text": "like",
+  "start": 18.7,
+  "end": 18.86
+ },
+ {
+  "text": "replying",
+  "start": 18.86,
+  "end": 19.26
+ },
+ {
+  "text": "to",
+  "start": 19.26,
+  "end": 19.44
+ },
+ {
+  "text": "customer",
+  "start": 19.44,
+  "end": 19.78
+ },
+ {
+  "text": "questions",
+  "start": 19.78,
+  "end": 20.14
+ },
+ {
+  "text": "or",
+  "start": 20.14,
+  "end": 20.5
+ },
+ {
+  "text": "writing",
+  "start": 20.5,
+  "end": 20.76
+ },
+ {
+  "text": "product",
+  "start": 20.76,
+  "end": 21.1
+ },
+ {
+  "text": "descriptions.",
+  "start": 21.1,
+  "end": 21.54
+ },
+ {
+  "text": "Step",
+  "start": 22.26,
+  "end": 22.36
+ },
+ {
+  "text": "two:",
+  "start": 22.36,
+  "end": 22.68
+ },
+ {
+  "text": "give",
+  "start": 23.04,
+  "end": 23.22
+ },
+ {
+  "text": "the",
+  "start": 23.22,
+  "end": 23.42
+ },
+ {
+  "text": "AI",
+  "start": 23.42,
+  "end": 23.68
+ },
+ {
+  "text": "clear",
+  "start": 23.68,
+  "end": 24.0
+ },
+ {
+  "text": "limits",
+  "start": 24.0,
+  "end": 24.3
+ },
+ {
+  "text": "and",
+  "start": 24.3,
+  "end": 24.56
+ },
+ {
+  "text": "your",
+  "start": 24.56,
+  "end": 24.7
+ },
+ {
+  "text": "own",
+  "start": 24.7,
+  "end": 24.96
+ },
+ {
+  "text": "approved",
+  "start": 24.96,
+  "end": 25.18
+ },
+ {
+  "text": "information,",
+  "start": 25.18,
+  "end": 25.8
+ },
+ {
+  "text": "like",
+  "start": 25.8,
+  "end": 26.36
+ },
+ {
+  "text": "your",
+  "start": 26.36,
+  "end": 26.54
+ },
+ {
+  "text": "price",
+  "start": 26.54,
+  "end": 26.74
+ },
+ {
+  "text": "list",
+  "start": 26.74,
+  "end": 27.02
+ },
+ {
+  "text": "and",
+  "start": 27.02,
+  "end": 27.3
+ },
+ {
+  "text": "policies.",
+  "start": 27.3,
+  "end": 27.58
+ },
+ {
+  "text": "Step",
+  "start": 28.2,
+  "end": 28.4
+ },
+ {
+  "text": "three:",
+  "start": 28.4,
+  "end": 28.78
+ },
+ {
+  "text": "a",
+  "start": 29.02,
+  "end": 29.14
+ },
+ {
+  "text": "human",
+  "start": 29.14,
+  "end": 29.4
+ },
+ {
+  "text": "checks",
+  "start": 29.4,
+  "end": 29.66
+ },
+ {
+  "text": "every",
+  "start": 29.66,
+  "end": 29.94
+ },
+ {
+  "text": "result",
+  "start": 29.94,
+  "end": 29.98
+ },
+ {
+  "text": "before",
+  "start": 30.36,
+  "end": 30.62
+ },
+ {
+  "text": "it",
+  "start": 30.62,
+  "end": 30.92
+ },
+ {
+  "text": "goes",
+  "start": 30.92,
+  "end": 31.08
+ },
+ {
+  "text": "out.",
+  "start": 31.08,
+  "end": 31.34
+ },
+ {
+  "text": "After",
+  "start": 31.88,
+  "end": 31.88
+ },
+ {
+  "text": "thirty",
+  "start": 31.88,
+  "end": 32.12
+ },
+ {
+  "text": "days,",
+  "start": 32.12,
+  "end": 32.42
+ },
+ {
+  "text": "compare.",
+  "start": 32.7,
+  "end": 32.96
+ },
+ {
+  "text": "How",
+  "start": 33.46,
+  "end": 33.46
+ },
+ {
+  "text": "many",
+  "start": 33.46,
+  "end": 33.6
+ },
+ {
+  "text": "hours",
+  "start": 33.6,
+  "end": 33.88
+ },
+ {
+  "text": "did",
+  "start": 33.88,
+  "end": 34.14
+ },
+ {
+  "text": "you",
+  "start": 34.14,
+  "end": 34.3
+ },
+ {
+  "text": "save?",
+  "start": 34.3,
+  "end": 34.6
+ },
+ {
+  "text": "Did",
+  "start": 34.92,
+  "end": 34.98
+ },
+ {
+  "text": "the",
+  "start": 34.98,
+  "end": 35.08
+ },
+ {
+  "text": "quality",
+  "start": 35.08,
+  "end": 35.28
+ },
+ {
+  "text": "stay",
+  "start": 35.28,
+  "end": 35.74
+ },
+ {
+  "text": "the",
+  "start": 35.74,
+  "end": 35.92
+ },
+ {
+  "text": "same?",
+  "start": 35.92,
+  "end": 36.16
+ },
+ {
+  "text": "If",
+  "start": 36.5,
+  "end": 36.52
+ },
+ {
+  "text": "it",
+  "start": 36.52,
+  "end": 36.62
+ },
+ {
+  "text": "worked,",
+  "start": 36.62,
+  "end": 36.8
+ },
+ {
+  "text": "keep",
+  "start": 37.18,
+  "end": 37.34
+ },
+ {
+  "text": "it",
+  "start": 37.34,
+  "end": 37.5
+ },
+ {
+  "text": "and",
+  "start": 37.5,
+  "end": 37.7
+ },
+ {
+  "text": "pick",
+  "start": 37.7,
+  "end": 37.92
+ },
+ {
+  "text": "the",
+  "start": 37.92,
+  "end": 38.14
+ },
+ {
+  "text": "next",
+  "start": 38.14,
+  "end": 38.28
+ },
+ {
+  "text": "task.",
+  "start": 38.28,
+  "end": 39.02
+ },
+ {
+  "text": "If",
+  "start": 39.02,
+  "end": 39.1
+ },
+ {
+  "text": "not,",
+  "start": 39.1,
+  "end": 39.3
+ },
+ {
+  "text": "you",
+  "start": 39.6,
+  "end": 39.8
+ },
+ {
+  "text": "lost",
+  "start": 39.8,
+  "end": 39.98
+ },
+ {
+  "text": "very",
+  "start": 39.98,
+  "end": 40.26
+ },
+ {
+  "text": "little.",
+  "start": 40.26,
+  "end": 40.56
+ },
+ {
+  "text": "One",
+  "start": 40.92,
+  "end": 40.96
+ },
+ {
+  "text": "task.",
+  "start": 40.96,
+  "end": 41.369
+ },
+ {
+  "text": "Thirty",
+  "start": 41.369,
+  "end": 41.86
+ },
+ {
+  "text": "days.",
+  "start": 41.86,
+  "end": 42.2
+ },
+ {
+  "text": "Real",
+  "start": 42.2,
+  "end": 42.82
+ },
+ {
+  "text": "numbers.",
+  "start": 42.82,
+  "end": 43.02
+ },
+ {
+  "text": "Which",
+  "start": 43.64,
+  "end": 43.64
+ },
+ {
+  "text": "task",
+  "start": 43.64,
+  "end": 44.02
+ },
+ {
+  "text": "would",
+  "start": 44.02,
+  "end": 44.26
+ },
+ {
+  "text": "you",
+  "start": 44.26,
+  "end": 44.4
+ },
+ {
+  "text": "test",
+  "start": 44.4,
+  "end": 44.62
+ },
+ {
+  "text": "first?",
+  "start": 44.62,
+  "end": 44.92
+ },
+ {
+  "text": "Tell",
+  "start": 45.36,
+  "end": 45.44
+ },
+ {
+  "text": "me",
+  "start": 45.44,
+  "end": 45.62
+ },
+ {
+  "text": "in",
+  "start": 45.62,
+  "end": 45.78
+ },
+ {
+  "text": "the",
+  "start": 45.78,
+  "end": 45.88
+ },
+ {
+  "text": "comments.",
+  "start": 45.88,
+  "end": 46.12
+ }
+]
