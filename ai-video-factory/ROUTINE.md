@@ -25,10 +25,14 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    Also skip topics already published (check `posted.jsonl`): never re-post a video that is live.
    Otherwise make **one video per free slot, up to 2 videos this run**, earliest slots first.
    Repeat steps 3–11 for each video (two different topics).
-3. **Topic:** pick one timely topic in AI, business, money or technology, useful to small
-   business owners and entrepreneurs (the audience of Jackson web Solutions). Use WebSearch
-   for news from the last 7 days. Avoid topics already in `ai-video-factory/research/posted.jsonl`.
-   Prefer: concrete numbers, practical tools, big-creator/company news with a business lesson.
+3. **Topic — two lanes** (owner request): the **12:30** slot is a 💎 **hidden gem** (rarely
+   discussed but worth knowing: rules, costs, free tools, scams, money mistakes); the **19:00** slot
+   is 🔥 **viral** (what people are talking about this week, with a business lesson). Start from
+   `ai-video-factory/research/ideas.md`, then use WebSearch (viral: last 7 days) to find or refresh
+   ideas. Audience: small business owners and entrepreneurs, especially in Kenya. Avoid topics
+   already in `posted.jsonl`. Re-verify every fact before scripting; if a person or claim can't be
+   confirmed, drop it and add it to "Rejected" in ideas.md. Add 2–3 new verified leads to ideas.md
+   each run and mark used ideas "USED <date>".
 4. **Research note:** write `ai-video-factory/research/<slug>.md` (slug `YYYY-MM-DD-short-topic`)
    with a claim → source table. Only use claims the sources support. No financial advice, no
    income promises.
@@ -63,12 +67,14 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    `output/<slug>.credits.json`: each clip's Pexels URL describes the clip — if one clearly doesn't
    fit its scene (wrong subject, wrong crop/product, misleading), change that scene's query and
    re-run produce.py.
+   Also reject anything unfit for a business account (rude gestures, weapons, alcohol, suggestive
+   content) — `stock.py` filters obvious cases by description, but look anyway.
 8. **Commit & push** the script, research and captions to the default branch.
 9. **Prepare:** `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date <YYYY-MM-DD> --time <HH:MM>`
    for the slot this video fills.
 10. **Schedule:** call Metricool `createScheduledPost` with the printed `blogId`, `date` and
     `info` exactly as printed (`autoPublish` must be `false`).
-11. **Log:** append `{"date": ..., "time": ..., "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
+11. **Log:** append `{"date": ..., "time": ..., "lane": "hidden-gem"|"viral", "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
     to `ai-video-factory/research/posted.jsonl`, commit and push.
 12. **Report** in one short message: for each video the topic, date/time and Metricool planner
     link, plus any problems (e.g. footage unavailable, gate failures).

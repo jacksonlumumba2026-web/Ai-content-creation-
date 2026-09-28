@@ -39,10 +39,17 @@ class Scene:
     credit: dict
 
 
-def _request_json(url: str, key: str) -> dict:
+def _request_json(url: str, key: str, attempts: int = 4) -> dict:
+    """GET JSON with retries: transient network errors (e.g. connection reset) are common."""
     req = urllib.request.Request(url, headers={"Authorization": key, "User-Agent": "ai-video-factory"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except OSError:
+            if attempt == attempts:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def pick_file(video: dict, min_height: int = 1280) -> dict | None:
@@ -54,6 +61,20 @@ def pick_file(video: dict, min_height: int = 1280) -> dict | None:
     if tall:
         return tall[0]
     return max(files, key=lambda f: f["height"], default=None)
+
+
+# Never use clips whose Pexels description suggests content unfit for a business account.
+UNSAFE_WORDS = {
+    "finger", "middle", "flashing", "gesture", "rude", "angry", "fight", "fighting", "gun", "guns",
+    "weapon", "knife", "blood", "drunk", "beer", "wine", "alcohol", "whiskey", "smoking", "cigarette",
+    "vape", "drug", "drugs", "cannabis", "marijuana", "bikini", "lingerie", "sexy", "nude", "kiss",
+    "kissing", "bed", "casino", "gambling", "betting",
+}
+
+
+def is_safe(video: dict) -> bool:
+    slug = video.get("url", "").rstrip("/").rsplit("/", 1)[-1].lower()
+    return not (set(slug.replace("-", " ").split()) & UNSAFE_WORDS)
 
 
 def relevance(query: str, video: dict) -> int:
@@ -119,7 +140,8 @@ def fetch_scenes(specs: list, words: list[Word], duration: float, settings: Sett
     for i, (start, spec) in enumerate(timed):
         end = timed[i + 1][0] if i + 1 < len(timed) else duration
         candidates = [v for v in search(spec["query"], key)
-                      if v["id"] not in used and v.get("duration", 0) >= min_dur and pick_file(v)]
+                      if v["id"] not in used and v.get("duration", 0) >= min_dur and pick_file(v)
+                      and is_safe(v)]
         if not candidates:
             raise ValueError(f"scene {i + 1}: no portrait clips found for {spec['query']!r}")
         # Prefer clips whose Pexels description (URL slug) mentions the search words, then clips

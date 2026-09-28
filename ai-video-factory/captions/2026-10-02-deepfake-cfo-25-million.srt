@@ -1,0 +1,204 @@
+1
+00:00:00,000 --> 00:00:01,200
+A finance worker
+in
+
+2
+00:00:01,200 --> 00:00:02,260
+Hong Kong gets a
+
+3
+00:00:02,260 --> 00:00:03,520
+message from his
+company's
+
+4
+00:00:03,520 --> 00:00:05,060
+chief financial
+officer.
+
+5
+00:00:05,060 --> 00:00:05,740
+It asks for a
+
+6
+00:00:05,740 --> 00:00:07,000
+secret
+transaction.
+
+7
+00:00:07,000 --> 00:00:08,300
+He's suspicious.
+
+8
+00:00:08,300 --> 00:00:09,020
+So he joins a
+
+9
+00:00:09,020 --> 00:00:10,260
+video call to
+check.
+
+10
+00:00:10,260 --> 00:00:11,040
+On the screen:
+
+11
+00:00:11,040 --> 00:00:12,120
+the CFO and
+several
+
+12
+00:00:12,120 --> 00:00:13,140
+colleagues.
+
+13
+00:00:13,140 --> 00:00:14,400
+Their faces look
+right.
+
+14
+00:00:14,400 --> 00:00:15,760
+Their voices
+sound right.
+
+15
+00:00:15,760 --> 00:00:16,560
+So he follows
+the
+
+16
+00:00:16,560 --> 00:00:18,160
+instructions and
+makes fifteen
+
+17
+00:00:18,160 --> 00:00:19,460
+transfers, worth
+about
+
+18
+00:00:19,460 --> 00:00:21,360
+twenty-five
+million dollars.
+
+19
+00:00:21,360 --> 00:00:22,380
+Only later, when
+he
+
+20
+00:00:22,380 --> 00:00:23,580
+checks with head
+office,
+
+21
+00:00:23,580 --> 00:00:24,280
+does he learn
+the
+
+22
+00:00:24,280 --> 00:00:24,800
+truth.
+
+23
+00:00:24,800 --> 00:00:25,680
+Everyone on that
+call
+
+24
+00:00:25,680 --> 00:00:26,540
+was a deepfake.
+
+25
+00:00:26,540 --> 00:00:27,740
+This really
+happened, at
+
+26
+00:00:27,740 --> 00:00:29,120
+the engineering
+firm Arup,
+
+27
+00:00:29,120 --> 00:00:30,840
+in 2024.
+
+28
+00:00:30,840 --> 00:00:31,800
+And today, a
+voice
+
+29
+00:00:31,800 --> 00:00:32,660
+can be cloned
+from
+
+30
+00:00:32,660 --> 00:00:33,640
+as little as
+three
+
+31
+00:00:33,640 --> 00:00:35,000
+seconds of
+audio.
+
+32
+00:00:35,000 --> 00:00:36,060
+So protect your
+business.
+
+33
+00:00:36,060 --> 00:00:37,700
+Number one:
+never pay
+
+34
+00:00:37,700 --> 00:00:38,440
+based on a call
+
+35
+00:00:38,440 --> 00:00:39,480
+or video alone.
+
+36
+00:00:39,480 --> 00:00:41,120
+Number two: call
+back
+
+37
+00:00:41,120 --> 00:00:41,900
+on a number you
+
+38
+00:00:41,900 --> 00:00:42,640
+already know.
+
+39
+00:00:42,640 --> 00:00:44,240
+Number three:
+agree on
+
+40
+00:00:44,240 --> 00:00:45,180
+a secret code
+word
+
+41
+00:00:45,180 --> 00:00:46,200
+with your team.
+
+42
+00:00:46,200 --> 00:00:46,820
+Would your team
+spot
+
+43
+00:00:46,820 --> 00:00:47,580
+the fake?
+
+44
+00:00:47,580 --> 00:00:48,280
+Share this with
+them.

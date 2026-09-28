@@ -1,0 +1,742 @@
+[
+ {
+  "text": "Picture",
+  "start": 0.0,
+  "end": 0.28
+ },
+ {
+  "text": "a",
+  "start": 0.28,
+  "end": 0.52
+ },
+ {
+  "text": "salon",
+  "start": 0.52,
+  "end": 0.8
+ },
+ {
+  "text": "owner",
+  "start": 0.8,
+  "end": 1.36
+ },
+ {
+  "text": "in",
+  "start": 1.36,
+  "end": 1.6
+ },
+ {
+  "text": "Nairobi.",
+  "start": 1.6,
+  "end": 2.1
+ },
+ {
+  "text": "Let's",
+  "start": 2.42,
+  "end": 2.6
+ },
+ {
+  "text": "call",
+  "start": 2.6,
+  "end": 2.78
+ },
+ {
+  "text": "her",
+  "start": 2.78,
+  "end": 3.06
+ },
+ {
+  "text": "Njeri.",
+  "start": 3.06,
+  "end": 3.48
+ },
+ {
+  "text": "Her",
+  "start": 3.82,
+  "end": 3.88
+ },
+ {
+  "text": "work",
+  "start": 3.88,
+  "end": 4.12
+ },
+ {
+  "text": "is",
+  "start": 4.12,
+  "end": 4.36
+ },
+ {
+  "text": "great,",
+  "start": 4.36,
+  "end": 4.68
+ },
+ {
+  "text": "her",
+  "start": 4.92,
+  "end": 5.0
+ },
+ {
+  "text": "prices",
+  "start": 5.0,
+  "end": 5.24
+ },
+ {
+  "text": "are",
+  "start": 5.24,
+  "end": 5.54
+ },
+ {
+  "text": "fair,",
+  "start": 5.54,
+  "end": 5.76
+ },
+ {
+  "text": "and",
+  "start": 6.14,
+  "end": 6.26
+ },
+ {
+  "text": "her",
+  "start": 6.26,
+  "end": 6.46
+ },
+ {
+  "text": "regulars",
+  "start": 6.46,
+  "end": 6.72
+ },
+ {
+  "text": "love",
+  "start": 6.72,
+  "end": 7.16
+ },
+ {
+  "text": "her.",
+  "start": 7.16,
+  "end": 7.38
+ },
+ {
+  "text": "But",
+  "start": 7.64,
+  "end": 7.68
+ },
+ {
+  "text": "when",
+  "start": 7.68,
+  "end": 7.82
+ },
+ {
+  "text": "someone",
+  "start": 7.82,
+  "end": 8.1
+ },
+ {
+  "text": "new",
+  "start": 8.1,
+  "end": 8.42
+ },
+ {
+  "text": "nearby",
+  "start": 8.42,
+  "end": 8.6
+ },
+ {
+  "text": "searches",
+  "start": 8.6,
+  "end": 9.1
+ },
+ {
+  "text": "'salon",
+  "start": 9.44,
+  "end": 9.52
+ },
+ {
+  "text": "near",
+  "start": 9.52,
+  "end": 9.88
+ },
+ {
+  "text": "me'",
+  "start": 9.88,
+  "end": 10.04
+ },
+ {
+  "text": "on",
+  "start": 10.04,
+  "end": 10.24
+ },
+ {
+  "text": "Google,",
+  "start": 10.24,
+  "end": 10.48
+ },
+ {
+  "text": "they",
+  "start": 10.92,
+  "end": 11.0
+ },
+ {
+  "text": "see",
+  "start": 11.0,
+  "end": 11.2
+ },
+ {
+  "text": "the",
+  "start": 11.2,
+  "end": 11.34
+ },
+ {
+  "text": "salon",
+  "start": 11.34,
+  "end": 11.62
+ },
+ {
+  "text": "across",
+  "start": 11.62,
+  "end": 11.88
+ },
+ {
+  "text": "the",
+  "start": 11.88,
+  "end": 12.22
+ },
+ {
+  "text": "road.",
+  "start": 12.22,
+  "end": 12.44
+ },
+ {
+  "text": "Its",
+  "start": 12.82,
+  "end": 12.96
+ },
+ {
+  "text": "photos,",
+  "start": 12.96,
+  "end": 13.14
+ },
+ {
+  "text": "its",
+  "start": 13.54,
+  "end": 13.66
+ },
+ {
+  "text": "reviews,",
+  "start": 13.66,
+  "end": 13.88
+ },
+ {
+  "text": "its",
+  "start": 14.28,
+  "end": 14.36
+ },
+ {
+  "text": "phone",
+  "start": 14.36,
+  "end": 14.56
+ },
+ {
+  "text": "number,",
+  "start": 14.56,
+  "end": 14.82
+ },
+ {
+  "text": "its",
+  "start": 15.24,
+  "end": 15.3
+ },
+ {
+  "text": "directions.",
+  "start": 15.3,
+  "end": 15.54
+ },
+ {
+  "text": "Njeri",
+  "start": 16.3,
+  "end": 16.52
+ },
+ {
+  "text": "doesn't",
+  "start": 16.52,
+  "end": 16.92
+ },
+ {
+  "text": "show",
+  "start": 16.92,
+  "end": 17.14
+ },
+ {
+  "text": "up",
+  "start": 17.14,
+  "end": 17.56
+ },
+ {
+  "text": "at",
+  "start": 17.56,
+  "end": 17.78
+ },
+ {
+  "text": "all.",
+  "start": 17.78,
+  "end": 17.96
+ },
+ {
+  "text": "The",
+  "start": 17.96,
+  "end": 18.34
+ },
+ {
+  "text": "fix",
+  "start": 18.34,
+  "end": 18.52
+ },
+ {
+  "text": "is",
+  "start": 18.52,
+  "end": 18.92
+ },
+ {
+  "text": "free.",
+  "start": 18.92,
+  "end": 19.16
+ },
+ {
+  "text": "It's",
+  "start": 19.56,
+  "end": 19.68
+ },
+ {
+  "text": "called",
+  "start": 19.68,
+  "end": 19.88
+ },
+ {
+  "text": "a",
+  "start": 19.88,
+  "end": 20.04
+ },
+ {
+  "text": "Google",
+  "start": 20.04,
+  "end": 20.22
+ },
+ {
+  "text": "Business",
+  "start": 20.22,
+  "end": 20.74
+ },
+ {
+  "text": "Profile.",
+  "start": 20.74,
+  "end": 21.08
+ },
+ {
+  "text": "And",
+  "start": 21.72,
+  "end": 21.74
+ },
+ {
+  "text": "yet,",
+  "start": 21.74,
+  "end": 21.96
+ },
+ {
+  "text": "industry",
+  "start": 22.14,
+  "end": 22.48
+ },
+ {
+  "text": "estimates",
+  "start": 22.48,
+  "end": 22.92
+ },
+ {
+  "text": "suggest",
+  "start": 22.92,
+  "end": 23.32
+ },
+ {
+  "text": "around",
+  "start": 23.32,
+  "end": 23.74
+ },
+ {
+  "text": "four",
+  "start": 23.74,
+  "end": 24.14
+ },
+ {
+  "text": "in",
+  "start": 24.14,
+  "end": 24.34
+ },
+ {
+  "text": "ten",
+  "start": 24.34,
+  "end": 24.54
+ },
+ {
+  "text": "small",
+  "start": 24.54,
+  "end": 24.9
+ },
+ {
+  "text": "local",
+  "start": 24.9,
+  "end": 25.2
+ },
+ {
+  "text": "businesses",
+  "start": 25.2,
+  "end": 25.72
+ },
+ {
+  "text": "still",
+  "start": 25.72,
+  "end": 26.08
+ },
+ {
+  "text": "have",
+  "start": 26.08,
+  "end": 26.291
+ },
+ {
+  "text": "incomplete",
+  "start": 26.291,
+  "end": 26.82
+ },
+ {
+  "text": "profile",
+  "start": 26.82,
+  "end": 27.18
+ },
+ {
+  "text": "information.",
+  "start": 27.18,
+  "end": 27.76
+ },
+ {
+  "text": "So",
+  "start": 28.4,
+  "end": 28.54
+ },
+ {
+  "text": "here's",
+  "start": 28.54,
+  "end": 28.96
+ },
+ {
+  "text": "the",
+  "start": 28.96,
+  "end": 29.08
+ },
+ {
+  "text": "quick",
+  "start": 29.08,
+  "end": 29.24
+ },
+ {
+  "text": "fix.",
+  "start": 29.24,
+  "end": 29.52
+ },
+ {
+  "text": "Number",
+  "start": 29.52,
+  "end": 30.252
+ },
+ {
+  "text": "one:",
+  "start": 30.252,
+  "end": 30.74
+ },
+ {
+  "text": "claim",
+  "start": 30.74,
+  "end": 30.94
+ },
+ {
+  "text": "and",
+  "start": 30.94,
+  "end": 31.26
+ },
+ {
+  "text": "verify",
+  "start": 31.26,
+  "end": 31.48
+ },
+ {
+  "text": "your",
+  "start": 31.48,
+  "end": 31.94
+ },
+ {
+  "text": "profile.",
+  "start": 31.94,
+  "end": 32.28
+ },
+ {
+  "text": "Number",
+  "start": 32.28,
+  "end": 33.084
+ },
+ {
+  "text": "two:",
+  "start": 33.084,
+  "end": 33.62
+ },
+ {
+  "text": "add",
+  "start": 33.62,
+  "end": 33.72
+ },
+ {
+  "text": "your",
+  "start": 33.72,
+  "end": 33.84
+ },
+ {
+  "text": "hours,",
+  "start": 33.84,
+  "end": 34.06
+ },
+ {
+  "text": "phone",
+  "start": 34.54,
+  "end": 34.68
+ },
+ {
+  "text": "number,",
+  "start": 34.68,
+  "end": 34.92
+ },
+ {
+  "text": "location",
+  "start": 35.32,
+  "end": 35.64
+ },
+ {
+  "text": "and",
+  "start": 36.08,
+  "end": 36.12
+ },
+ {
+  "text": "real",
+  "start": 36.12,
+  "end": 36.32
+ },
+ {
+  "text": "photos",
+  "start": 36.32,
+  "end": 36.76
+ },
+ {
+  "text": "of",
+  "start": 36.76,
+  "end": 37.04
+ },
+ {
+  "text": "your",
+  "start": 37.04,
+  "end": 37.14
+ },
+ {
+  "text": "work.",
+  "start": 37.14,
+  "end": 37.34
+ },
+ {
+  "text": "Number",
+  "start": 37.34,
+  "end": 37.95
+ },
+ {
+  "text": "three:",
+  "start": 37.95,
+  "end": 38.56
+ },
+ {
+  "text": "ask",
+  "start": 38.56,
+  "end": 38.78
+ },
+ {
+  "text": "happy",
+  "start": 38.78,
+  "end": 39.04
+ },
+ {
+  "text": "customers",
+  "start": 39.04,
+  "end": 39.38
+ },
+ {
+  "text": "for",
+  "start": 39.38,
+  "end": 39.78
+ },
+ {
+  "text": "reviews,",
+  "start": 39.78,
+  "end": 40.1
+ },
+ {
+  "text": "and",
+  "start": 40.1,
+  "end": 40.64
+ },
+ {
+  "text": "reply",
+  "start": 40.64,
+  "end": 40.78
+ },
+ {
+  "text": "to",
+  "start": 40.78,
+  "end": 41.12
+ },
+ {
+  "text": "them.",
+  "start": 41.12,
+  "end": 41.28
+ },
+ {
+  "text": "People",
+  "start": 41.64,
+  "end": 41.72
+ },
+ {
+  "text": "searching",
+  "start": 41.72,
+  "end": 42.0
+ },
+ {
+  "text": "nearby",
+  "start": 42.0,
+  "end": 42.32
+ },
+ {
+  "text": "are",
+  "start": 42.32,
+  "end": 42.72
+ },
+ {
+  "text": "often",
+  "start": 42.72,
+  "end": 43.0
+ },
+ {
+  "text": "ready",
+  "start": 43.0,
+  "end": 43.22
+ },
+ {
+  "text": "to",
+  "start": 43.22,
+  "end": 43.46
+ },
+ {
+  "text": "buy.",
+  "start": 43.46,
+  "end": 43.66
+ },
+ {
+  "text": "Make",
+  "start": 44.12,
+  "end": 44.12
+ },
+ {
+  "text": "sure",
+  "start": 44.12,
+  "end": 44.3
+ },
+ {
+  "text": "they",
+  "start": 44.3,
+  "end": 44.5
+ },
+ {
+  "text": "find",
+  "start": 44.5,
+  "end": 44.74
+ },
+ {
+  "text": "you,",
+  "start": 44.74,
+  "end": 45.0
+ },
+ {
+  "text": "not",
+  "start": 45.28,
+  "end": 45.36
+ },
+ {
+  "text": "the",
+  "start": 45.36,
+  "end": 45.52
+ },
+ {
+  "text": "shop",
+  "start": 45.52,
+  "end": 45.7
+ },
+ {
+  "text": "across",
+  "start": 45.7,
+  "end": 45.88
+ },
+ {
+  "text": "the",
+  "start": 45.88,
+  "end": 46.18
+ },
+ {
+  "text": "road.",
+  "start": 46.18,
+  "end": 46.4
+ },
+ {
+  "text": "Is",
+  "start": 46.68,
+  "end": 46.72
+ },
+ {
+  "text": "your",
+  "start": 46.72,
+  "end": 46.84
+ },
+ {
+  "text": "business",
+  "start": 46.84,
+  "end": 47.1
+ },
+ {
+  "text": "on",
+  "start": 47.1,
+  "end": 47.38
+ },
+ {
+  "text": "Google",
+  "start": 47.38,
+  "end": 47.56
+ },
+ {
+  "text": "Maps?",
+  "start": 47.56,
+  "end": 47.88
+ },
+ {
+  "text": "Tell",
+  "start": 48.38,
+  "end": 48.44
+ },
+ {
+  "text": "me",
+  "start": 48.44,
+  "end": 48.58
+ },
+ {
+  "text": "below.",
+  "start": 48.58,
+  "end": 48.82
+ }
+]
