@@ -89,11 +89,16 @@ def _centered_lines(draw, lines, font, y, fill, spacing=12) -> int:
     return y
 
 
+# Glass panel over gradients; a darker, near-solid panel over busy stock footage.
+PANEL_FILL = {"glass": (255, 255, 255, 26), "solid": (12, 14, 24, 200)}
+_panel_style = "glass"
+
+
 def _panel(accent: tuple[int, int, int]) -> tuple[Image.Image, ImageDraw.ImageDraw]:
     img = Image.new("RGBA", (CARD_W, CARD_H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     d.rounded_rectangle((0, 0, CARD_W - 1, CARD_H - 1), radius=48,
-                        fill=(255, 255, 255, 26), outline=(255, 255, 255, 60), width=3)
+                        fill=PANEL_FILL[_panel_style], outline=(255, 255, 255, 60), width=3)
     d.rounded_rectangle((60, 0, CARD_W - 60, 8), radius=4, fill=accent + (255,))
     return img, d
 
@@ -205,8 +210,10 @@ def validate(specs: list) -> list[str]:
 
 
 def build_beats(specs: list, words: list[Word], accent_hex: str, out_dir: Path,
-                duration: float) -> tuple[list[Beat], list[str]]:
+                duration: float, solid: bool = False) -> tuple[list[Beat], list[str]]:
     """Render each visual to PNG and time it against the aligned words."""
+    global _panel_style
+    _panel_style = "solid" if solid else "glass"
     problems = validate(specs)
     if problems:
         return [], problems

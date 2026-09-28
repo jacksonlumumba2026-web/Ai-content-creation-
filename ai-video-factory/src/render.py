@@ -32,6 +32,7 @@ PALETTES = [
 TAIL_SEC = 0.6  # breathing room after the last word
 VISUAL_TOP = 0.235  # graphics card top edge, as a fraction of video height
 HANDLE_Y = 0.765   # channel handle, below the captions and above platform UI
+FOOTAGE_DIM = 0.45  # black overlay opacity on stock footage (text readability)
 
 
 def pick_palette(slug: str) -> tuple[tuple[str, str, str], str]:
@@ -124,8 +125,33 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     return header + "\n".join(events) + "\n"
 
 
+def build_footage_background(scenes: list, duration: float, settings: Settings, out: Path) -> Path:
+    """Cut, crop and join stock clips into one silent 1080x1920 background track."""
+    v = settings["video"]
+    w, h, fps = v["width"], v["height"], v["fps"]
+    inputs, chains = [], []
+    for i, scene in enumerate(scenes):
+        seg = round(scene.end - scene.start, 3)
+        inputs += ["-stream_loop", "-1", "-t", str(seg), "-i", str(scene.clip)]
+        chains.append(
+            f"[{i}:v]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},"
+            f"fps={fps},setsar=1,trim=duration={seg},setpts=PTS-STARTPTS[s{i}]"
+        )
+    joined = "".join(f"[s{i}]" for i in range(len(scenes)))
+    chains.append(f"{joined}concat=n={len(scenes)}:v=1:a=0,trim=duration={duration},"
+                  f"eq=brightness=-0.06:saturation=1.05[bg]")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chains),
+           "-map", "[bg]", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+           "-pix_fmt", "yuv420p", str(out)]
+    run = subprocess.run(cmd, capture_output=True, text=True)
+    if run.returncode != 0:
+        raise RuntimeError(f"footage background failed: {run.stderr.strip()[-400:]}")
+    return out
+
+
 def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
-                 visuals: list | None = None, words: list[Word] | None = None) -> Path:
+                 visuals: list | None = None, words: list[Word] | None = None,
+                 scenes: list | None = None) -> Path:
     v = settings["video"]
     voice = settings.path("voiceovers") / f"{slug}.wav"
     if not voice.exists():
@@ -142,17 +168,24 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
 
     beats = []
     if visuals:
-        beats, problems = build_beats(visuals, words or [], accent, out_dir / f"{slug}_visuals", duration)
+        beats, problems = build_beats(visuals, words or [], accent, out_dir / f"{slug}_visuals",
+                                      duration, solid=bool(scenes))
         if problems:
             raise ValueError("visuals: " + "; ".join(problems))
 
-    background = (
-        f"gradients=s={v['width']}x{v['height']}:r={v['fps']}:d={duration}"
-        f":c0=0x{c0}:c1=0x{c1}:c2=0x{c2}:n=3:speed=0.012:seed={len(slug)}"
-    )
+    if scenes:
+        # Real footage: darken so white text and graphics stay readable.
+        footage = build_footage_background(scenes, duration, settings, out_dir / f"{slug}_bg.mp4")
+        background_input = ["-i", str(footage)]
+        base = f"[0:v]drawbox=x=0:y=0:w=iw:h=ih:color=black@{FOOTAGE_DIM}:t=fill,vignette=PI/4[bg]"
+    else:
+        background_input = ["-f", "lavfi", "-i", (
+            f"gradients=s={v['width']}x{v['height']}:r={v['fps']}:d={duration}"
+            f":c0=0x{c0}:c1=0x{c1}:c2=0x{c2}:n=3:speed=0.012:seed={len(slug)}")]
+        base = "[0:v]vignette=PI/5,noise=alls=3:allf=t[bg]"
     # Graphics: slide up + fade in when their phrase is spoken, fade out before the next one.
     card_y = int(v["height"] * VISUAL_TOP)
-    chains, last = [f"[0:v]vignette=PI/5,noise=alls=3:allf=t[bg]"], "bg"
+    chains, last = [base], "bg"
     for k, beat in enumerate(beats):
         idx, s0, s1 = k + 2, beat.start, beat.end
         chains.append(
@@ -175,7 +208,7 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
     )
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
-        "-f", "lavfi", "-i", background,
+        *background_input,
         "-i", str(voice),
         *[arg for beat in beats for arg in ("-loop", "1", "-t", str(duration), "-i", str(beat.image))],
         "-filter_complex", f"{video_chain};{audio_chain}",

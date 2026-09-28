@@ -57,7 +57,7 @@ providers:
   llm: claude_code            # scripts/research are written by Claude Code in-session
   tts: piper                  # none | ffmpeg_flite | piper | edge_tts | elevenlabs
   images: none                # none | stock_pexels | canva | elevenlabs
-  stock_video: none           # none | pexels | pixabay
+  stock_video: pexels         # none | pexels | pixabay (free Pexels API key: PEXELS_API_KEY)
   music: none                 # none | local_library
   transcription: whisper_local # none | whisper_local | elevenlabs
   render: ffmpeg              # none | ffmpeg | moviepy | descript
@@ -73,6 +73,12 @@ tts:
     length_scale: 0.95          # < 1.0 = faster speech (shorts benefit from brisk pacing)
     sentence_silence: 0.15      # seconds of pause between sentences
     volume: 1.0
+
+# Stock footage behind the graphics (script front matter `scenes`). Without PEXELS_API_KEY or
+# network access, videos fall back to the animated gradient background.
+stock:
+  min_clip_sec: 5             # skip clips shorter than this
+  required: false             # true = fail the video instead of falling back to the gradient
 
 # Speech-to-text, used only to time captions (words come from the script).
 transcription:

@@ -32,9 +32,15 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    `title` ≤ 44 chars, `youtube_title` ≤ 95 chars ending `#Shorts`, `caption`, 5–6 `hashtags`,
    `sources`, and 6–11 `visuals` whose `at` phrases appear in the narration in order.
    Emoji only in `icon` fields. End with a question or follow call-to-action.
+   Also add 4–7 `scenes` (`{at: "<phrase>", query: "<Pexels search>"}`, first one at the opening
+   words) so real stock footage plays behind the graphics. Queries must describe filmable things
+   (e.g. "small business owner shop", "hands typing laptop", "busy city street africa"), not
+   abstract ideas or brand names; scene `at` phrases also appear in order.
    Commentary on another creator: own words only, never their footage/audio/thumbnails.
 6. **Produce:** `python3 ai-video-factory/scripts/produce.py --slug <slug>`. If the quality gate
    fails, fix the script and re-run (max 3 attempts), then stop and report if it still fails.
+   If produce.py warns that stock footage was unavailable, the video still uses the gradient;
+   mention it in the report.
 7. **Review frames:** extract 3 frames (≈2s, middle, ≈5s before the end) with ffmpeg and look at
    them. Fix overlaps, cut-off text or wrong graphics before continuing.
 8. **Commit & push** the script, research and captions to the default branch.

@@ -169,6 +169,24 @@ def check_captions(settings) -> None:
                f"{model} downloaded" if found else f"{model} not downloaded yet (auto-downloads on first use, ~140 MB)")
 
 
+def check_stock(settings) -> None:
+    if settings["providers"]["stock_video"] != "pexels":
+        return
+    import urllib.request
+    if not settings.has_secret("PEXELS_API_KEY"):
+        record(WARN, "Stock footage: Pexels", "PEXELS_API_KEY not set — videos use gradient backgrounds")
+        return
+    try:
+        req = urllib.request.Request("https://api.pexels.com/videos/search?query=office&per_page=1",
+                                     headers={"Authorization": settings.secret("PEXELS_API_KEY"),
+                                              "User-Agent": "ai-video-factory"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            record(OK, "Stock footage: Pexels", f"API reachable, key accepted (HTTP {resp.status})")
+    except Exception as exc:
+        record(WARN, "Stock footage: Pexels", f"API check failed ({str(exc)[:70]}) — "
+                                              "allow api.pexels.com + videos.pexels.com")
+
+
 def check_python_packages() -> None:
     import importlib.util
     packages = {
@@ -209,6 +227,7 @@ def main() -> int:
         check_ffmpeg_render(settings)
         check_tts(settings)
         check_captions(settings)
+        check_stock(settings)
 
     width = max(len(n) for _, n, _ in results)
     print(f"\nAI Video Factory — environment check ({ROOT})\n")

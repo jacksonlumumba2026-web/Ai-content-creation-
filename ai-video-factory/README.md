@@ -40,6 +40,9 @@ youtube_title: "Half of Small Businesses Now Use AI — Here's What For #Shorts"
 caption: "Post text for TikTok / Facebook"
 hashtags: [ai, smallbusiness]
 sources: [https://...]                               # required
+scenes:                                              # optional: real stock footage (Pexels)
+  - {at: "Almost half", query: "small business owner shop"}
+  - {at: "Number one", query: "hands typing laptop"}
 visuals:                                             # >= 3 required (script.min_visuals)
   - {at: "Forty-six percent", type: stat, value: "46%", percent: 46, label: "already use AI"}
   - {at: "Number one", type: list, number: 1, icon: "✍️", label: "Writing & marketing"}
@@ -51,6 +54,12 @@ visuals:                                             # >= 3 required (script.min
 ## Narration
 ~120–160 words (Piper speaks ~3 words/second → 40–55s).
 ```
+
+**Stock footage (free, Pexels):** with `PEXELS_API_KEY` set and `api.pexels.com` +
+`videos.pexels.com` network-allowed, each `scenes` entry plays a portrait Pexels clip from its
+`at` phrase until the next scene (cropped to 1080×1920, looped if short, dimmed for readability;
+graphics switch to solid dark panels). Clips are cached in `assets/video/pexels/`, credits go to
+`output/<slug>.credits.json`. Without a key or network access the gradient background is used.
 
 Render look: animated dark gradient (palette picked per video), headline at the top,
 **on-screen graphics** (stat rings, numbered list cards with icons, comparison bars, icon and text
@@ -156,6 +165,7 @@ ai-video-factory/
 │   ├── captions.py      # word timing + script alignment + SRT/VTT
 │   ├── render.py        # ffmpeg render: background, headline, animated captions
 │   ├── publish.py       # quality gate, media hosting, Metricool payload
+│   ├── stock.py         # Pexels stock footage search, download, scene timing
 │   └── scriptfile.py    # reads narration from script markdown
 ├── scripts/
 │   ├── check_env.py         # environment check

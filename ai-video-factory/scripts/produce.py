@@ -26,7 +26,8 @@ sys.path.insert(0, str(ROOT))
 from src.captions import align_to_script, group_cues, transcribe_words, write_captions  # noqa: E402
 from src.config import load_settings  # noqa: E402
 from src.publish import quality_gate  # noqa: E402
-from src.render import probe, render_video  # noqa: E402
+from src.render import TAIL_SEC, audio_duration, probe, render_video  # noqa: E402
+from src.stock import fetch_scenes  # noqa: E402
 from src.scriptfile import load_script  # noqa: E402
 from src.tts import effective_provider, synthesize  # noqa: E402
 
@@ -59,9 +60,21 @@ def main() -> int:
     print(f"    {len(cues)} cues")
 
     print("3/4 render ...", flush=True)
+    scenes = None
+    if script.meta.get("scenes") and settings["providers"]["stock_video"] == "pexels":
+        try:
+            duration = audio_duration(audio) + TAIL_SEC
+            scenes = fetch_scenes(script.meta["scenes"], words, duration, settings, args.slug)
+            print(f"    footage: {len(scenes)} Pexels clips")
+        except Exception as exc:  # no key, network blocked, no matching clips
+            if settings["stock"]["required"]:
+                print(f"ERROR: stock footage: {exc}", file=sys.stderr)
+                return 1
+            print(f"WARNING: stock footage unavailable ({exc}); using gradient background",
+                  file=sys.stderr)
     try:
         video = render_video(args.slug, cues, script.title, settings,
-                             visuals=script.meta.get("visuals"), words=words)
+                             visuals=script.meta.get("visuals"), words=words, scenes=scenes)
     except ValueError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
@@ -72,7 +85,7 @@ def main() -> int:
     print("4/4 quality gate ...", flush=True)
     problems = quality_gate(script, info, settings)
     report = {"slug": args.slug, "video": str(video.relative_to(ROOT)), "probe": info,
-              "voice": engine, "passed": not problems, "problems": problems}
+              "voice": engine, "footage": bool(scenes), "passed": not problems, "problems": problems}
     (settings.path("output") / f"{args.slug}.report.json").write_text(json.dumps(report, indent=1))
     if problems:
         print("    FAILED:\n      - " + "\n      - ".join(problems))
