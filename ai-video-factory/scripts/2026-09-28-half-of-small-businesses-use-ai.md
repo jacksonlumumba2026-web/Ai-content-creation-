@@ -12,55 +12,46 @@ scenes:
   - {at: "Number three", query: "business charts analysis screen"}
   - {at: "labor costs", query: "team working office"}
   - {at: "competitors", query: "busy city street business"}
+story:
+  character: "US small employer firms in the Federal Reserve survey (real data)"
+  problem: "Owners wonder whether AI is hype or will replace their team"
+  turn: "46% already use it, mostly for writing, productivity and planning"
+  payoff: "Labor costs mostly unchanged, productivity up: competitors get more done with the same team"
+  illustrative: false
 visuals:
-  - at: "Almost half"
-    type: icon
-    icon: "🏪"
-    label: "Small businesses are going AI"
-  - at: "Forty-six percent"
-    type: stat
-    value: "46%"
-    percent: 46
-    label: "already use AI"
-  - at: "another fifteen percent"
-    type: stat
-    value: "+15%"
-    label: "plan to start within a year"
-  - at: "actually using"
-    type: icon
-    icon: "🤔"
-    label: "Using it for what?"
-  - at: "Number one"
-    type: list
-    number: 1
-    icon: "✍️"
-    label: "Writing & marketing"
-  - at: "Number two"
-    type: list
-    number: 2
-    icon: "⚡"
-    label: "Personal productivity"
-  - at: "Number three"
-    type: list
-    number: 3
-    icon: "📊"
-    label: "Planning & analysis"
-  - at: "part most people miss"
-    type: text
-    label: "The part most people miss"
-  - at: "labor costs"
-    type: compare
-    bars:
-      - {label: "Labor costs", value: 12, note: "no change"}
-      - {label: "Productivity", value: 85, note: "went up"}
-  - at: "competitors"
-    type: icon
-    icon: "🏁"
-    label: "Same team. More output."
-  - at: "Follow for"
-    type: icon
-    icon: "👉"
-    label: "Follow for more AI moves"
+- at: Forty-six percent
+  type: stat
+  value: 46%
+  percent: 46
+  label: already use AI
+- at: another fifteen percent
+  type: stat
+  value: +15%
+  label: plan to start within a year
+- at: Number one
+  type: list
+  number: 1
+  icon: ✍️
+  label: Writing & marketing
+- at: Number two
+  type: list
+  number: 2
+  icon: ⚡
+  label: Personal productivity
+- at: Number three
+  type: list
+  number: 3
+  icon: 📊
+  label: Planning & analysis
+- at: labor costs
+  type: compare
+  bars:
+  - label: Labor costs
+    value: 12
+    note: no change
+  - label: Productivity
+    value: 85
+    note: went up
 ---
 
 ## Narration

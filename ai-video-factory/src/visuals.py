@@ -24,8 +24,16 @@ Scripts list visuals in front matter; each one appears when its `at` phrase is s
       - at: "real question"
         type: text
         label: "Replace your team? Or outwork your competitors?"
+      - at: "Picture a"
+        type: tag                        # small pill under the headline (not a card)
+        label: "Illustrative example"
 
-A visual stays on screen until the next one starts (max `MAX_SECONDS`).
+A visual stays on screen until the next one starts (max `MAX_SECONDS`). Tags show for
+`TAG_SECONDS` and don't cut other cards short.
+
+Owner rule (2026-09-28): captions already carry the words, so cards only appear when they
+*explain* something the narration can't show on its own — a number (stat), steps (list), a
+comparison (compare) or a definition/rule (text). No cards that just repeat the sentence.
 """
 
 from __future__ import annotations
@@ -43,7 +51,9 @@ MAX_SECONDS = 7.0
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_EMOJI = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
-VALID_TYPES = {"stat", "list", "compare", "icon", "text"}
+VALID_TYPES = {"stat", "list", "compare", "icon", "text", "tag"}
+EXPLAINING_TYPES = {"stat", "list", "compare", "text"}
+TAG_SECONDS = 4.5
 
 
 @dataclass
@@ -51,6 +61,7 @@ class Beat:
     image: Path
     start: float
     end: float
+    kind: str = "card"  # "card" (below the headline area) or "tag" (small pill under the headline)
 
 
 def _rgb(hex_rgb: str) -> tuple[int, int, int]:
@@ -178,8 +189,23 @@ def draw_text(spec: dict, accent) -> Image.Image:
     return img
 
 
+def draw_tag(spec: dict, accent) -> Image.Image:
+    """Small pill, e.g. 'Illustrative example' — a label, not a card."""
+    f = _font(36)
+    label = str(spec.get("label", ""))
+    probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    w, h = int(probe.textlength(label, font=f)) + 104, 70
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 0, w - 1, h - 1), radius=h // 2, fill=(12, 14, 24, 190),
+                        outline=(255, 255, 255, 70), width=2)
+    d.ellipse((30, h // 2 - 9, 48, h // 2 + 9), fill=accent + (255,))
+    d.text((66, (h - 44) // 2), label, font=f, fill=(255, 255, 255))
+    return img
+
+
 DRAWERS = {"stat": draw_stat, "list": draw_list, "compare": draw_compare,
-           "icon": draw_icon, "text": draw_text}
+           "icon": draw_icon, "text": draw_text, "tag": draw_tag}
 
 
 def _norm(token: str) -> str:
@@ -204,7 +230,7 @@ def validate(specs: list) -> list[str]:
         if not spec.get("at"):
             problems.append(f"visual {n}: missing 'at' phrase")
         need = {"stat": ["value"], "list": ["number", "label"], "compare": ["bars"],
-                "icon": ["icon", "label"], "text": ["label"]}[spec["type"]]
+                "icon": ["icon", "label"], "text": ["label"], "tag": ["label"]}[spec["type"]]
         problems += [f"visual {n}: missing '{k}'" for k in need if not spec.get(k)]
     return problems
 
@@ -220,6 +246,7 @@ def build_beats(specs: list, words: list[Word], accent_hex: str, out_dir: Path,
     accent = _rgb(accent_hex)
     out_dir.mkdir(parents=True, exist_ok=True)
     timed: list[tuple[float, Path]] = []
+    tags: list[Beat] = []
     cursor = 0
     for n, spec in enumerate(specs or [], start=1):
         idx = find_phrase(words, str(spec["at"]), cursor)
@@ -229,10 +256,14 @@ def build_beats(specs: list, words: list[Word], accent_hex: str, out_dir: Path,
         cursor = idx + 1
         path = out_dir / f"visual_{n:02d}.png"
         DRAWERS[spec["type"]](spec, accent).save(path)
-        timed.append((words[idx].start, path))
+        start = words[idx].start
+        if spec["type"] == "tag":
+            tags.append(Beat(path, round(start, 2), round(min(duration, start + TAG_SECONDS), 2), "tag"))
+        else:
+            timed.append((start, path))
 
     beats = []
     for i, (start, path) in enumerate(timed):
         nxt = timed[i + 1][0] if i + 1 < len(timed) else duration
         beats.append(Beat(path, round(start, 2), round(min(nxt, start + MAX_SECONDS), 2)))
-    return beats, problems
+    return beats + tags, problems

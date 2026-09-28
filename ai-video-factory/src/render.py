@@ -31,6 +31,7 @@ PALETTES = [
 
 TAIL_SEC = 0.6  # breathing room after the last word
 VISUAL_TOP = 0.235  # graphics card top edge, as a fraction of video height
+TAG_TOP = 0.215     # small tags (e.g. "Illustrative example"), just under the headline
 HANDLE_Y = 0.765   # channel handle, below the captions and above platform UI
 FOOTAGE_DIM = 0.30  # black overlay opacity on stock footage (text readability)
 
@@ -184,7 +185,7 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
             f":c0=0x{c0}:c1=0x{c1}:c2=0x{c2}:n=3:speed=0.012:seed={len(slug)}")]
         base = "[0:v]vignette=PI/5,noise=alls=3:allf=t[bg]"
     # Graphics: slide up + fade in when their phrase is spoken, fade out before the next one.
-    card_y = int(v["height"] * VISUAL_TOP)
+    card_y, tag_y = int(v["height"] * VISUAL_TOP), int(v["height"] * TAG_TOP)
     chains, last = [base], "bg"
     for k, beat in enumerate(beats):
         idx, s0, s1 = k + 2, beat.start, beat.end
@@ -192,8 +193,9 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
             f"[{idx}:v]format=rgba,fade=t=in:st={s0}:d=0.3:alpha=1,"
             f"fade=t=out:st={max(s0, s1 - 0.25)}:d=0.25:alpha=1[g{k}]"
         )
+        y0, rise = (tag_y, 20) if beat.kind == "tag" else (card_y, 70)
         chains.append(
-            f"[{last}][g{k}]overlay=x=(W-w)/2:y='{card_y}+70*max(0,1-(t-{s0})/0.35)'"
+            f"[{last}][g{k}]overlay=x=(W-w)/2:y='{y0}+{rise}*max(0,1-(t-{s0})/0.35)'"
             f":enable='between(t,{s0},{s1})'[o{k}]"
         )
         last = f"o{k}"

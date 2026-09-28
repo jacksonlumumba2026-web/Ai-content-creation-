@@ -24,38 +24,18 @@ scenes:
   - {at: "would you let", query: "bustling market street vendor"}
 visuals:
   - at: "Picture a shop owner"
-    type: icon
-    icon: "🏪"
-    label: "Illustrative example: Wanjiku's shop"
-  - at: "hundreds of M-Pesa payments"
-    type: icon
-    icon: "📲"
-    label: "Hundreds of M-Pesa payments a day"
-  - at: "the answer is no"
-    type: text
-    label: "Loan request: DECLINED"
-  - at: "can't see her sales"
-    type: icon
-    icon: "🙈"
-    label: "The bank can't see her sales"
-  - at: "September twenty-second"
-    type: text
-    label: "Draft bill published 22 September 2026"
+    type: tag
+    label: "Illustrative example"
   - at: "open finance"
-    type: icon
-    icon: "🔓"
-    label: "Open finance, with your consent"
+    type: text
+    label: "Open finance = you choose which licensed apps see your bank & M-Pesa data"
   - at: "capital requirements"
     type: stat
     value: "KSh 250M"
     label: "capital for e-money issuers (up to)"
   - at: "Nothing is law yet"
     type: text
-    label: "Still a draft. Views close 9 October."
-  - at: "would you let"
-    type: icon
-    icon: "💬"
-    label: "Would you share your M-Pesa data?"
+    label: "Still a draft. Public views close 9 October."
 ---
 
 ## Narration

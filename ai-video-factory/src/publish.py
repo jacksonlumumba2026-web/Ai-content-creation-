@@ -22,6 +22,7 @@ from pathlib import Path
 
 from src.config import ROOT, Settings
 from src.scriptfile import Script
+from src.visuals import EXPLAINING_TYPES
 
 BANNED_PHRASES = [
     "guaranteed", "get rich quick", "risk-free", "risk free", "100% profit",
@@ -48,9 +49,14 @@ def quality_gate(script: Script, probe_info: dict, settings: Settings) -> list[s
             problems.append(f"front matter missing '{key}'")
     if len(str(meta.get("youtube_title", ""))) > 100:
         problems.append("youtube_title longer than 100 characters")
-    if len(meta.get("visuals") or []) < settings["script"]["min_visuals"]:
-        problems.append(f"fewer than {settings['script']['min_visuals']} visuals — "
-                        "videos need on-screen graphics, not just captions")
+    visuals = meta.get("visuals") or []
+    explaining = [x for x in visuals if x.get("type") in EXPLAINING_TYPES]
+    if len(explaining) < settings["script"]["min_visuals"]:
+        problems.append(f"fewer than {settings['script']['min_visuals']} explaining visuals "
+                        "(stat/list/compare/text) — show the numbers, steps and rules on screen")
+    if any(x.get("type") == "icon" for x in visuals):
+        problems.append("icon cards only repeat the narration — use a stat/list/compare/text card "
+                        "where something needs explaining, or nothing (captions carry the words)")
     if settings["script"].get("require_story"):
         story = meta.get("story") or {}
         missing = [k for k in ("character", "problem", "turn", "payoff") if not story.get(k)]

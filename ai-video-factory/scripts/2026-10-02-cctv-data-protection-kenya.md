@@ -22,43 +22,26 @@ scenes:
   - {at: "the regulator is active", query: "office meeting discussion"}
   - {at: "check whether", query: "man using laptop office"}
 visuals:
-  - at: "Picture a hardware shop owner"
-    type: icon
-    icon: "🔧"
-    label: "Illustrative example: Otieno's shop"
-  - at: "installs CCTV cameras"
-    type: icon
-    icon: "📹"
-    label: "CCTV after a break-in"
-  - at: "most small business owners"
-    type: text
-    label: "The rule most owners miss"
-  - at: "usually exempt"
-    type: text
-    label: "Exempt: under KSh 5M turnover AND under 10 staff"
-  - at: "no matter their size"
-    type: icon
-    icon: "🚨"
-    label: "Running CCTV? Register, whatever your size"
-  - at: "Others include"
-    type: text
-    label: "Also: schools, transport, hospitality, property agents"
-  - at: "five million shillings or one percent"
-    type: stat
-    value: "KSh 5M"
-    label: "max fine (or 1% of turnover, if lower)"
-  - at: "ninety-six complaints"
-    type: stat
-    value: "96"
-    label: "complaints determined in 2025"
-  - at: "check whether you're registered"
-    type: icon
-    icon: "✅"
-    label: "Check your ODPC registration"
-  - at: "Did you know"
-    type: icon
-    icon: "💬"
-    label: "Did you know this rule?"
+- at: Picture a hardware shop owner
+  type: tag
+  label: Illustrative example
+- at: usually exempt
+  type: text
+  label: 'Exempt: under KSh 5M turnover AND under 10 staff'
+- at: no matter their size
+  type: text
+  label: Running CCTV? Register, whatever your size
+- at: Others include
+  type: text
+  label: 'Also: schools, transport, hospitality, property agents'
+- at: five million shillings or one percent
+  type: stat
+  value: KSh 5M
+  label: max fine (or 1% of turnover, if lower)
+- at: ninety-six complaints
+  type: stat
+  value: '96'
+  label: complaints determined in 2025
 ---
 
 ## Narration

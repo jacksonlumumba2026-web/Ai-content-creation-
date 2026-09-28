@@ -22,51 +22,29 @@ scenes:
   - {at: "Number one", query: "team meeting office"}
   - {at: "Would your team", query: "office team working"}
 visuals:
-  - at: "A finance worker"
-    type: icon
-    icon: "💼"
-    label: "A finance worker in Hong Kong"
-  - at: "secret transaction"
-    type: text
-    label: "Urgent. Secret. Transfer."
-  - at: "joins a video call"
-    type: icon
-    icon: "🎥"
-    label: "He joins a video call to check"
-  - at: "Their voices sound right"
-    type: text
-    label: "Faces right. Voices right."
-  - at: "fifteen transfers"
-    type: stat
-    value: "$25M"
-    label: "sent in 15 transfers"
-  - at: "was a deepfake"
-    type: icon
-    icon: "🤖"
-    label: "Everyone on the call was a deepfake"
-  - at: "three seconds"
-    type: stat
-    value: "3 sec"
-    label: "of audio can be enough to clone a voice"
-  - at: "Number one"
-    type: list
-    number: 1
-    icon: "🚫"
-    label: "Never pay on a call alone"
-  - at: "Number two"
-    type: list
-    number: 2
-    icon: "📞"
-    label: "Call back on a known number"
-  - at: "Number three"
-    type: list
-    number: 3
-    icon: "🔑"
-    label: "Agree a secret code word"
-  - at: "Would your team"
-    type: icon
-    icon: "💬"
-    label: "Would your team spot the fake?"
+- at: fifteen transfers
+  type: stat
+  value: $25M
+  label: sent in 15 transfers
+- at: three seconds
+  type: stat
+  value: 3 sec
+  label: of audio can be enough to clone a voice
+- at: Number one
+  type: list
+  number: 1
+  icon: 🚫
+  label: Never pay on a call alone
+- at: Number two
+  type: list
+  number: 2
+  icon: 📞
+  label: Call back on a known number
+- at: Number three
+  type: list
+  number: 3
+  icon: 🔑
+  label: Agree a secret code word
 ---
 
 ## Narration

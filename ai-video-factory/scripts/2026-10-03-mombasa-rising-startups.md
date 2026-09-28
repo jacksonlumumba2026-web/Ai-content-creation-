@@ -23,44 +23,28 @@ scenes:
   - {at: "founder activity", query: "young entrepreneurs meeting"}
   - {at: "Where would you", query: "african woman smiling laptop"}
 visuals:
-  - at: "Picture a young founder"
-    type: icon
-    icon: "🌊"
-    label: "Illustrative example: Amina in Mombasa"
-  - at: "move to Nairobi"
-    type: text
-    label: "“You have to move to Nairobi.”"
-  - at: "different story"
-    type: icon
-    icon: "📊"
-    label: "The 2026 rankings disagree"
-  - at: "twenty-two places"
-    type: stat
-    value: "+22"
-    label: "places: Mombasa's global jump"
-  - at: "Nairobi slipped"
-    type: text
-    label: "Nairobi: 107th → 116th"
-  - at: "number one in Eastern Africa"
-    type: stat
-    value: "#1"
-    label: "Kenya in Eastern Africa"
-  - at: "minus zero point two"
-    type: stat
-    value: "-0.2%"
-    label: "Kenya's ecosystem growth"
-  - at: "thirty-six times"
-    type: stat
-    value: "36×"
-    label: "Nairobi's score vs Mombasa's"
-  - at: "spreading"
-    type: icon
-    icon: "📍"
-    label: "Mombasa and Kisumu rising"
-  - at: "Where would you"
-    type: icon
-    icon: "💬"
-    label: "Where would you build?"
+- at: Picture a young founder
+  type: tag
+  label: Illustrative example
+- at: twenty-two places
+  type: stat
+  value: '+22'
+  label: 'places: Mombasa''s global jump'
+- at: Nairobi slipped
+  type: text
+  label: 'Nairobi: 107th → 116th'
+- at: number one in Eastern Africa
+  type: stat
+  value: '#1'
+  label: Kenya in Eastern Africa
+- at: minus zero point two
+  type: stat
+  value: -0.2%
+  label: Kenya's ecosystem growth
+- at: thirty-six times
+  type: stat
+  value: 36×
+  label: Nairobi's score vs Mombasa's
 ---
 
 ## Narration

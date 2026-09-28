@@ -13,44 +13,32 @@ scenes:
   - {at: "Number two", query: "business handshake meeting"}
   - {at: "Number three", query: "entrepreneur working laptop night"}
   - {at: "run a business", query: "small business owner shop africa"}
+story:
+  character: "MrBeast (real, from his public reply to a follower)"
+  problem: "His charity videos get less engagement"
+  turn: "He says he'll keep making them even if no one watches"
+  payoff: "Three business lessons: not everything must go viral, purpose builds trust, popular work funds meaningful work"
+  illustrative: false
 visuals:
-  - at: "biggest YouTuber"
-    type: icon
-    icon: "🎥"
-    label: "The biggest YouTuber just admitted this"
-  - at: "charity videos perform worse"
-    type: text
-    label: "Charity videos = less engagement"
-  - at: "ten million dollars"
-    type: stat
-    value: "$10M"
-    label: "village in Ghana"
-  - at: "even if no one watches"
-    type: text
-    label: "“Even if no one watches, I'll keep making them.”"
-  - at: "Number one"
-    type: list
-    number: 1
-    icon: "📉"
-    label: "Not every post must go viral"
-  - at: "Number two"
-    type: list
-    number: 2
-    icon: "🤝"
-    label: "Purpose builds trust"
-  - at: "Number three"
-    type: list
-    number: 3
-    icon: "💰"
-    label: "Popular work funds meaningful work"
-  - at: "run a business"
-    type: icon
-    icon: "🧭"
-    label: "What would you do anyway?"
-  - at: "Follow for"
-    type: icon
-    icon: "👉"
-    label: "Follow for more"
+- at: ten million dollars
+  type: stat
+  value: $10M
+  label: village in Ghana
+- at: Number one
+  type: list
+  number: 1
+  icon: 📉
+  label: Not every post must go viral
+- at: Number two
+  type: list
+  number: 2
+  icon: 🤝
+  label: Purpose builds trust
+- at: Number three
+  type: list
+  number: 3
+  icon: 💰
+  label: Popular work funds meaningful work
 ---
 
 ## Narration

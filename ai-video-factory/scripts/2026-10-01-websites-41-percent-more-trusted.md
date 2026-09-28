@@ -20,43 +20,28 @@ scenes:
   - {at: "Here's the twist", query: "online shopping payment card"}
   - {at: "Which bakery", query: "bakery owner smiling"}
 visuals:
-  - at: "Picture two bakeries"
-    type: icon
-    icon: "🥐"
-    label: "Illustrative example: two bakeries"
-  - at: "only has an Instagram page"
-    type: icon
-    icon: "📱"
-    label: "Bakery A: Instagram only"
-  - at: "simple website"
-    type: icon
-    icon: "🌐"
-    label: "Bakery B: a simple website"
-  - at: "Which one do they trust"
-    type: text
-    label: "Which one would you trust?"
-  - at: "forty-one percent"
-    type: stat
-    value: "+41%"
-    percent: 41
-    label: "more trusted with a website"
-  - at: "strongest trust signal"
-    type: text
-    label: "No. 2 trust signal, after reviews"
-  - at: "seventy-two percent"
-    type: stat
-    value: "72%"
-    percent: 72
-    label: "of 18–24s: a website means credibility"
-  - at: "Here's the twist"
-    type: compare
-    bars:
-      - {label: "Instagram / TikTok shop", value: 20, note: "$36"}
-      - {label: "Business website", value: 100, note: "$177"}
-  - at: "Which bakery"
-    type: icon
-    icon: "👉"
-    label: "Which bakery is your business?"
+- at: Picture two bakeries
+  type: tag
+  label: Illustrative example
+- at: forty-one percent
+  type: stat
+  value: +41%
+  percent: 41
+  label: more trusted with a website
+- at: seventy-two percent
+  type: stat
+  value: 72%
+  percent: 72
+  label: 'of 18–24s: a website means credibility'
+- at: Here's the twist
+  type: compare
+  bars:
+  - label: Instagram / TikTok shop
+    value: 20
+    note: $36
+  - label: Business website
+    value: 100
+    note: $177
 ---
 
 ## Narration

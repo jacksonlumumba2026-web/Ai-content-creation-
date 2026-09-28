@@ -37,7 +37,7 @@ script:
   words_per_minute: 160       # ~80–160 words for a 30–60s video
   hook_max_sec: 3             # the first line must land within 3 seconds
   require_sources: true       # every factual claim needs a source in research/
-  min_visuals: 3              # on-screen graphics per video (stat/list/compare/icon/text cards)
+  min_visuals: 2              # explaining cards per video (stat/list/compare/text); owner: no cards that repeat the captions
   require_story: true         # owner: tell every video as a story (character, problem, turn, payoff)
   require_human_review: true  # owner approves each post in the Metricool app before it goes live
 

@@ -43,12 +43,12 @@ sources: [https://...]                               # required
 scenes:                                              # optional: real stock footage (Pexels)
   - {at: "Almost half", query: "small business owner shop"}
   - {at: "Number one", query: "hands typing laptop"}
-visuals:                                             # >= 3 required (script.min_visuals)
+visuals:                                             # >= 2 explaining cards (script.min_visuals)
   - {at: "Forty-six percent", type: stat, value: "46%", percent: 46, label: "already use AI"}
   - {at: "Number one", type: list, number: 1, icon: "✍️", label: "Writing & marketing"}
   - {at: "labor costs", type: compare, bars: [{label: Labor costs, value: 12}, {label: Productivity, value: 85}]}
-  - {at: "competitors", type: icon, icon: "🏁", label: "Same team. More output."}
   - {at: "real question", type: text, label: "Replace your team?"}
+  - {at: "Let's call her", type: tag, label: "Illustrative example"}  # small pill, not a card
 ---
 
 ## Narration
@@ -66,6 +66,8 @@ Render look: animated dark gradient (palette picked per video), headline at the 
 cards — drawn by `src/visuals.py`) that slide in when their `at` phrase is spoken, big
 word-by-word captions with the spoken word highlighted, channel handle, progress bar.
 `text` cards use DejaVu Sans, so put emoji only in `icon` fields.
+Cards appear only when they explain something (a number, steps, a comparison, a definition or
+rule); the quality gate rejects `icon` cards, which just repeat what the captions already say.
 
 ### Quiz / challenge videos
 

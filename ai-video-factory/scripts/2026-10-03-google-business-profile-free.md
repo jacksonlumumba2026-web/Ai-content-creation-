@@ -21,48 +21,32 @@ scenes:
   - {at: "Number three", query: "customer review phone"}
   - {at: "Is your business", query: "hair salon customer happy"}
 visuals:
-  - at: "Picture a salon owner"
-    type: icon
-    icon: "💇"
-    label: "Illustrative example: Njeri's salon"
-  - at: "salon near me"
-    type: text
-    label: "“salon near me”"
-  - at: "the salon across the road"
-    type: icon
-    icon: "📍"
-    label: "Her competitor shows up first"
-  - at: "doesn't show up at all"
-    type: icon
-    icon: "👻"
-    label: "Njeri: invisible"
-  - at: "The fix is free"
-    type: stat
-    value: "FREE"
-    label: "Google Business Profile"
-  - at: "four in ten"
-    type: stat
-    value: "4 in 10"
-    label: "small local businesses: incomplete profiles"
-  - at: "Number one"
-    type: list
-    number: 1
-    icon: "✅"
-    label: "Claim and verify"
-  - at: "Number two"
-    type: list
-    number: 2
-    icon: "📸"
-    label: "Hours, phone, location, real photos"
-  - at: "Number three"
-    type: list
-    number: 3
-    icon: "⭐"
-    label: "Get reviews and reply"
-  - at: "Is your business"
-    type: icon
-    icon: "💬"
-    label: "Is your business on Google Maps?"
+- at: Picture a salon owner
+  type: tag
+  label: Illustrative example
+- at: The fix is free
+  type: stat
+  value: FREE
+  label: Google Business Profile
+- at: four in ten
+  type: stat
+  value: 4 in 10
+  label: 'small local businesses: incomplete profiles'
+- at: Number one
+  type: list
+  number: 1
+  icon: ✅
+  label: Claim and verify
+- at: Number two
+  type: list
+  number: 2
+  icon: 📸
+  label: Hours, phone, location, real photos
+- at: Number three
+  type: list
+  number: 3
+  icon: ⭐
+  label: Get reviews and reply
 ---
 
 ## Narration
