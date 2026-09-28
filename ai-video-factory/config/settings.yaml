@@ -102,8 +102,8 @@ publishing:
     instagram_reels:
       enabled: false          # connected in Metricool; not requested
   auto_publish: false         # false = approve each post in the Metricool app
-  posts_per_day: 1
-  post_time: "18:30"          # Africa/Nairobi, the Metricool brand timezone
+  posts_per_day: 2           # owner decision 2026-09-28
+  post_times: ["12:30", "18:30"]  # daily slots, Africa/Nairobi (lunch break + evening)
   timezone: Africa/Nairobi
   metricool_blog_id: "7036996"  # Metricool brand "Jackson web Solutions"
   media_branch: media         # public MP4 hosting (orphan branch, raw.githubusercontent.com)

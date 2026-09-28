@@ -13,7 +13,8 @@ check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Fl
 - Download Piper voice: `python3 ai-video-factory/scripts/setup_piper_voice.py`
 - Voiceover: `python3 ai-video-factory/scripts/voiceover.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
 - Produce a video: `python3 ai-video-factory/scripts/produce.py --slug <slug>` (script -> MP4 + quality gate)
-- Upload + Metricool payload: `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date YYYY-MM-DD`
+- Upload + Metricool payload: `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date YYYY-MM-DD --time HH:MM`
+  (2 posts/day at `publishing.post_times`: 12:30 and 18:30 Nairobi)
 - Daily routine steps: `ai-video-factory/ROUTINE.md`
 - Captions: `python3 ai-video-factory/scripts/captions.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
   (always pass the script: caption words come from it, Whisper only supplies timing)

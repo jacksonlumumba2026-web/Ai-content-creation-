@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Upload a finished, gate-passed video and print its Metricool post payload.
 
-    python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date 2026-10-01
+    python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date 2026-10-01 --time 12:30
 
 Requires output/<slug>.report.json with passed=true (from produce.py).
 Uploads output/<slug>.mp4 to the public media branch, writes
@@ -32,6 +32,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--slug", required=True)
     parser.add_argument("--date", required=True, help="publication date, YYYY-MM-DD (brand timezone)")
+    parser.add_argument("--time", help="slot HH:MM from publishing.post_times (default: first slot)")
     args = parser.parse_args()
 
     settings = load_settings()
@@ -42,8 +43,15 @@ def main() -> int:
         print(f"ERROR: {args.slug} has not passed the quality gate (run produce.py)", file=sys.stderr)
         return 1
 
+    slot = args.time or pub["post_times"][0]
+    if slot not in pub["post_times"]:
+        print(f"ERROR: --time {slot} is not one of publishing.post_times {pub['post_times']}", file=sys.stderr)
+        return 1
     day = Date.fromisoformat(args.date)
-    local = datetime.fromisoformat(f"{day}T{pub['post_time']}:00").replace(tzinfo=ZoneInfo(pub["timezone"]))
+    local = datetime.fromisoformat(f"{day}T{slot}:00").replace(tzinfo=ZoneInfo(pub["timezone"]))
+    if local < datetime.now(ZoneInfo(pub["timezone"])):
+        print(f"ERROR: {local.isoformat()} is in the past", file=sys.stderr)
+        return 1
 
     url = upload_media(out / f"{args.slug}.mp4", settings)
     credits_file = out / f"{args.slug}.credits.json"

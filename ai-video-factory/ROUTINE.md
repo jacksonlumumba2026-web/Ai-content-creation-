@@ -1,4 +1,4 @@
-# Daily routine — one new video, scheduled for owner approval
+# Daily routine — two new videos, scheduled for owner approval
 
 Run by a scheduled Claude Code session every day. Follow these steps in order. Read
 `CLAUDE.md` first; its rules apply. Work in the repository root.
@@ -16,10 +16,12 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
 1. **Environment:** `python3 ai-video-factory/scripts/check_env.py` must end `RESULT: READY`.
    If not, run `bash ai-video-factory/scripts/setup_env.sh` and re-check. If still not ready, stop
    and report.
-2. **Queue check:** call Metricool `getScheduledPosts` (brandId `7036996`, timezone
-   `Africa/Nairobi`) for today through today+6. If 3 or more posts are already scheduled in the
-   next 3 days, stop — the queue is full. Otherwise the target date is the first day from today
-   (only if it is before 16:30 Nairobi time) or tomorrow onward with no scheduled post.
+2. **Queue check:** the owner wants **2 posts per day**, at the `publishing.post_times` slots
+   (12:30 and 18:30 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
+   timezone `Africa/Nairobi`) for today through today+3. List the slots in that window that are
+   at least 2 hours in the future and have no post. If there are none, stop — the queue is full.
+   Otherwise make **one video per free slot, up to 2 videos this run**, earliest slots first.
+   Repeat steps 3–11 for each video (two different topics).
 3. **Topic:** pick one timely topic in AI, business, money or technology, useful to small
    business owners and entrepreneurs (the audience of Jackson web Solutions). Use WebSearch
    for news from the last 7 days. Avoid topics already in `ai-video-factory/research/posted.jsonl`.
@@ -44,10 +46,11 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
 7. **Review frames:** extract 3 frames (≈2s, middle, ≈5s before the end) with ffmpeg and look at
    them. Fix overlaps, cut-off text or wrong graphics before continuing.
 8. **Commit & push** the script, research and captions to the default branch.
-9. **Prepare:** `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date <target>`.
+9. **Prepare:** `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date <YYYY-MM-DD> --time <HH:MM>`
+   for the slot this video fills.
 10. **Schedule:** call Metricool `createScheduledPost` with the printed `blogId`, `date` and
     `info` exactly as printed (`autoPublish` must be `false`).
-11. **Log:** append `{"date": ..., "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
+11. **Log:** append `{"date": ..., "time": ..., "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
     to `ai-video-factory/research/posted.jsonl`, commit and push.
-12. **Report** in one short message: topic, target date/time, Metricool planner link, and any
-    problems.
+12. **Report** in one short message: for each video the topic, date/time and Metricool planner
+    link, plus any problems (e.g. footage unavailable, gate failures).
