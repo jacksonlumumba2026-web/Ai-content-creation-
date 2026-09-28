@@ -21,6 +21,43 @@ python3 ai-video-factory/scripts/check_env.py         # should end with: RESULT:
 `check_env.py` also encodes a 1-second 1080×1920 test clip with ffmpeg and, once a voice is
 installed, synthesizes a short test phrase with Piper.
 
+### Produce a video (one command)
+
+```bash
+python3 ai-video-factory/scripts/produce.py --slug 2026-09-28-half-of-small-businesses-use-ai
+```
+
+Reads `scripts/<slug>.md` and runs voiceover → captions → render → quality gate. Output:
+`output/<slug>.mp4` plus `output/<slug>.report.json`. Exit code 0 only if the gate passes
+(30–60s, 1080×1920, title/caption/sources present, no banned money claims like "guaranteed").
+
+Script format (`scripts/<slug>.md`):
+
+```markdown
+---
+title: "Half of small businesses now use AI"        # on-screen headline
+youtube_title: "Half of Small Businesses Now Use AI — Here's What For #Shorts"
+caption: "Post text for TikTok / Facebook"
+hashtags: [ai, smallbusiness]
+sources: [https://...]                               # required
+visuals:                                             # >= 3 required (script.min_visuals)
+  - {at: "Forty-six percent", type: stat, value: "46%", percent: 46, label: "already use AI"}
+  - {at: "Number one", type: list, number: 1, icon: "✍️", label: "Writing & marketing"}
+  - {at: "labor costs", type: compare, bars: [{label: Labor costs, value: 12}, {label: Productivity, value: 85}]}
+  - {at: "competitors", type: icon, icon: "🏁", label: "Same team. More output."}
+  - {at: "real question", type: text, label: "Replace your team?"}
+---
+
+## Narration
+~120–160 words (Piper speaks ~3 words/second → 40–55s).
+```
+
+Render look: animated dark gradient (palette picked per video), headline at the top,
+**on-screen graphics** (stat rings, numbered list cards with icons, comparison bars, icon and text
+cards — drawn by `src/visuals.py`) that slide in when their `at` phrase is spoken, big
+word-by-word captions with the spoken word highlighted, channel handle, progress bar.
+`text` cards use DejaVu Sans, so put emoji only in `icon` fields.
+
 ### Voiceovers (free & local)
 
 Two engines, chosen by `providers.tts` in `config/settings.yaml`:
@@ -88,7 +125,7 @@ re-run on its own and every step is reviewable in a Git diff.
 | 4 | **Captions** — word-timed subtitles from the voiceover | `<slug>.srt`, `<slug>.words.json` | `captions/` | faster-whisper (local, free) — `scripts/captions.py` |
 | 5 | **Visuals** — b-roll, images, on-screen text | `<slug>/…` | `assets/images`, `assets/video` | stock / image provider *(not connected)* |
 | 6 | **Music** — royalty-free bed, ducked under voice | `…` | `music/` | local licensed library |
-| 7 | **Render** — assemble 1080×1920 MP4 | `<slug>.mp4` | `output/` | ffmpeg *(installed; render stage not built yet)* |
+| 7 | **Render** — assemble 1080×1920 MP4 | `<slug>.mp4` | `output/` | ffmpeg — `scripts/produce.py` runs stages 3–7 + quality gate |
 | 8 | **Review & publish** — human check, then schedule | — | — | manual → Metricool / OpusClip later |
 
 Guardrails baked into the config:
@@ -117,13 +154,16 @@ ai-video-factory/
 │   ├── config.py        # loads + validates configuration
 │   ├── tts.py           # text-to-speech (Piper, ffmpeg Flite)
 │   ├── captions.py      # word timing + script alignment + SRT/VTT
+│   ├── render.py        # ffmpeg render: background, headline, animated captions
+│   ├── publish.py       # quality gate, media hosting, Metricool payload
 │   └── scriptfile.py    # reads narration from script markdown
 ├── scripts/
 │   ├── check_env.py         # environment check
 │   ├── setup_env.sh         # installs ffmpeg, Python deps, Piper voice
 │   ├── setup_piper_voice.py # downloads the configured Piper voice
 │   ├── voiceover.py         # text/script -> voiceovers/<slug>.wav
-│   └── captions.py          # voiceover -> captions/<slug>.srt + words.json
+│   ├── captions.py          # voiceover -> captions/<slug>.srt + words.json
+│   └── produce.py           # script -> finished, quality-checked MP4
 ├── models/              # downloaded model files, e.g. Piper voices (git-ignored)
 ├── research/            # topic research + sources (committed)
 ├── assets/{images,video,audio}/   # visual/audio source material (media git-ignored)

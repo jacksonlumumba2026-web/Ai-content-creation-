@@ -5,13 +5,14 @@ Instructions for Claude Code when working in this project. See README.md for the
 ## What this project is
 A pipeline for original 30–60s vertical (1080×1920) videos about AI, business, money and
 technology, for TikTok, YouTube Shorts and Instagram Reels. Built so far: config, environment
-check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Flite until the voice model is downloaded). Captions via faster-whisper aligned to the script. No render stage yet.
+check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Flite until the voice model is downloaded). Captions via faster-whisper aligned to the script. Render + quality gate via `scripts/produce.py`.
 
 ## Commands
 - Environment check: `python3 ai-video-factory/scripts/check_env.py` (must end `RESULT: READY`)
 - Install deps (ffmpeg, PyYAML, piper-tts, faster-whisper, voice): `bash ai-video-factory/scripts/setup_env.sh`
 - Download Piper voice: `python3 ai-video-factory/scripts/setup_piper_voice.py`
 - Voiceover: `python3 ai-video-factory/scripts/voiceover.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
+- Produce a video: `python3 ai-video-factory/scripts/produce.py --slug <slug>` (script -> MP4 + quality gate)
 - Captions: `python3 ai-video-factory/scripts/captions.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
   (always pass the script: caption words come from it, Whisper only supplies timing)
 
@@ -25,8 +26,13 @@ Run the environment check after any change to `config/` or `src/config.py`.
 - **No paid services without asking.** Do not call paid APIs, spend credits (ElevenLabs,
   OpusClip, Canva AI, etc.), create API keys, or install paid tools unless the user approves
   that specific action in the current conversation.
-- **Never publish or schedule posts** unless the user explicitly asks for that specific post.
-  `publishing.auto_publish` stays `false`.
+- **Publishing (owner decision 2026-09-28):** videos go to the *Jackson web Solutions* accounts
+  (YouTube Shorts, TikTok, Facebook Reels) via Metricool, **always with `autoPublish: false`** so
+  the owner approves each post from the Metricool phone app. Only schedule videos that passed the
+  quality gate. Never set `publishing.auto_publish` to true or post directly unless the owner
+  explicitly asks for that change.
+- Commentary on other creators' videos: our own script, voice and graphics only; never use
+  their footage, audio or thumbnails; state facts only as far as the sources support.
 - **Never commit secrets.** Keys go in `config/.env` (git-ignored) or environment secrets.
   Never print key values; only report whether they are set.
 - Read settings through `src.config.load_settings()` — don't hard-code resolution, fps,

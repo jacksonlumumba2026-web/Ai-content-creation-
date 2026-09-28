@@ -10,7 +10,7 @@ from __future__ import annotations
 import difflib
 import json
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from src.config import ConfigError, Settings
@@ -28,6 +28,7 @@ class Cue:
     start: float
     end: float
     lines: list[str]
+    words: list[Word] = field(default_factory=list)
 
 
 def _norm(token: str) -> str:
@@ -117,7 +118,7 @@ def group_cues(words: list[Word], settings: Settings) -> list[Cue]:
                 lines[-1] += " " + w.text
             else:
                 lines.append(w.text)
-        cues.append(Cue(current[0].start, current[-1].end, lines))
+        cues.append(Cue(current[0].start, current[-1].end, lines, list(current)))
         current.clear()
 
     for w in words:
@@ -131,9 +132,10 @@ def group_cues(words: list[Word], settings: Settings) -> list[Cue]:
             flush()
     flush()
 
-    # Keep each cue on screen until the next one starts (no flicker between cues).
+    # Keep each cue on screen until the next one starts, so sentence pauses never leave a
+    # blank screen (a gap of more than 1.5s is a deliberate beat and stays empty).
     for a, b in zip(cues, cues[1:]):
-        if b.start - a.end < 0.3:
+        if b.start - a.end < 1.5:
             a.end = b.start
     return cues
 

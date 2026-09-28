@@ -174,7 +174,7 @@ def check_python_packages() -> None:
     packages = {
         "yaml": ("PyYAML", True),
         "requests": ("requests", False),
-        "PIL": ("Pillow — image/text frames", False),
+        "PIL": ("Pillow — on-screen graphics", True),
         "moviepy": ("moviepy — Python video editing", False),
         "piper": ("piper-tts — local text-to-speech", False),
         "faster_whisper": ("faster-whisper — caption timing", False),

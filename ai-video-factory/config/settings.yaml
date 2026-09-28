@@ -30,20 +30,26 @@ video:
   audio_sample_rate: 48000
   target_loudness_lufs: -14
 
+branding:
+  handle: "@jacksonwebsolutions"  # shown on screen; matches the TikTok account in Metricool
+
 script:
   words_per_minute: 160       # ~80–160 words for a 30–60s video
   hook_max_sec: 3             # the first line must land within 3 seconds
   require_sources: true       # every factual claim needs a source in research/
-  require_human_review: true  # scripts are drafts until a person approves them
+  min_visuals: 3              # on-screen graphics per video (stat/list/compare/icon/text cards)
+  require_human_review: true  # owner approves each post in the Metricool app before it goes live
 
 captions:
   format: srt                 # srt | vtt | ass
-  max_chars_per_line: 32
+  max_chars_per_line: 16      # ~16 bold caps fit across 1080px at font_size 86
   max_lines: 2
-  max_words_per_cue: 5        # short, punchy cues read better on vertical video
+  max_words_per_cue: 4        # short, punchy cues read better on vertical video
   break_on_pause_sec: 0.35    # start a new cue after a pause this long
-  font: "DejaVu Sans Bold"    # installed in this container; swap for a brand font later
-  position: lower_third       # keep clear of platform UI at the bottom and right edge
+  font: "DejaVu Sans"         # bold weight is used; installed in this container
+  uppercase: true             # punchy all-caps captions
+  font_size: 86
+  position_y: 1270            # caption centre (px); below the graphics card, clear of TikTok/Reels bottom UI
 
 # Providers: which service does each job. "none" = step not wired up yet.
 # Options listed in comments are candidates, not commitments.
@@ -55,7 +61,7 @@ providers:
   music: none                 # none | local_library
   transcription: whisper_local # none | whisper_local | elevenlabs
   render: ffmpeg              # none | ffmpeg | moviepy | descript
-  publish: none               # none | manual | metricool | opusclip
+  publish: metricool          # none | manual | metricool | opusclip
 
 # Local, free text-to-speech.
 tts:
@@ -77,18 +83,25 @@ transcription:
     beam_size: 5
 
 publishing:
+  # Owner decision (2026-09-28): post to the Jackson web Solutions accounts, approving each
+  # video from the Metricool phone app. auto_publish=false -> Metricool sends a push
+  # notification at the scheduled time and the owner taps publish; nothing goes out unapproved.
   platforms:
-    tiktok:
-      enabled: false
-      max_duration_sec: 60
     youtube_shorts:
-      enabled: false
-      max_duration_sec: 60
+      enabled: true
+    tiktok:
+      enabled: true
+    facebook_reels:
+      enabled: true
     instagram_reels:
-      enabled: false
-      max_duration_sec: 60
-  auto_publish: false         # always false until explicitly approved
-  ai_disclosure: true         # label AI-generated/synthetic content where platforms require it
+      enabled: false          # connected in Metricool; not requested
+  auto_publish: false         # false = approve each post in the Metricool app
+  posts_per_day: 1
+  post_time: "18:30"          # Africa/Nairobi, the Metricool brand timezone
+  timezone: Africa/Nairobi
+  metricool_blog_id: "7036996"  # Metricool brand "Jackson web Solutions"
+  media_branch: media         # public MP4 hosting (orphan branch, raw.githubusercontent.com)
+  ai_disclosure: true         # sets the AI-generated flags on YouTube / TikTok / Instagram
 
 # Relative to the ai-video-factory/ root.
 paths:
