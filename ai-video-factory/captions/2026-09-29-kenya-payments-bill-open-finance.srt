@@ -1,200 +1,204 @@
 1
-00:00:00,000 --> 00:00:01,000
-Kenya just
-published a
+00:00:00,000 --> 00:00:01,080
+Picture a shop
+owner
 
 2
-00:00:01,000 --> 00:00:02,260
-new payments
-bill,
+00:00:01,080 --> 00:00:02,140
+in Nakuru.
 
 3
-00:00:02,260 --> 00:00:02,800
-and it could
-change
+00:00:02,140 --> 00:00:03,500
+Let's call her
+Wanjiku.
 
 4
-00:00:02,800 --> 00:00:03,900
-how your
-business gets
+00:00:03,500 --> 00:00:04,700
+Every day,
+hundreds of
 
 5
-00:00:03,900 --> 00:00:05,200
-paid and
-borrows.
+00:00:04,700 --> 00:00:06,260
+M-Pesa payments
+land on
 
 6
-00:00:05,200 --> 00:00:06,800
+00:00:06,260 --> 00:00:07,000
+her phone.
+
+7
+00:00:07,000 --> 00:00:07,680
+But when she
+asks
+
+8
+00:00:07,680 --> 00:00:08,460
+her bank for a
+
+9
+00:00:08,460 --> 00:00:09,240
+loan to stock up
+
+10
+00:00:09,240 --> 00:00:10,040
+for December,
+
+11
+00:00:10,040 --> 00:00:11,240
+the answer is
+no.
+
+12
+00:00:11,240 --> 00:00:12,160
+The bank can't
+see
+
+13
+00:00:12,160 --> 00:00:13,080
+her sales.
+
+14
+00:00:13,080 --> 00:00:14,080
+Now, a new bill
+
+15
+00:00:14,080 --> 00:00:15,080
+could change
+that.
+
+16
+00:00:15,080 --> 00:00:16,620
 On September
 twenty-second,
 the
 
-7
-00:00:06,800 --> 00:00:07,840
+17
+00:00:16,620 --> 00:00:17,780
 Central Bank of
 Kenya
 
-8
-00:00:07,840 --> 00:00:08,900
+18
+00:00:17,780 --> 00:00:18,900
 and the National
 Treasury
 
-9
-00:00:08,900 --> 00:00:10,280
+19
+00:00:18,900 --> 00:00:20,300
 released the
 draft National
 
-10
-00:00:10,280 --> 00:00:11,760
+20
+00:00:20,300 --> 00:00:21,860
 Payment System
 Bill.
 
-11
-00:00:11,760 --> 00:00:12,900
-Here's what it
-means.
-
-12
-00:00:12,900 --> 00:00:14,540
-Number one: open
-finance.
-
-13
-00:00:14,540 --> 00:00:15,520
-With your
-consent,
-
-14
-00:00:15,520 --> 00:00:17,100
-licensed
-third-party apps
-could
-
-15
-00:00:17,100 --> 00:00:18,160
-access your bank
-and
-
-16
-00:00:18,160 --> 00:00:19,300
-mobile money
-data.
-
-17
-00:00:19,300 --> 00:00:19,960
-That could mean
-faster
-
-18
-00:00:19,960 --> 00:00:21,100
-loans and better
-tools
-
-19
-00:00:21,100 --> 00:00:21,940
-built on your
-real
-
-20
-00:00:21,940 --> 00:00:23,200
-sales history.
-
 21
-00:00:23,200 --> 00:00:24,520
-Number two:
-payment
-providers
+00:00:21,860 --> 00:00:22,760
+The big idea is
 
 22
-00:00:24,520 --> 00:00:25,480
-would have to
-build
+00:00:22,760 --> 00:00:24,020
+open finance.
 
 23
-00:00:25,480 --> 00:00:26,700
-systems that
-share that
+00:00:24,020 --> 00:00:25,540
+With Wanjiku's
+consent,
 
 24
-00:00:26,700 --> 00:00:27,800
-data securely.
+00:00:25,540 --> 00:00:26,780
+licensed apps
+could access
 
 25
-00:00:27,800 --> 00:00:29,140
-Number three:
-tougher rules,
+00:00:26,780 --> 00:00:27,720
+her bank and
+mobile
 
 26
-00:00:29,140 --> 00:00:30,740
-including
+00:00:27,720 --> 00:00:28,700
+money data,
+
+27
+00:00:28,700 --> 00:00:29,320
+and see her real
+
+28
+00:00:29,320 --> 00:00:30,740
+sales history.
+
+29
+00:00:30,740 --> 00:00:31,620
+Payment
+providers would
+have
+
+30
+00:00:31,620 --> 00:00:32,500
+to share that
+data
+
+31
+00:00:32,500 --> 00:00:33,460
+securely,
+
+32
+00:00:33,460 --> 00:00:34,840
+and electronic
+money issuers
+
+33
+00:00:34,840 --> 00:00:36,220
+would face
 capital
 requirements
 
-27
-00:00:30,740 --> 00:00:31,350
+34
+00:00:36,220 --> 00:00:37,103
 of up to two
 
-28
-00:00:31,350 --> 00:00:32,560
+35
+00:00:37,103 --> 00:00:38,300
 hundred and
 fifty million
 
-29
-00:00:32,560 --> 00:00:34,200
-shillings for
-electronic money
+36
+00:00:38,300 --> 00:00:39,240
+shillings.
 
-30
-00:00:34,200 --> 00:00:35,140
-issuers.
-
-31
-00:00:35,140 --> 00:00:36,260
+37
+00:00:39,240 --> 00:00:40,460
 Nothing is law
 yet.
 
-32
-00:00:36,260 --> 00:00:36,880
-You can share
-your
-
-33
-00:00:36,880 --> 00:00:38,620
-views until
-October ninth,
-
-34
-00:00:38,620 --> 00:00:39,480
-and public
-forums are
-
-35
-00:00:39,480 --> 00:00:40,260
-running in towns
-across
-
-36
-00:00:40,260 --> 00:00:41,080
-Kenya.
-
-37
-00:00:41,080 --> 00:00:41,480
-Would you let an
-
 38
-00:00:41,480 --> 00:00:42,480
-app see your
-M-Pesa
+00:00:40,460 --> 00:00:41,320
+Kenyans can
+share their
 
 39
-00:00:42,480 --> 00:00:43,440
-history for a
-better
+00:00:41,320 --> 00:00:43,140
+views until
+October ninth.
 
 40
-00:00:43,440 --> 00:00:44,060
-loan?
+00:00:43,140 --> 00:00:43,840
+So, would you
+let
 
 41
-00:00:44,060 --> 00:00:44,540
+00:00:43,840 --> 00:00:44,520
+an app see your
+
+42
+00:00:44,520 --> 00:00:45,680
+M-Pesa history
+for a
+
+43
+00:00:45,680 --> 00:00:46,540
+better loan?
+
+44
+00:00:46,540 --> 00:00:47,040
 Tell me below.

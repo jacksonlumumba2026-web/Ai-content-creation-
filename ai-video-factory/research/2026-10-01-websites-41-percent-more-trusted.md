@@ -15,3 +15,7 @@ US sample, fieldwork November 2025 — narration says "American consumers".
 
 ## Sources
 - https://www.dreamhost.com/blog/dreamhost-2026-local-business-trust-index/
+
+## Story format
+Told as a story with a clearly illustrative character (labelled on screen as
+"Illustrative example"). The character's situation is hypothetical; every factual claim above is sourced.

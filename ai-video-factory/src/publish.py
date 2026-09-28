@@ -51,6 +51,14 @@ def quality_gate(script: Script, probe_info: dict, settings: Settings) -> list[s
     if len(meta.get("visuals") or []) < settings["script"]["min_visuals"]:
         problems.append(f"fewer than {settings['script']['min_visuals']} visuals — "
                         "videos need on-screen graphics, not just captions")
+    if settings["script"].get("require_story"):
+        story = meta.get("story") or {}
+        missing = [k for k in ("character", "problem", "turn", "payoff") if not story.get(k)]
+        if missing:
+            problems.append(f"story missing {', '.join(missing)} — every video is told as a story")
+        if story.get("illustrative") and not any(
+                "illustrative" in str(v.get("label", "")).lower() for v in meta.get("visuals") or []):
+            problems.append("illustrative character must be labelled on screen ('Illustrative example')")
     if settings["script"]["require_sources"] and not meta.get("sources"):
         problems.append("no sources listed in front matter")
 

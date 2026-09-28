@@ -38,6 +38,7 @@ script:
   hook_max_sec: 3             # the first line must land within 3 seconds
   require_sources: true       # every factual claim needs a source in research/
   min_visuals: 3              # on-screen graphics per video (stat/list/compare/icon/text cards)
+  require_story: true         # owner: tell every video as a story (character, problem, turn, payoff)
   require_human_review: true  # owner approves each post in the Metricool app before it goes live
 
 captions:

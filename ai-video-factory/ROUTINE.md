@@ -37,6 +37,18 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    `title` ≤ 44 chars, `youtube_title` ≤ 95 chars ending `#Shorts`, `caption`, 5–6 `hashtags`,
    `sources`, and 6–11 `visuals` whose `at` phrases appear in the narration in order.
    Emoji only in `icon` fields. End with a question or follow call-to-action.
+   **Tell it as a story** (owner request — stories keep people watching):
+   - *Hook (first sentence):* drop the viewer into a person's situation ("Picture a shop owner in
+     Nakuru…"), not a statistic.
+   - *Problem:* what goes wrong for them. *Turn:* the news/fact/tool that changes things.
+   - *Payoff:* the sourced facts, framed as what this means for the character, then the lesson.
+   - *End:* a question that puts the viewer in the character's shoes.
+   - *On-screen `title`:* a story tease, not a topic label ("Her bank said no. A new bill could fix it").
+   - Characters are either real people from the sources, or clearly **illustrative** ("let's call
+     her Wanjiku"), marked `illustrative: true` and labelled on screen with an `Illustrative
+     example` visual. Never invent quotes, outcomes or "true stories". Facts stay sourced.
+   - Add front matter `story: {character, problem, turn, payoff, illustrative}` — the quality gate
+     rejects scripts without it.
    Also add 4–7 `scenes` (`{at: "<phrase>", query: "<Pexels search>"}`, first one at the opening
    words) so real stock footage plays behind the graphics. Queries must describe filmable things
    (e.g. "small business owner shop", "hands typing laptop", "busy city street africa"), not

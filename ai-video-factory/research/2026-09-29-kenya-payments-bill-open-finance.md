@@ -20,3 +20,7 @@ consistent with the stated open-finance goal; not a claim about outcomes. Not le
 - https://thekenyatimes.com/latest-kenya-times-news/treasury-cbk-seek-public-views-on-new-national-payment-system-bill-2026/
 - https://kenyanwallstreet.com/national-payment-system-bill
 - https://techweez.com/2026/09/22/kenya-national-payment-system-bill-2026/
+
+## Story format
+Told as a story with a clearly illustrative character (labelled on screen as
+"Illustrative example"). The character's situation is hypothetical; every factual claim above is sourced.
