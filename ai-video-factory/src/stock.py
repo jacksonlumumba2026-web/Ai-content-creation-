@@ -56,7 +56,16 @@ def pick_file(video: dict, min_height: int = 1280) -> dict | None:
     return max(files, key=lambda f: f["height"], default=None)
 
 
-def search(query: str, key: str, per_page: int = 15) -> list[dict]:
+def relevance(query: str, video: dict) -> int:
+    """How many query words appear in the clip's description (Pexels URL slug)."""
+    slug = video.get("url", "").rstrip("/").rsplit("/", 1)[-1].lower()
+    described = set(slug.replace("-", " ").split())
+    stems = {w[:-1] if w.endswith("s") else w for w in described}
+    words = [w.lower() for w in query.split()]
+    return sum(1 for w in words if w in described or (w[:-1] if w.endswith("s") else w) in stems)
+
+
+def search(query: str, key: str, per_page: int = 30) -> list[dict]:
     params = urllib.parse.urlencode({"query": query, "orientation": "portrait",
                                      "size": "medium", "per_page": per_page})
     return _request_json(f"{API}?{params}", key).get("videos", [])
@@ -113,8 +122,11 @@ def fetch_scenes(specs: list, words: list[Word], duration: float, settings: Sett
                       if v["id"] not in used and v.get("duration", 0) >= min_dur and pick_file(v)]
         if not candidates:
             raise ValueError(f"scene {i + 1}: no portrait clips found for {spec['query']!r}")
-        # Prefer clips long enough to cover the segment without looping.
-        video = next((v for v in candidates if v["duration"] >= end - start), candidates[0])
+        # Prefer clips whose Pexels description (URL slug) mentions the search words, then clips
+        # long enough to cover the segment without looping; ties keep Pexels' relevance order.
+        video = max(candidates, key=lambda v: (relevance(spec["query"], v),
+                                               v["duration"] >= end - start,
+                                               -candidates.index(v)))
         used.add(video["id"])
         rendition = pick_file(video)
         clip = download(rendition["link"], cache / f"{video['id']}_{rendition['height']}.mp4")

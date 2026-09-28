@@ -19,7 +19,10 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
 2. **Queue check:** the owner wants **2 posts per day**, at the `publishing.post_times` slots
    (12:30 and 18:30 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
    timezone `Africa/Nairobi`) for today through today+3. List the slots in that window that are
-   at least 2 hours in the future and have no post. If there are none, stop — the queue is full.
+   at least 2 hours in the future. A slot is **taken** if ANY post is scheduled within 2 hours of
+   it — including the owner's own posts (e.g. a 12:00 post blocks the 12:30 slot). Never move,
+   edit or delete the owner's posts. If no slot is free, stop — the queue is full.
+   Also skip topics already published (check `posted.jsonl`): never re-post a video that is live.
    Otherwise make **one video per free slot, up to 2 videos this run**, earliest slots first.
    Repeat steps 3–11 for each video (two different topics).
 3. **Topic:** pick one timely topic in AI, business, money or technology, useful to small
@@ -43,8 +46,11 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    fails, fix the script and re-run (max 3 attempts), then stop and report if it still fails.
    If produce.py warns that stock footage was unavailable, the video still uses the gradient;
    mention it in the report.
-7. **Review frames:** extract 3 frames (≈2s, middle, ≈5s before the end) with ffmpeg and look at
-   them. Fix overlaps, cut-off text or wrong graphics before continuing.
+7. **Review frames and footage:** extract 3 frames (≈2s, middle, ≈5s before the end) with ffmpeg
+   and look at them. Fix overlaps, cut-off text or wrong graphics before continuing. Read
+   `output/<slug>.credits.json`: each clip's Pexels URL describes the clip — if one clearly doesn't
+   fit its scene (wrong subject, wrong crop/product, misleading), change that scene's query and
+   re-run produce.py.
 8. **Commit & push** the script, research and captions to the default branch.
 9. **Prepare:** `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date <YYYY-MM-DD> --time <HH:MM>`
    for the slot this video fills.

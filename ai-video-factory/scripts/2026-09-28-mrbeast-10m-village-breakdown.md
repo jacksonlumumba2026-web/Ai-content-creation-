@@ -7,6 +7,14 @@ sources:
   - https://www.pulse.com.gh/story/mrbeast-ghana-village-child-labour-2026092016314002746
   - https://fortune.com/2026/09/21/billionaire-youtuber-mrbeast-ghana-village-philanthropy-work-engagement/
   - https://k24.digital/entertainment/celebrity/mrbeast-builds-ksh1-3b-village-in-ghana-to-help-children-leave-illegal-labour/amp
+scenes:
+  - {at: "MrBeast just spent", query: "african village aerial"}
+  - {at: "Abna Dakwa", query: "african community people"}
+  - {at: "Number one", query: "african children classroom school"}
+  - {at: "Number two", query: "doctor clinic africa"}
+  - {at: "Number three", query: "african market vendors"}
+  - {at: "year of planning", query: "construction workers building house"}
+  - {at: "The goal", query: "african children smiling"}
 visuals:
   - at: "ten million dollars"
     type: stat
