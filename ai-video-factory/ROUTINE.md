@@ -17,7 +17,7 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    If not, run `bash ai-video-factory/scripts/setup_env.sh` and re-check. If still not ready, stop
    and report.
 2. **Queue check:** the owner wants **2 posts per day**, at the `publishing.post_times` slots
-   (12:30 and 18:30 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
+   (12:30 and 19:00 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
    timezone `Africa/Nairobi`) for today through today+3. List the slots in that window that are
    at least 2 hours in the future. A slot is **taken** if ANY post is scheduled within 2 hours of
    it — including the owner's own posts (e.g. a 12:00 post blocks the 12:30 slot). Never move,
