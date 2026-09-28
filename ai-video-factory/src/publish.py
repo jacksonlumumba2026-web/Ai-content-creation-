@@ -97,6 +97,7 @@ def metricool_info(script: Script, media_url: str, settings: Settings) -> dict:
         }
     if "tiktok" in networks:
         info["tiktokData"] = {
+            "title": title.replace("#Shorts", "").strip()[:90],  # required by Metricool
             "privacyOption": "PUBLIC_TO_EVERYONE", "disableComment": False, "disableDuet": False,
             "disableStitch": False, "commercialContentThirdParty": False,
             "commercialContentOwnBrand": False, "autoAddMusic": False, "isAigc": ai,
