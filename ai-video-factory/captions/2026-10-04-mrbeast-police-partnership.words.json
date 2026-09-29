@@ -1,0 +1,777 @@
+[
+ {
+  "text": "When",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "text": "MrBeast",
+  "start": 0.1,
+  "end": 0.52
+ },
+ {
+  "text": "wanted",
+  "start": 0.52,
+  "end": 0.86
+ },
+ {
+  "text": "one",
+  "start": 0.86,
+  "end": 1.26
+ },
+ {
+  "text": "hundred",
+  "start": 1.26,
+  "end": 1.56
+ },
+ {
+  "text": "police",
+  "start": 1.56,
+  "end": 1.82
+ },
+ {
+  "text": "officers",
+  "start": 1.82,
+  "end": 2.24
+ },
+ {
+  "text": "to",
+  "start": 2.24,
+  "end": 2.56
+ },
+ {
+  "text": "hunt",
+  "start": 2.56,
+  "end": 2.7
+ },
+ {
+  "text": "him,",
+  "start": 2.7,
+  "end": 2.92
+ },
+ {
+  "text": "he",
+  "start": 3.26,
+  "end": 3.36
+ },
+ {
+  "text": "didn't",
+  "start": 3.36,
+  "end": 3.66
+ },
+ {
+  "text": "hire",
+  "start": 3.66,
+  "end": 3.9
+ },
+ {
+  "text": "actors.",
+  "start": 3.9,
+  "end": 4.38
+ },
+ {
+  "text": "Instead,",
+  "start": 4.8,
+  "end": 5.1
+ },
+ {
+  "text": "he",
+  "start": 5.44,
+  "end": 5.48
+ },
+ {
+  "text": "partnered",
+  "start": 5.48,
+  "end": 5.74
+ },
+ {
+  "text": "with",
+  "start": 5.74,
+  "end": 6.12
+ },
+ {
+  "text": "the",
+  "start": 6.12,
+  "end": 6.26
+ },
+ {
+  "text": "Indiana",
+  "start": 6.26,
+  "end": 6.42
+ },
+ {
+  "text": "State",
+  "start": 6.42,
+  "end": 6.86
+ },
+ {
+  "text": "Police.",
+  "start": 6.86,
+  "end": 7.26
+ },
+ {
+  "text": "Think",
+  "start": 7.8,
+  "end": 7.92
+ },
+ {
+  "text": "about",
+  "start": 7.92,
+  "end": 8.16
+ },
+ {
+  "text": "why",
+  "start": 8.16,
+  "end": 8.36
+ },
+ {
+  "text": "that",
+  "start": 8.36,
+  "end": 8.54
+ },
+ {
+  "text": "worked.",
+  "start": 8.54,
+  "end": 8.72
+ },
+ {
+  "text": "The",
+  "start": 9.1,
+  "end": 9.16
+ },
+ {
+  "text": "troopers",
+  "start": 9.16,
+  "end": 9.36
+ },
+ {
+  "text": "took",
+  "start": 9.36,
+  "end": 9.76
+ },
+ {
+  "text": "part",
+  "start": 9.76,
+  "end": 10.02
+ },
+ {
+  "text": "off",
+  "start": 10.02,
+  "end": 10.3
+ },
+ {
+  "text": "duty.",
+  "start": 10.3,
+  "end": 10.52
+ },
+ {
+  "text": "The",
+  "start": 10.88,
+  "end": 10.9
+ },
+ {
+  "text": "department",
+  "start": 10.9,
+  "end": 11.14
+ },
+ {
+  "text": "was",
+  "start": 11.14,
+  "end": 11.5
+ },
+ {
+  "text": "paid",
+  "start": 11.5,
+  "end": 11.72
+ },
+ {
+  "text": "for",
+  "start": 11.72,
+  "end": 11.96
+ },
+ {
+  "text": "the",
+  "start": 11.96,
+  "end": 12.04
+ },
+ {
+  "text": "use",
+  "start": 12.04,
+  "end": 12.24
+ },
+ {
+  "text": "of",
+  "start": 12.24,
+  "end": 12.46
+ },
+ {
+  "text": "its",
+  "start": 12.46,
+  "end": 12.62
+ },
+ {
+  "text": "equipment.",
+  "start": 12.62,
+  "end": 12.88
+ },
+ {
+  "text": "And",
+  "start": 13.3,
+  "end": 13.38
+ },
+ {
+  "text": "if",
+  "start": 13.38,
+  "end": 13.5
+ },
+ {
+  "text": "they",
+  "start": 13.5,
+  "end": 13.62
+ },
+ {
+  "text": "caught",
+  "start": 13.62,
+  "end": 13.82
+ },
+ {
+  "text": "all",
+  "start": 13.82,
+  "end": 14.08
+ },
+ {
+  "text": "five",
+  "start": 14.08,
+  "end": 14.36
+ },
+ {
+  "text": "players",
+  "start": 14.36,
+  "end": 14.84
+ },
+ {
+  "text": "in",
+  "start": 14.84,
+  "end": 15.04
+ },
+ {
+  "text": "twelve",
+  "start": 15.04,
+  "end": 15.24
+ },
+ {
+  "text": "hours,",
+  "start": 15.24,
+  "end": 15.74
+ },
+ {
+  "text": "they",
+  "start": 16.04,
+  "end": 16.14
+ },
+ {
+  "text": "kept",
+  "start": 16.14,
+  "end": 16.32
+ },
+ {
+  "text": "a",
+  "start": 16.32,
+  "end": 16.48
+ },
+ {
+  "text": "five",
+  "start": 16.48,
+  "end": 16.74
+ },
+ {
+  "text": "hundred",
+  "start": 16.74,
+  "end": 17.02
+ },
+ {
+  "text": "thousand",
+  "start": 17.02,
+  "end": 17.26
+ },
+ {
+  "text": "dollar",
+  "start": 17.26,
+  "end": 17.78
+ },
+ {
+  "text": "prize.",
+  "start": 17.78,
+  "end": 18.08
+ },
+ {
+  "text": "They",
+  "start": 18.5,
+  "end": 18.56
+ },
+ {
+  "text": "did,",
+  "start": 18.56,
+  "end": 18.78
+ },
+ {
+  "text": "with",
+  "start": 18.96,
+  "end": 19.1
+ },
+ {
+  "text": "about",
+  "start": 19.1,
+  "end": 19.28
+ },
+ {
+  "text": "ninety",
+  "start": 19.28,
+  "end": 19.56
+ },
+ {
+  "text": "minutes",
+  "start": 19.56,
+  "end": 19.86
+ },
+ {
+  "text": "to",
+  "start": 19.86,
+  "end": 20.14
+ },
+ {
+  "text": "spare.",
+  "start": 20.14,
+  "end": 20.36
+ },
+ {
+  "text": "MrBeast",
+  "start": 20.76,
+  "end": 21.2
+ },
+ {
+  "text": "got",
+  "start": 21.2,
+  "end": 21.46
+ },
+ {
+  "text": "something",
+  "start": 21.46,
+  "end": 21.8
+ },
+ {
+  "text": "money",
+  "start": 21.8,
+  "end": 22.12
+ },
+ {
+  "text": "alone",
+  "start": 22.12,
+  "end": 22.48
+ },
+ {
+  "text": "can't",
+  "start": 22.48,
+  "end": 23.04
+ },
+ {
+  "text": "buy:",
+  "start": 23.04,
+  "end": 23.24
+ },
+ {
+  "text": "real",
+  "start": 23.64,
+  "end": 23.74
+ },
+ {
+  "text": "officers,",
+  "start": 23.74,
+  "end": 24.22
+ },
+ {
+  "text": "a",
+  "start": 24.54,
+  "end": 24.58
+ },
+ {
+  "text": "real",
+  "start": 24.58,
+  "end": 24.76
+ },
+ {
+  "text": "training",
+  "start": 24.76,
+  "end": 25.1
+ },
+ {
+  "text": "site,",
+  "start": 25.1,
+  "end": 25.48
+ },
+ {
+  "text": "and",
+  "start": 25.74,
+  "end": 25.86
+ },
+ {
+  "text": "a",
+  "start": 25.86,
+  "end": 25.92
+ },
+ {
+  "text": "story",
+  "start": 25.92,
+  "end": 26.2
+ },
+ {
+  "text": "people",
+  "start": 26.2,
+  "end": 26.46
+ },
+ {
+  "text": "believed.",
+  "start": 26.46,
+  "end": 26.94
+ },
+ {
+  "text": "The",
+  "start": 27.24,
+  "end": 27.3
+ },
+ {
+  "text": "police",
+  "start": 27.3,
+  "end": 27.54
+ },
+ {
+  "text": "got",
+  "start": 27.54,
+  "end": 27.76
+ },
+ {
+  "text": "the",
+  "start": 27.76,
+  "end": 27.9
+ },
+ {
+  "text": "prize,",
+  "start": 27.9,
+  "end": 28.22
+ },
+ {
+  "text": "and",
+  "start": 28.24,
+  "end": 28.66
+ },
+ {
+  "text": "millions",
+  "start": 28.66,
+  "end": 28.86
+ },
+ {
+  "text": "of",
+  "start": 28.86,
+  "end": 29.14
+ },
+ {
+  "text": "people",
+  "start": 29.14,
+  "end": 29.3
+ },
+ {
+  "text": "watching",
+  "start": 29.3,
+  "end": 29.72
+ },
+ {
+  "text": "their",
+  "start": 29.72,
+  "end": 29.96
+ },
+ {
+  "text": "troopers",
+  "start": 29.98,
+  "end": 30.22
+ },
+ {
+  "text": "win.",
+  "start": 30.22,
+  "end": 30.56
+ },
+ {
+  "text": "Both",
+  "start": 31.02,
+  "end": 31.02
+ },
+ {
+  "text": "sides",
+  "start": 31.02,
+  "end": 31.36
+ },
+ {
+  "text": "came",
+  "start": 31.36,
+  "end": 31.66
+ },
+ {
+  "text": "out",
+  "start": 31.66,
+  "end": 31.9
+ },
+ {
+  "text": "ahead.",
+  "start": 31.9,
+  "end": 32.12
+ },
+ {
+  "text": "So",
+  "start": 32.62,
+  "end": 32.64
+ },
+ {
+  "text": "here's",
+  "start": 32.64,
+  "end": 32.96
+ },
+ {
+  "text": "the",
+  "start": 32.96,
+  "end": 33.08
+ },
+ {
+  "text": "lesson",
+  "start": 33.08,
+  "end": 33.34
+ },
+ {
+  "text": "for",
+  "start": 33.34,
+  "end": 33.52
+ },
+ {
+  "text": "your",
+  "start": 33.52,
+  "end": 33.66
+ },
+ {
+  "text": "business.",
+  "start": 33.66,
+  "end": 34.02
+ },
+ {
+  "text": "Number",
+  "start": 34.58,
+  "end": 34.6
+ },
+ {
+  "text": "one:",
+  "start": 34.6,
+  "end": 34.94
+ },
+ {
+  "text": "find",
+  "start": 35.12,
+  "end": 35.38
+ },
+ {
+  "text": "a",
+  "start": 35.38,
+  "end": 35.52
+ },
+ {
+  "text": "partner",
+  "start": 35.52,
+  "end": 35.82
+ },
+ {
+  "text": "who",
+  "start": 35.82,
+  "end": 36.1
+ },
+ {
+  "text": "gains",
+  "start": 36.1,
+  "end": 36.28
+ },
+ {
+  "text": "something",
+  "start": 36.28,
+  "end": 36.64
+ },
+ {
+  "text": "real,",
+  "start": 36.64,
+  "end": 37.02
+ },
+ {
+  "text": "not",
+  "start": 37.56,
+  "end": 37.56
+ },
+ {
+  "text": "just",
+  "start": 37.56,
+  "end": 37.78
+ },
+ {
+  "text": "a",
+  "start": 37.78,
+  "end": 37.98
+ },
+ {
+  "text": "favor.",
+  "start": 37.98,
+  "end": 38.24
+ },
+ {
+  "text": "Number",
+  "start": 38.7,
+  "end": 38.7
+ },
+ {
+  "text": "two:",
+  "start": 38.7,
+  "end": 39.12
+ },
+ {
+  "text": "put",
+  "start": 39.44,
+  "end": 39.64
+ },
+ {
+  "text": "clear",
+  "start": 39.64,
+  "end": 39.9
+ },
+ {
+  "text": "rules",
+  "start": 39.9,
+  "end": 40.24
+ },
+ {
+  "text": "and",
+  "start": 40.24,
+  "end": 40.54
+ },
+ {
+  "text": "rewards",
+  "start": 40.54,
+  "end": 40.82
+ },
+ {
+  "text": "in",
+  "start": 40.82,
+  "end": 41.22
+ },
+ {
+  "text": "writing.",
+  "start": 41.22,
+  "end": 41.42
+ },
+ {
+  "text": "Number",
+  "start": 41.9,
+  "end": 41.9
+ },
+ {
+  "text": "three:",
+  "start": 41.9,
+  "end": 42.28
+ },
+ {
+  "text": "make",
+  "start": 42.54,
+  "end": 42.72
+ },
+ {
+  "text": "sure",
+  "start": 42.72,
+  "end": 42.94
+ },
+ {
+  "text": "both",
+  "start": 42.94,
+  "end": 43.18
+ },
+ {
+  "text": "names",
+  "start": 43.18,
+  "end": 43.46
+ },
+ {
+  "text": "look",
+  "start": 43.46,
+  "end": 43.8
+ },
+ {
+  "text": "good",
+  "start": 43.8,
+  "end": 44.0
+ },
+ {
+  "text": "in",
+  "start": 44.0,
+  "end": 44.12
+ },
+ {
+  "text": "the",
+  "start": 44.12,
+  "end": 44.2
+ },
+ {
+  "text": "final",
+  "start": 44.2,
+  "end": 44.4
+ },
+ {
+  "text": "story.",
+  "start": 44.4,
+  "end": 44.74
+ },
+ {
+  "text": "Who",
+  "start": 45.16,
+  "end": 45.2
+ },
+ {
+  "text": "could",
+  "start": 45.2,
+  "end": 45.32
+ },
+ {
+  "text": "your",
+  "start": 45.32,
+  "end": 45.46
+ },
+ {
+  "text": "business",
+  "start": 45.46,
+  "end": 45.72
+ },
+ {
+  "text": "partner",
+  "start": 45.72,
+  "end": 46.08
+ },
+ {
+  "text": "with?",
+  "start": 46.08,
+  "end": 46.38
+ },
+ {
+  "text": "Tell",
+  "start": 46.62,
+  "end": 46.68
+ },
+ {
+  "text": "me",
+  "start": 46.68,
+  "end": 46.84
+ },
+ {
+  "text": "below.",
+  "start": 46.84,
+  "end": 47.1
+ }
+]
