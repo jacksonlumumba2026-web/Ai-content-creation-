@@ -1,4 +1,4 @@
-# Daily routine — two new videos, scheduled for owner approval
+# Daily routine — three new videos a day, scheduled for owner approval
 
 Run by a scheduled Claude Code session every day. Follow these steps in order. Read
 `CLAUDE.md` first; its rules apply. Work in the repository root.
@@ -16,16 +16,17 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
 1. **Environment:** `python3 ai-video-factory/scripts/check_env.py` must end `RESULT: READY`.
    If not, run `bash ai-video-factory/scripts/setup_env.sh` and re-check. If still not ready, stop
    and report.
-2. **Queue check:** the owner wants **2 posts per day**, at the `publishing.post_times` slots
-   (12:30 and 19:00 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
+2. **Queue check:** the owner wants **3 posts per day** (owner, 2026-09-29), at the
+   `publishing.post_times` slots (07:30, 12:30 and 19:00 Africa/Nairobi). Call Metricool `getScheduledPosts` (brandId `7036996`,
    timezone `Africa/Nairobi`) for today through today+3. List the slots in that window that are
    at least 2 hours in the future. A slot is **taken** if ANY post is scheduled within 2 hours of
    it — including the owner's own posts (e.g. a 12:00 post blocks the 12:30 slot). Never move,
    edit or delete the owner's posts. If no slot is free, stop — the queue is full.
    Also skip topics already published (check `posted.jsonl`): never re-post a video that is live.
-   Otherwise make **one video per free slot, up to 2 videos this run**, earliest slots first.
-   Repeat steps 3–11 for each video (two different topics).
-3. **Topic — two lanes** (owner request): the **12:30** slot is a 💎 **hidden gem** (rarely
+   Otherwise make **one video per free slot, up to 3 videos this run**, earliest slots first.
+   Repeat steps 3–11 for each video (different topics).
+3. **Topic — three lanes** (owner request): the **07:30** slot is a 💡 **quick win** (one practical
+   thing a small business can do today: a free tool, a feature, a how-to, a money habit); the **12:30** slot is a 💎 **hidden gem** (rarely
    discussed but worth knowing: rules, costs, free tools, scams, money mistakes); the **19:00** slot
    is 🔥 **viral** (what people are talking about this week, with a business lesson). Start from
    `ai-video-factory/research/ideas.md`, then use WebSearch (viral: last 7 days) to find or refresh
@@ -78,7 +79,7 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
    for the slot this video fills.
 10. **Schedule:** call Metricool `createScheduledPost` with the printed `blogId`, `date` and
     `info` exactly as printed (`autoPublish` must be `false`).
-11. **Log:** append `{"date": ..., "time": ..., "lane": "hidden-gem"|"viral", "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
+11. **Log:** append `{"date": ..., "time": ..., "lane": "quick-win"|"hidden-gem"|"viral", "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
     to `ai-video-factory/research/posted.jsonl`, commit and push.
 12. **Report** in one short message: for each video the topic, date/time and Metricool planner
     link, plus any problems (e.g. footage unavailable, gate failures).

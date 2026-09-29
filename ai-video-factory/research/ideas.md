@@ -1,9 +1,14 @@
 # Idea bank
 
-Two lanes (owner request 2026-09-28): 🔥 **viral** — what people are talking about this week, and
-💎 **hidden gem** — rarely discussed but worth knowing (rules, costs, free tools, scams, money
-mistakes). Daily routine alternates: 12:30 = 💎 hidden gem, 19:00 = 🔥 viral. Every idea is told
+Three lanes (owner: 2 posts/day 2026-09-28, 3 posts/day 2026-09-29): 💡 **quick win** — one
+practical thing to do today (free tool, feature, how-to, money habit); 💎 **hidden gem** — rarely
+discussed but worth knowing (rules, costs, scams, money mistakes); 🔥 **viral** — what people are
+talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem, 19:00 = 🔥 viral. Every idea is told
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
+
+## 💡 Quick wins (leads)
+- WhatsApp Business free tools: catalog, quick replies, greeting/away messages — verify on WhatsApp FAQ
+- Replying to Google reviews — verify on Google Business Profile help
 
 ## 💎 Hidden gems (verified leads)
 - Google "salon near me" searches: incomplete Google Business Profiles (~4 in 10 small local
