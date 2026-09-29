@@ -23,5 +23,7 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 - Kenya shifting focus to turning AI investments into economic gains (Sept 2026) — lead: techafricanews.com
 - Legal-AI company margins went +50% → −50% on AI API pricing, fixed with own model — lead: Bloomberg via AI roundups (verify; angle: hidden cost of AI tools)
 
+- USED 2026-09-29: MrBeast "Escape 100 Cops, Win $500,000" (owner link) → partnership (4 Oct) + storytelling (5 Oct)
+
 ## Rejected (could not verify)
 - "Mary Atieno, 22, won KSh 500,000 for eco-packaging" — no primary source found; do not use.
