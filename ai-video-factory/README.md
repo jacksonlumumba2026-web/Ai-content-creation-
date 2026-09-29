@@ -156,7 +156,7 @@ Guardrails baked into the config:
 
 - `script.require_sources: true` — factual claims (especially money/finance) need a source in `research/`.
 - `script.require_human_review: true` — nothing is rendered from an unapproved script.
-- `publishing.auto_publish: false` — nothing is posted automatically.
+- `publishing.auto_publish: true` (owner decision 2026-09-29) — scheduled posts go live automatically on all four platforms; `false` = approve each in the Metricool app.
 - `publishing.ai_disclosure: true` — label synthetic media where platforms require it.
 - Only use music, footage and images you have the rights to. Keep a license note next to each asset.
 

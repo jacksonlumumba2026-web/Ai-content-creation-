@@ -32,11 +32,11 @@ Run the environment check after any change to `config/` or `src/config.py`.
   OpusClip, Canva AI, etc.), create API keys, or install paid tools unless the user approves
   that specific action in the current conversation.
 - **Publishing (owner decision 2026-09-28):** videos go to the *Jackson web Solutions* accounts
-  (YouTube Shorts, TikTok, Facebook Reels, Instagram Reels) via Metricool, **always with `autoPublish: false`** so
-  the owner approves each post from the Metricool phone app. Only schedule videos that passed the
-  quality gate. Never set `publishing.auto_publish` to true or post directly unless the owner
-  explicitly asks for that change. Owner confirmed (2026-09-28) to keep phone approval even though TikTok
-  and Instagram must then be finished in their own apps (Metricool hands those over).
+  (YouTube Shorts, TikTok, Facebook Reels, Instagram Reels) via Metricool. **Owner decision 2026-09-29:
+  `autoPublish: true`** (follow `publishing.auto_publish`) so all four platforms post by themselves —
+  with phone approval, TikTok and Instagram never went live. Only schedule videos that passed the
+  quality gate; the owner can edit or delete any scheduled post in Metricool. Never post outside
+  Metricool or to other accounts.
 - Commentary on other creators' videos: our own script, voice and graphics only; never use
   their footage, audio or thumbnails; state facts only as far as the sources support.
 - **Never commit secrets.** Keys go in `config/.env` (git-ignored) or environment secrets.

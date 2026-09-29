@@ -8,9 +8,9 @@ The owner (Jackson, Jackson web Solutions) has authorized this routine to:
 - commit and push to this repository's default branch,
 - host finished videos publicly on the `media` branch (`scripts/prepare_post.py` does this),
 - schedule posts through the Metricool connector to the Jackson web Solutions YouTube,
-  TikTok, Facebook and Instagram accounts **with `autoPublish: false`** — Metricool sends the owner a
-  phone notification and nothing goes public until the owner publishes it.
-It does **not** authorize `autoPublish: true`, other accounts, paid services, or deleting posts.
+  TikTok, Facebook and Instagram accounts **with `autoPublish: true`** (owner decision 2026-09-29:
+  posts go live automatically at their slot; the owner can edit/delete them in Metricool first).
+It does **not** authorize other accounts, paid services, or deleting posts.
 
 ## Steps
 1. **Environment:** `python3 ai-video-factory/scripts/check_env.py` must end `RESULT: READY`.
@@ -78,11 +78,10 @@ It does **not** authorize `autoPublish: true`, other accounts, paid services, or
 9. **Prepare:** `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date <YYYY-MM-DD> --time <HH:MM>`
    for the slot this video fills.
 10. **Schedule:** call Metricool `createScheduledPost` with the printed `blogId`, `date` and
-    `info` exactly as printed (`autoPublish` must be `false`).
+    `info` exactly as printed (`autoPublish` follows `publishing.auto_publish`: `true`).
 11. **Log:** append `{"date": ..., "time": ..., "lane": "quick-win"|"hidden-gem"|"viral", "slug": ..., "topic": ..., "metricool_id": ..., "sources": [...]}`
     to `ai-video-factory/research/posted.jsonl`, commit and push.
 12. **Report** in one short message: for each video the topic, date/time and Metricool planner
     link, plus any problems (e.g. footage unavailable, gate failures).
-    End with the reminder: at each post time, publish from the Metricool notification, then finish
-    the TikTok post in the TikTok app (inbox/drafts → Post) and the Instagram Reel in the
-    Instagram app (→ Share) — with phone approval, those two only go live once finished there.
+    Posts auto-publish to all four platforms; the owner can edit or delete them in Metricool
+    before their time.
