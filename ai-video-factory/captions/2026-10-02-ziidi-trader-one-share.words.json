@@ -1,0 +1,742 @@
+[
+ {
+  "text": "Picture",
+  "start": 0.0,
+  "end": 0.24
+ },
+ {
+  "text": "a",
+  "start": 0.24,
+  "end": 0.36
+ },
+ {
+  "text": "young",
+  "start": 0.36,
+  "end": 0.48
+ },
+ {
+  "text": "mechanic",
+  "start": 0.48,
+  "end": 0.78
+ },
+ {
+  "text": "in",
+  "start": 0.78,
+  "end": 1.16
+ },
+ {
+  "text": "Nakuru.",
+  "start": 1.16,
+  "end": 1.62
+ },
+ {
+  "text": "Let's",
+  "start": 1.96,
+  "end": 2.18
+ },
+ {
+  "text": "call",
+  "start": 2.18,
+  "end": 2.34
+ },
+ {
+  "text": "him",
+  "start": 2.34,
+  "end": 2.56
+ },
+ {
+  "text": "Brian.",
+  "start": 2.56,
+  "end": 2.8
+ },
+ {
+  "text": "He's",
+  "start": 3.24,
+  "end": 3.4
+ },
+ {
+  "text": "always",
+  "start": 3.4,
+  "end": 3.56
+ },
+ {
+  "text": "wanted",
+  "start": 3.56,
+  "end": 4.04
+ },
+ {
+  "text": "to",
+  "start": 4.04,
+  "end": 4.22
+ },
+ {
+  "text": "own",
+  "start": 4.22,
+  "end": 4.46
+ },
+ {
+  "text": "a",
+  "start": 4.46,
+  "end": 4.58
+ },
+ {
+  "text": "piece",
+  "start": 4.58,
+  "end": 4.8
+ },
+ {
+  "text": "of",
+  "start": 4.8,
+  "end": 4.98
+ },
+ {
+  "text": "a",
+  "start": 4.98,
+  "end": 5.08
+ },
+ {
+  "text": "big",
+  "start": 5.08,
+  "end": 5.24
+ },
+ {
+  "text": "company.",
+  "start": 5.24,
+  "end": 5.54
+ },
+ {
+  "text": "But",
+  "start": 5.94,
+  "end": 6.02
+ },
+ {
+  "text": "he",
+  "start": 6.02,
+  "end": 6.12
+ },
+ {
+  "text": "thinks",
+  "start": 6.12,
+  "end": 6.3
+ },
+ {
+  "text": "you",
+  "start": 6.3,
+  "end": 6.46
+ },
+ {
+  "text": "need",
+  "start": 6.46,
+  "end": 6.58
+ },
+ {
+  "text": "a",
+  "start": 6.58,
+  "end": 6.66
+ },
+ {
+  "text": "broker,",
+  "start": 6.66,
+  "end": 6.88
+ },
+ {
+  "text": "piles",
+  "start": 7.44,
+  "end": 7.62
+ },
+ {
+  "text": "of",
+  "start": 7.62,
+  "end": 7.88
+ },
+ {
+  "text": "paperwork,",
+  "start": 7.88,
+  "end": 8.12
+ },
+ {
+  "text": "and",
+  "start": 8.54,
+  "end": 8.76
+ },
+ {
+  "text": "a",
+  "start": 8.76,
+  "end": 8.84
+ },
+ {
+  "text": "lot",
+  "start": 8.84,
+  "end": 9.0
+ },
+ {
+  "text": "of",
+  "start": 9.0,
+  "end": 9.1
+ },
+ {
+  "text": "money.",
+  "start": 9.1,
+  "end": 9.34
+ },
+ {
+  "text": "In",
+  "start": 9.64,
+  "end": 9.7
+ },
+ {
+  "text": "February,",
+  "start": 9.7,
+  "end": 10.04
+ },
+ {
+  "text": "Safaricom",
+  "start": 10.44,
+  "end": 11.1
+ },
+ {
+  "text": "and",
+  "start": 11.1,
+  "end": 11.36
+ },
+ {
+  "text": "the",
+  "start": 11.36,
+  "end": 11.5
+ },
+ {
+  "text": "Nairobi",
+  "start": 11.5,
+  "end": 11.92
+ },
+ {
+  "text": "Securities",
+  "start": 11.92,
+  "end": 12.12
+ },
+ {
+  "text": "Exchange",
+  "start": 12.12,
+  "end": 12.64
+ },
+ {
+  "text": "launched",
+  "start": 12.64,
+  "end": 13.18
+ },
+ {
+  "text": "Ziidi",
+  "start": 13.18,
+  "end": 13.62
+ },
+ {
+  "text": "Trader.",
+  "start": 13.62,
+  "end": 13.82
+ },
+ {
+  "text": "It",
+  "start": 14.24,
+  "end": 14.32
+ },
+ {
+  "text": "lets",
+  "start": 14.32,
+  "end": 14.48
+ },
+ {
+  "text": "you",
+  "start": 14.48,
+  "end": 14.66
+ },
+ {
+  "text": "buy",
+  "start": 14.66,
+  "end": 14.9
+ },
+ {
+  "text": "and",
+  "start": 14.9,
+  "end": 15.14
+ },
+ {
+  "text": "sell",
+  "start": 15.14,
+  "end": 15.38
+ },
+ {
+  "text": "listed",
+  "start": 15.38,
+  "end": 15.7
+ },
+ {
+  "text": "shares",
+  "start": 15.7,
+  "end": 15.98
+ },
+ {
+  "text": "right",
+  "start": 15.98,
+  "end": 16.36
+ },
+ {
+  "text": "inside",
+  "start": 16.36,
+  "end": 16.66
+ },
+ {
+  "text": "the",
+  "start": 16.66,
+  "end": 16.96
+ },
+ {
+  "text": "M-PESA",
+  "start": 16.96,
+  "end": 17.3
+ },
+ {
+  "text": "app,",
+  "start": 17.3,
+  "end": 17.64
+ },
+ {
+  "text": "and",
+  "start": 17.92,
+  "end": 17.98
+ },
+ {
+  "text": "you",
+  "start": 17.98,
+  "end": 18.08
+ },
+ {
+  "text": "can",
+  "start": 18.08,
+  "end": 18.2
+ },
+ {
+  "text": "start",
+  "start": 18.2,
+  "end": 18.52
+ },
+ {
+  "text": "with",
+  "start": 18.52,
+  "end": 18.72
+ },
+ {
+  "text": "as",
+  "start": 18.72,
+  "end": 18.86
+ },
+ {
+  "text": "little",
+  "start": 18.86,
+  "end": 19.02
+ },
+ {
+  "text": "as",
+  "start": 19.02,
+  "end": 19.28
+ },
+ {
+  "text": "one",
+  "start": 19.28,
+  "end": 19.46
+ },
+ {
+  "text": "share.",
+  "start": 19.46,
+  "end": 19.74
+ },
+ {
+  "text": "No",
+  "start": 20.06,
+  "end": 20.14
+ },
+ {
+  "text": "separate",
+  "start": 20.14,
+  "end": 20.48
+ },
+ {
+  "text": "broker",
+  "start": 20.48,
+  "end": 20.8
+ },
+ {
+  "text": "account.",
+  "start": 20.8,
+  "end": 21.2
+ },
+ {
+  "text": "No",
+  "start": 21.74,
+  "end": 21.8
+ },
+ {
+  "text": "extra",
+  "start": 21.8,
+  "end": 22.28
+ },
+ {
+  "text": "paperwork.",
+  "start": 22.28,
+  "end": 22.76
+ },
+ {
+  "text": "Here's",
+  "start": 23.34,
+  "end": 23.52
+ },
+ {
+  "text": "how.",
+  "start": 23.52,
+  "end": 23.72
+ },
+ {
+  "text": "Open",
+  "start": 24.36,
+  "end": 24.36
+ },
+ {
+  "text": "the",
+  "start": 24.36,
+  "end": 24.48
+ },
+ {
+  "text": "M-PESA",
+  "start": 24.48,
+  "end": 24.86
+ },
+ {
+  "text": "app,",
+  "start": 24.86,
+  "end": 25.22
+ },
+ {
+  "text": "choose",
+  "start": 25.44,
+  "end": 25.56
+ },
+ {
+  "text": "Ziidi",
+  "start": 25.56,
+  "end": 26.0
+ },
+ {
+  "text": "Trader,",
+  "start": 26.0,
+  "end": 26.24
+ },
+ {
+  "text": "accept",
+  "start": 26.62,
+  "end": 26.88
+ },
+ {
+  "text": "the",
+  "start": 26.88,
+  "end": 27.2
+ },
+ {
+  "text": "terms,",
+  "start": 27.2,
+  "end": 27.46
+ },
+ {
+  "text": "complete",
+  "start": 27.82,
+  "end": 28.12
+ },
+ {
+  "text": "the",
+  "start": 28.12,
+  "end": 28.38
+ },
+ {
+  "text": "verification,",
+  "start": 28.38,
+  "end": 28.7
+ },
+ {
+  "text": "and",
+  "start": 29.38,
+  "end": 29.4
+ },
+ {
+  "text": "enter",
+  "start": 29.4,
+  "end": 29.78
+ },
+ {
+  "text": "your",
+  "start": 29.78,
+  "end": 29.92
+ },
+ {
+  "text": "PIN.",
+  "start": 29.92,
+  "end": 29.98
+ },
+ {
+  "text": "Moving",
+  "start": 30.74,
+  "end": 30.96
+ },
+ {
+  "text": "money",
+  "start": 30.96,
+  "end": 31.26
+ },
+ {
+  "text": "between",
+  "start": 31.26,
+  "end": 31.74
+ },
+ {
+  "text": "M-Pesa",
+  "start": 31.74,
+  "end": 32.34
+ },
+ {
+  "text": "and",
+  "start": 32.34,
+  "end": 32.8
+ },
+ {
+  "text": "Ziidi",
+  "start": 32.8,
+  "end": 33.08
+ },
+ {
+  "text": "Trader",
+  "start": 33.08,
+  "end": 33.28
+ },
+ {
+  "text": "is",
+  "start": 33.28,
+  "end": 33.68
+ },
+ {
+  "text": "free.",
+  "start": 33.68,
+  "end": 33.9
+ },
+ {
+  "text": "Two",
+  "start": 34.36,
+  "end": 34.36
+ },
+ {
+  "text": "things",
+  "start": 34.36,
+  "end": 34.58
+ },
+ {
+  "text": "to",
+  "start": 34.58,
+  "end": 34.8
+ },
+ {
+  "text": "know.",
+  "start": 34.8,
+  "end": 35.0
+ },
+ {
+  "text": "Trading",
+  "start": 35.26,
+  "end": 35.38
+ },
+ {
+  "text": "fees",
+  "start": 35.38,
+  "end": 35.82
+ },
+ {
+  "text": "still",
+  "start": 35.82,
+  "end": 36.16
+ },
+ {
+  "text": "apply,",
+  "start": 36.16,
+  "end": 36.54
+ },
+ {
+  "text": "and",
+  "start": 36.54,
+  "end": 36.98
+ },
+ {
+  "text": "orders",
+  "start": 36.98,
+  "end": 37.28
+ },
+ {
+  "text": "go",
+  "start": 37.28,
+  "end": 37.54
+ },
+ {
+  "text": "through",
+  "start": 37.54,
+  "end": 37.76
+ },
+ {
+  "text": "during",
+  "start": 37.76,
+  "end": 38.08
+ },
+ {
+  "text": "market",
+  "start": 38.08,
+  "end": 38.38
+ },
+ {
+  "text": "hours,",
+  "start": 38.38,
+  "end": 38.78
+ },
+ {
+  "text": "Monday",
+  "start": 39.22,
+  "end": 39.36
+ },
+ {
+  "text": "to",
+  "start": 39.36,
+  "end": 39.72
+ },
+ {
+  "text": "Friday.",
+  "start": 39.72,
+  "end": 39.98
+ },
+ {
+  "text": "And",
+  "start": 40.3,
+  "end": 40.42
+ },
+ {
+  "text": "remember,",
+  "start": 40.42,
+  "end": 40.8
+ },
+ {
+  "text": "share",
+  "start": 40.8,
+  "end": 41.2
+ },
+ {
+  "text": "prices",
+  "start": 41.2,
+  "end": 41.56
+ },
+ {
+  "text": "can",
+  "start": 41.56,
+  "end": 41.88
+ },
+ {
+  "text": "go",
+  "start": 41.88,
+  "end": 42.08
+ },
+ {
+  "text": "down",
+  "start": 42.08,
+  "end": 42.32
+ },
+ {
+  "text": "as",
+  "start": 42.32,
+  "end": 42.58
+ },
+ {
+  "text": "well",
+  "start": 42.58,
+  "end": 42.72
+ },
+ {
+  "text": "as",
+  "start": 42.72,
+  "end": 42.98
+ },
+ {
+  "text": "up.",
+  "start": 42.98,
+  "end": 43.38
+ },
+ {
+  "text": "This",
+  "start": 43.38,
+  "end": 43.42
+ },
+ {
+  "text": "is",
+  "start": 43.42,
+  "end": 43.56
+ },
+ {
+  "text": "not",
+  "start": 43.56,
+  "end": 43.78
+ },
+ {
+  "text": "financial",
+  "start": 43.78,
+  "end": 44.08
+ },
+ {
+  "text": "advice.",
+  "start": 44.08,
+  "end": 44.56
+ },
+ {
+  "text": "Would",
+  "start": 45.1,
+  "end": 45.12
+ },
+ {
+  "text": "you",
+  "start": 45.12,
+  "end": 45.26
+ },
+ {
+  "text": "buy",
+  "start": 45.26,
+  "end": 45.44
+ },
+ {
+  "text": "your",
+  "start": 45.44,
+  "end": 45.66
+ },
+ {
+  "text": "first",
+  "start": 45.66,
+  "end": 45.88
+ },
+ {
+  "text": "share?",
+  "start": 45.88,
+  "end": 46.58
+ },
+ {
+  "text": "Tell",
+  "start": 46.58,
+  "end": 46.64
+ },
+ {
+  "text": "me",
+  "start": 46.64,
+  "end": 46.8
+ },
+ {
+  "text": "below.",
+  "start": 46.8,
+  "end": 47.08
+ }
+]
