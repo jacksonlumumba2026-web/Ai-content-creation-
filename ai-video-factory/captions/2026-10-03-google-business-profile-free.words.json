@@ -2,741 +2,741 @@
  {
   "text": "Picture",
   "start": 0.0,
-  "end": 0.28
+  "end": 0.26
  },
  {
   "text": "a",
-  "start": 0.28,
-  "end": 0.52
+  "start": 0.26,
+  "end": 0.46
  },
  {
   "text": "salon",
-  "start": 0.52,
-  "end": 0.8
+  "start": 0.46,
+  "end": 0.64
  },
  {
   "text": "owner",
-  "start": 0.8,
-  "end": 1.36
+  "start": 0.64,
+  "end": 1.18
  },
  {
   "text": "in",
-  "start": 1.36,
-  "end": 1.6
+  "start": 1.18,
+  "end": 1.4
  },
  {
   "text": "Nairobi.",
-  "start": 1.6,
-  "end": 2.1
+  "start": 1.4,
+  "end": 1.92
  },
  {
   "text": "Let's",
-  "start": 2.42,
-  "end": 2.6
+  "start": 2.22,
+  "end": 2.4
  },
  {
   "text": "call",
-  "start": 2.6,
-  "end": 2.78
+  "start": 2.4,
+  "end": 2.58
  },
  {
   "text": "her",
-  "start": 2.78,
-  "end": 3.06
+  "start": 2.58,
+  "end": 2.84
  },
  {
   "text": "Njeri.",
-  "start": 3.06,
-  "end": 3.48
+  "start": 2.84,
+  "end": 3.32
  },
  {
   "text": "Her",
-  "start": 3.82,
-  "end": 3.88
+  "start": 3.64,
+  "end": 3.7
  },
  {
   "text": "work",
-  "start": 3.88,
-  "end": 4.12
+  "start": 3.7,
+  "end": 3.94
  },
  {
   "text": "is",
-  "start": 4.12,
-  "end": 4.36
+  "start": 3.94,
+  "end": 4.22
  },
  {
   "text": "great,",
-  "start": 4.36,
-  "end": 4.68
+  "start": 4.22,
+  "end": 4.48
  },
  {
   "text": "her",
-  "start": 4.92,
-  "end": 5.0
+  "start": 4.72,
+  "end": 4.8
  },
  {
   "text": "prices",
-  "start": 5.0,
-  "end": 5.24
+  "start": 4.8,
+  "end": 5.08
  },
  {
   "text": "are",
-  "start": 5.24,
-  "end": 5.54
+  "start": 5.08,
+  "end": 5.36
  },
  {
   "text": "fair,",
-  "start": 5.54,
-  "end": 5.76
+  "start": 5.36,
+  "end": 5.62
  },
  {
   "text": "and",
-  "start": 6.14,
-  "end": 6.26
+  "start": 6.0,
+  "end": 6.08
  },
  {
   "text": "her",
-  "start": 6.26,
-  "end": 6.46
+  "start": 6.08,
+  "end": 6.24
  },
  {
   "text": "regulars",
-  "start": 6.46,
-  "end": 6.72
+  "start": 6.24,
+  "end": 6.46
  },
  {
   "text": "love",
-  "start": 6.72,
-  "end": 7.16
+  "start": 6.46,
+  "end": 6.94
  },
  {
   "text": "her.",
-  "start": 7.16,
-  "end": 7.38
+  "start": 6.94,
+  "end": 7.16
  },
  {
   "text": "But",
-  "start": 7.64,
-  "end": 7.68
+  "start": 7.46,
+  "end": 7.5
  },
  {
   "text": "when",
-  "start": 7.68,
-  "end": 7.82
+  "start": 7.5,
+  "end": 7.64
  },
  {
   "text": "someone",
-  "start": 7.82,
-  "end": 8.1
+  "start": 7.64,
+  "end": 7.88
  },
  {
   "text": "new",
-  "start": 8.1,
-  "end": 8.42
+  "start": 7.88,
+  "end": 8.16
  },
  {
   "text": "nearby",
-  "start": 8.42,
-  "end": 8.6
+  "start": 8.16,
+  "end": 8.4
  },
  {
   "text": "searches",
-  "start": 8.6,
-  "end": 9.1
+  "start": 8.4,
+  "end": 8.84
  },
  {
   "text": "'salon",
-  "start": 9.44,
-  "end": 9.52
+  "start": 9.12,
+  "end": 9.22
  },
  {
   "text": "near",
-  "start": 9.52,
-  "end": 9.88
+  "start": 9.22,
+  "end": 9.56
  },
  {
   "text": "me'",
-  "start": 9.88,
-  "end": 10.04
+  "start": 9.56,
+  "end": 9.72
  },
  {
   "text": "on",
-  "start": 10.04,
-  "end": 10.24
+  "start": 9.72,
+  "end": 9.88
  },
  {
   "text": "Google,",
-  "start": 10.24,
-  "end": 10.48
+  "start": 9.88,
+  "end": 10.1
  },
  {
   "text": "they",
-  "start": 10.92,
-  "end": 11.0
+  "start": 10.58,
+  "end": 10.64
  },
  {
   "text": "see",
-  "start": 11.0,
-  "end": 11.2
+  "start": 10.64,
+  "end": 10.82
  },
  {
   "text": "the",
-  "start": 11.2,
-  "end": 11.34
+  "start": 10.82,
+  "end": 10.92
  },
  {
   "text": "salon",
-  "start": 11.34,
-  "end": 11.62
+  "start": 10.92,
+  "end": 11.2
  },
  {
   "text": "across",
-  "start": 11.62,
-  "end": 11.88
+  "start": 11.2,
+  "end": 11.46
  },
  {
   "text": "the",
-  "start": 11.88,
-  "end": 12.22
+  "start": 11.46,
+  "end": 11.76
  },
  {
   "text": "road.",
-  "start": 12.22,
-  "end": 12.44
+  "start": 11.76,
+  "end": 11.96
  },
  {
   "text": "Its",
-  "start": 12.82,
-  "end": 12.96
+  "start": 12.28,
+  "end": 12.36
  },
  {
   "text": "photos,",
-  "start": 12.96,
+  "start": 12.36,
+  "end": 12.68
+ },
+ {
+  "text": "its",
+  "start": 13.04,
   "end": 13.14
  },
  {
-  "text": "its",
-  "start": 13.54,
-  "end": 13.66
- },
- {
   "text": "reviews,",
-  "start": 13.66,
-  "end": 13.88
+  "start": 13.14,
+  "end": 13.38
  },
  {
   "text": "its",
-  "start": 14.28,
+  "start": 13.76,
+  "end": 13.86
+ },
+ {
+  "text": "phone",
+  "start": 13.86,
+  "end": 14.06
+ },
+ {
+  "text": "number,",
+  "start": 14.06,
   "end": 14.36
  },
  {
-  "text": "phone",
-  "start": 14.36,
-  "end": 14.56
- },
- {
-  "text": "number,",
-  "start": 14.56,
-  "end": 14.82
- },
- {
   "text": "its",
-  "start": 15.24,
-  "end": 15.3
+  "start": 14.78,
+  "end": 14.86
  },
  {
   "text": "directions.",
-  "start": 15.3,
-  "end": 15.54
+  "start": 14.86,
+  "end": 15.08
  },
  {
   "text": "Njeri",
-  "start": 16.3,
-  "end": 16.52
+  "start": 15.72,
+  "end": 16.02
  },
  {
   "text": "doesn't",
-  "start": 16.52,
-  "end": 16.92
+  "start": 16.02,
+  "end": 16.38
  },
  {
   "text": "show",
-  "start": 16.92,
-  "end": 17.14
+  "start": 16.38,
+  "end": 16.58
  },
  {
   "text": "up",
-  "start": 17.14,
-  "end": 17.56
+  "start": 16.58,
+  "end": 16.94
  },
  {
   "text": "at",
-  "start": 17.56,
-  "end": 17.78
+  "start": 16.94,
+  "end": 17.14
  },
  {
   "text": "all.",
-  "start": 17.78,
-  "end": 17.96
+  "start": 17.14,
+  "end": 17.28
  },
  {
   "text": "The",
-  "start": 17.96,
-  "end": 18.34
+  "start": 17.28,
+  "end": 17.7
  },
  {
   "text": "fix",
-  "start": 18.34,
-  "end": 18.52
+  "start": 17.7,
+  "end": 17.82
  },
  {
   "text": "is",
-  "start": 18.52,
-  "end": 18.92
+  "start": 17.82,
+  "end": 18.2
  },
  {
   "text": "free.",
-  "start": 18.92,
-  "end": 19.16
+  "start": 18.2,
+  "end": 18.48
  },
  {
   "text": "It's",
-  "start": 19.56,
-  "end": 19.68
+  "start": 18.92,
+  "end": 19.02
  },
  {
   "text": "called",
-  "start": 19.68,
-  "end": 19.88
+  "start": 19.02,
+  "end": 19.24
  },
  {
   "text": "a",
-  "start": 19.88,
-  "end": 20.04
+  "start": 19.24,
+  "end": 19.44
  },
  {
   "text": "Google",
-  "start": 20.04,
-  "end": 20.22
+  "start": 19.44,
+  "end": 19.62
  },
  {
   "text": "Business",
-  "start": 20.22,
-  "end": 20.74
+  "start": 19.62,
+  "end": 20.12
  },
  {
   "text": "Profile.",
-  "start": 20.74,
-  "end": 21.08
+  "start": 20.12,
+  "end": 20.46
  },
  {
   "text": "And",
-  "start": 21.72,
-  "end": 21.74
+  "start": 21.14,
+  "end": 21.18
  },
  {
   "text": "yet,",
-  "start": 21.74,
-  "end": 21.96
+  "start": 21.18,
+  "end": 21.4
  },
  {
   "text": "industry",
-  "start": 22.14,
-  "end": 22.48
+  "start": 21.64,
+  "end": 21.9
  },
  {
   "text": "estimates",
-  "start": 22.48,
-  "end": 22.92
+  "start": 21.9,
+  "end": 22.38
  },
  {
   "text": "suggest",
-  "start": 22.92,
-  "end": 23.32
+  "start": 22.38,
+  "end": 22.86
  },
  {
   "text": "around",
-  "start": 23.32,
-  "end": 23.74
+  "start": 22.86,
+  "end": 23.28
  },
  {
   "text": "four",
-  "start": 23.74,
-  "end": 24.14
+  "start": 23.28,
+  "end": 23.7
  },
  {
   "text": "in",
-  "start": 24.14,
-  "end": 24.34
+  "start": 23.7,
+  "end": 23.92
  },
  {
   "text": "ten",
-  "start": 24.34,
-  "end": 24.54
+  "start": 23.92,
+  "end": 24.12
  },
  {
   "text": "small",
-  "start": 24.54,
-  "end": 24.9
+  "start": 24.12,
+  "end": 24.48
  },
  {
   "text": "local",
-  "start": 24.9,
-  "end": 25.2
+  "start": 24.48,
+  "end": 24.82
  },
  {
   "text": "businesses",
-  "start": 25.2,
-  "end": 25.72
+  "start": 24.82,
+  "end": 25.32
  },
  {
   "text": "still",
-  "start": 25.72,
-  "end": 26.08
+  "start": 25.32,
+  "end": 25.68
  },
  {
   "text": "have",
-  "start": 26.08,
-  "end": 26.291
+  "start": 25.68,
+  "end": 25.88
  },
  {
   "text": "incomplete",
-  "start": 26.291,
-  "end": 26.82
+  "start": 25.88,
+  "end": 26.38
  },
  {
   "text": "profile",
-  "start": 26.82,
-  "end": 27.18
+  "start": 26.38,
+  "end": 26.72
  },
  {
   "text": "information.",
-  "start": 27.18,
-  "end": 27.76
+  "start": 26.72,
+  "end": 27.26
  },
  {
   "text": "So",
-  "start": 28.4,
-  "end": 28.54
+  "start": 27.84,
+  "end": 28.0
  },
  {
   "text": "here's",
-  "start": 28.54,
-  "end": 28.96
+  "start": 28.0,
+  "end": 28.5
  },
  {
   "text": "the",
-  "start": 28.96,
-  "end": 29.08
+  "start": 28.5,
+  "end": 28.62
  },
  {
   "text": "quick",
-  "start": 29.08,
-  "end": 29.24
+  "start": 28.62,
+  "end": 28.76
  },
  {
   "text": "fix.",
-  "start": 29.24,
-  "end": 29.52
+  "start": 28.76,
+  "end": 29.02
  },
  {
   "text": "Number",
-  "start": 29.52,
-  "end": 30.252
+  "start": 29.44,
+  "end": 29.64
  },
  {
   "text": "one:",
-  "start": 30.252,
-  "end": 30.74
+  "start": 29.64,
+  "end": 30.2
  },
  {
   "text": "claim",
-  "start": 30.74,
-  "end": 30.94
+  "start": 30.2,
+  "end": 30.32
  },
  {
   "text": "and",
-  "start": 30.94,
-  "end": 31.26
+  "start": 30.32,
+  "end": 30.62
  },
  {
   "text": "verify",
-  "start": 31.26,
-  "end": 31.48
+  "start": 30.62,
+  "end": 30.84
  },
  {
   "text": "your",
-  "start": 31.48,
-  "end": 31.94
+  "start": 30.84,
+  "end": 31.2
  },
  {
   "text": "profile.",
-  "start": 31.94,
-  "end": 32.28
+  "start": 31.2,
+  "end": 31.54
  },
  {
   "text": "Number",
-  "start": 32.28,
-  "end": 33.084
+  "start": 32.12,
+  "end": 32.12
  },
  {
   "text": "two:",
-  "start": 33.084,
-  "end": 33.62
+  "start": 32.12,
+  "end": 32.88
  },
  {
   "text": "add",
-  "start": 33.62,
-  "end": 33.72
+  "start": 32.88,
+  "end": 33.0
  },
  {
   "text": "your",
-  "start": 33.72,
-  "end": 33.84
+  "start": 33.0,
+  "end": 33.14
  },
  {
   "text": "hours,",
-  "start": 33.84,
-  "end": 34.06
+  "start": 33.14,
+  "end": 33.4
  },
  {
   "text": "phone",
-  "start": 34.54,
-  "end": 34.68
+  "start": 33.84,
+  "end": 33.98
  },
  {
   "text": "number,",
-  "start": 34.68,
-  "end": 34.92
+  "start": 33.98,
+  "end": 34.24
  },
  {
   "text": "location",
-  "start": 35.32,
-  "end": 35.64
+  "start": 34.64,
+  "end": 34.94
  },
  {
   "text": "and",
-  "start": 36.08,
-  "end": 36.12
+  "start": 34.94,
+  "end": 35.44
  },
  {
   "text": "real",
-  "start": 36.12,
-  "end": 36.32
+  "start": 35.44,
+  "end": 35.64
  },
  {
   "text": "photos",
-  "start": 36.32,
-  "end": 36.76
+  "start": 35.64,
+  "end": 36.12
  },
  {
   "text": "of",
-  "start": 36.76,
-  "end": 37.04
+  "start": 36.12,
+  "end": 36.38
  },
  {
   "text": "your",
-  "start": 37.04,
-  "end": 37.14
+  "start": 36.38,
+  "end": 36.48
  },
  {
   "text": "work.",
-  "start": 37.14,
-  "end": 37.34
+  "start": 36.48,
+  "end": 36.68
  },
  {
   "text": "Number",
-  "start": 37.34,
-  "end": 37.95
+  "start": 37.04,
+  "end": 37.1
  },
  {
   "text": "three:",
-  "start": 37.95,
-  "end": 38.56
+  "start": 37.1,
+  "end": 37.86
  },
  {
   "text": "ask",
-  "start": 38.56,
-  "end": 38.78
+  "start": 37.86,
+  "end": 38.1
  },
  {
   "text": "happy",
-  "start": 38.78,
-  "end": 39.04
+  "start": 38.1,
+  "end": 38.36
  },
  {
   "text": "customers",
-  "start": 39.04,
-  "end": 39.38
+  "start": 38.36,
+  "end": 38.68
  },
  {
   "text": "for",
-  "start": 39.38,
-  "end": 39.78
+  "start": 38.68,
+  "end": 39.06
  },
  {
   "text": "reviews,",
-  "start": 39.78,
-  "end": 40.1
+  "start": 39.06,
+  "end": 39.3
  },
  {
   "text": "and",
-  "start": 40.1,
-  "end": 40.64
+  "start": 39.3,
+  "end": 39.82
  },
  {
   "text": "reply",
-  "start": 40.64,
-  "end": 40.78
+  "start": 39.82,
+  "end": 39.96
  },
  {
   "text": "to",
-  "start": 40.78,
-  "end": 41.12
+  "start": 39.96,
+  "end": 40.3
  },
  {
   "text": "them.",
-  "start": 41.12,
-  "end": 41.28
+  "start": 40.3,
+  "end": 40.5
  },
  {
   "text": "People",
-  "start": 41.64,
-  "end": 41.72
+  "start": 40.9,
+  "end": 40.9
  },
  {
   "text": "searching",
-  "start": 41.72,
-  "end": 42.0
+  "start": 40.9,
+  "end": 41.2
  },
  {
   "text": "nearby",
-  "start": 42.0,
-  "end": 42.32
+  "start": 41.2,
+  "end": 41.52
  },
  {
   "text": "are",
-  "start": 42.32,
-  "end": 42.72
+  "start": 41.52,
+  "end": 41.9
  },
  {
   "text": "often",
-  "start": 42.72,
-  "end": 43.0
+  "start": 41.9,
+  "end": 42.22
  },
  {
   "text": "ready",
-  "start": 43.0,
-  "end": 43.22
+  "start": 42.22,
+  "end": 42.4
  },
  {
   "text": "to",
-  "start": 43.22,
-  "end": 43.46
+  "start": 42.4,
+  "end": 42.62
  },
  {
   "text": "buy.",
-  "start": 43.46,
-  "end": 43.66
+  "start": 42.62,
+  "end": 42.82
  },
  {
   "text": "Make",
-  "start": 44.12,
-  "end": 44.12
+  "start": 43.2,
+  "end": 43.26
  },
  {
   "text": "sure",
-  "start": 44.12,
-  "end": 44.3
+  "start": 43.26,
+  "end": 43.48
  },
  {
   "text": "they",
-  "start": 44.3,
-  "end": 44.5
+  "start": 43.48,
+  "end": 43.66
  },
  {
   "text": "find",
-  "start": 44.5,
-  "end": 44.74
+  "start": 43.66,
+  "end": 43.86
  },
  {
   "text": "you,",
-  "start": 44.74,
-  "end": 45.0
+  "start": 43.86,
+  "end": 44.1
  },
  {
   "text": "not",
-  "start": 45.28,
-  "end": 45.36
+  "start": 44.54,
+  "end": 44.56
  },
  {
   "text": "the",
-  "start": 45.36,
-  "end": 45.52
+  "start": 44.56,
+  "end": 44.7
  },
  {
   "text": "shop",
-  "start": 45.52,
-  "end": 45.7
+  "start": 44.7,
+  "end": 44.88
  },
  {
   "text": "across",
-  "start": 45.7,
-  "end": 45.88
+  "start": 44.88,
+  "end": 45.1
  },
  {
   "text": "the",
-  "start": 45.88,
-  "end": 46.18
+  "start": 45.1,
+  "end": 45.38
  },
  {
   "text": "road.",
-  "start": 46.18,
-  "end": 46.4
+  "start": 45.38,
+  "end": 45.56
  },
  {
   "text": "Is",
-  "start": 46.68,
-  "end": 46.72
+  "start": 45.86,
+  "end": 45.88
  },
  {
   "text": "your",
-  "start": 46.72,
-  "end": 46.84
+  "start": 45.88,
+  "end": 46.0
  },
  {
   "text": "business",
-  "start": 46.84,
-  "end": 47.1
+  "start": 46.0,
+  "end": 46.26
  },
  {
   "text": "on",
-  "start": 47.1,
-  "end": 47.38
+  "start": 46.26,
+  "end": 46.54
  },
  {
   "text": "Google",
-  "start": 47.38,
-  "end": 47.56
+  "start": 46.54,
+  "end": 46.74
  },
  {
   "text": "Maps?",
-  "start": 47.56,
-  "end": 47.88
+  "start": 46.74,
+  "end": 47.12
  },
  {
   "text": "Tell",
-  "start": 48.38,
-  "end": 48.44
+  "start": 47.62,
+  "end": 47.68
  },
  {
   "text": "me",
-  "start": 48.44,
-  "end": 48.58
+  "start": 47.68,
+  "end": 47.84
  },
  {
   "text": "below.",
-  "start": 48.58,
-  "end": 48.82
+  "start": 47.84,
+  "end": 48.08
  }
 ]
