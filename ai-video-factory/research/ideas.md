@@ -7,6 +7,7 @@ talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem,
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
 
 ## 💡 Quick wins (leads)
+- Free annual credit report from each licensed CRB — USED 2026-10-03
 - WhatsApp Business free tools — USED 2026-10-01
 - Pochi la Biashara: separate business wallet, same number — USED 2026-09-30
 - Replying to Google reviews — verify on Google Business Profile help
