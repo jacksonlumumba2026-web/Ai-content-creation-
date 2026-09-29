@@ -7,14 +7,15 @@ talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem,
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
 
 ## 💡 Quick wins (leads)
-- WhatsApp Business free tools: catalog, quick replies, greeting/away messages — verify on WhatsApp FAQ
+- WhatsApp Business free tools — USED 2026-10-01
+- Pochi la Biashara: separate business wallet, same number — USED 2026-09-30
 - Replying to Google reviews — verify on Google Business Profile help
 
 ## 💎 Hidden gems (verified leads)
 - Google "salon near me" searches: incomplete Google Business Profiles (~4 in 10 small local
   businesses) — USED 2026-10-03
 - Kenya Data Protection Act: CCTV businesses must register with ODPC regardless of size — USED 2026-10-02
-- M-Pesa Ziidi Trader: invest with as little as the cost of one share (Feb 2026) — lead: techinafrica.com
+- M-Pesa Ziidi Trader: buy as little as one NSE share — USED 2026-10-02 (07:30 quick win)
 - AI credit scoring on alternative data (M-Pesa history) reaching "unbankable" customers — lead: fintechnews.co.ke
 - Consumers spend ~$177 on a website vs ~$36 in Instagram/TikTok shops (DreamHost 2026) — used inside website video
 - 76% of consumers trust mixed reviews more than perfect 5-star ones — lead: online review stats roundups (verify primary)
