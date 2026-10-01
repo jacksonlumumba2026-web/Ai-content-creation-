@@ -34,5 +34,10 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 
 - USED 2026-09-29: MrBeast "Escape 100 Cops, Win $500,000" (owner link) → partnership (4 Oct) + storytelling (5 Oct)
 
+## 🦁 MrBeast (owner: these get lots of views — commentary in our own words only)
+- USED: Ghana village, "even if no one watches", 100 cops (partnership + storytelling), $1M vault puzzle,
+  Feastables profit (5 Oct), grocery store Day 67 (7 Oct), Beat Ronaldo (8 Oct)
+- Leads to verify: Beast Games season 2 results; Beast Philanthropy projects; Feastables in shops (Walmart) strategy
+
 ## Rejected (could not verify)
 - "Mary Atieno, 22, won KSh 500,000 for eco-packaging" — no primary source found; do not use.
