@@ -1,0 +1,717 @@
+[
+ {
+  "text": "Imagine",
+  "start": 0.0,
+  "end": 0.42
+ },
+ {
+  "text": "living",
+  "start": 0.42,
+  "end": 0.6
+ },
+ {
+  "text": "inside",
+  "start": 0.6,
+  "end": 1.12
+ },
+ {
+  "text": "a",
+  "start": 1.12,
+  "end": 1.3
+ },
+ {
+  "text": "grocery",
+  "start": 1.3,
+  "end": 1.44
+ },
+ {
+  "text": "store,",
+  "start": 1.44,
+  "end": 2.08
+ },
+ {
+  "text": "and",
+  "start": 2.38,
+  "end": 2.4
+ },
+ {
+  "text": "the",
+  "start": 2.4,
+  "end": 2.52
+ },
+ {
+  "text": "last",
+  "start": 2.52,
+  "end": 2.72
+ },
+ {
+  "text": "person",
+  "start": 2.72,
+  "end": 3.16
+ },
+ {
+  "text": "to",
+  "start": 3.16,
+  "end": 3.44
+ },
+ {
+  "text": "leave",
+  "start": 3.44,
+  "end": 3.62
+ },
+ {
+  "text": "wins.",
+  "start": 3.62,
+  "end": 3.86
+ },
+ {
+  "text": "That's",
+  "start": 4.3,
+  "end": 4.56
+ },
+ {
+  "text": "how",
+  "start": 4.56,
+  "end": 4.68
+ },
+ {
+  "text": "MrBeast's",
+  "start": 4.68,
+  "end": 5.44
+ },
+ {
+  "text": "newest",
+  "start": 5.44,
+  "end": 5.74
+ },
+ {
+  "text": "video",
+  "start": 5.74,
+  "end": 6.0
+ },
+ {
+  "text": "started.",
+  "start": 6.0,
+  "end": 6.42
+ },
+ {
+  "text": "Day",
+  "start": 6.78,
+  "end": 6.86
+ },
+ {
+  "text": "sixty-seven.",
+  "start": 6.86,
+  "end": 7.84
+ },
+ {
+  "text": "Four",
+  "start": 7.84,
+  "end": 7.98
+ },
+ {
+  "text": "players",
+  "start": 7.98,
+  "end": 8.34
+ },
+ {
+  "text": "are",
+  "start": 8.34,
+  "end": 8.64
+ },
+ {
+  "text": "still",
+  "start": 8.64,
+  "end": 8.9
+ },
+ {
+  "text": "there.",
+  "start": 8.9,
+  "end": 9.16
+ },
+ {
+  "text": "Then",
+  "start": 9.54,
+  "end": 9.62
+ },
+ {
+  "text": "he",
+  "start": 9.62,
+  "end": 9.76
+ },
+ {
+  "text": "changes",
+  "start": 9.76,
+  "end": 10.08
+ },
+ {
+  "text": "the",
+  "start": 10.08,
+  "end": 10.26
+ },
+ {
+  "text": "rules.",
+  "start": 10.26,
+  "end": 10.42
+ },
+ {
+  "text": "New",
+  "start": 10.86,
+  "end": 10.92
+ },
+ {
+  "text": "deal:",
+  "start": 10.92,
+  "end": 11.16
+ },
+ {
+  "text": "work",
+  "start": 11.44,
+  "end": 11.66
+ },
+ {
+  "text": "as",
+  "start": 11.66,
+  "end": 11.86
+ },
+ {
+  "text": "a",
+  "start": 11.86,
+  "end": 11.94
+ },
+ {
+  "text": "team,",
+  "start": 11.94,
+  "end": 12.18
+ },
+ {
+  "text": "eat",
+  "start": 12.48,
+  "end": 12.62
+ },
+ {
+  "text": "everything",
+  "start": 12.62,
+  "end": 12.98
+ },
+ {
+  "text": "in",
+  "start": 12.98,
+  "end": 13.2
+ },
+ {
+  "text": "the",
+  "start": 13.2,
+  "end": 13.3
+ },
+ {
+  "text": "grocery",
+  "start": 13.3,
+  "end": 13.48
+ },
+ {
+  "text": "store,",
+  "start": 13.48,
+  "end": 14.08
+ },
+ {
+  "text": "and",
+  "start": 14.38,
+  "end": 14.46
+ },
+ {
+  "text": "win",
+  "start": 14.46,
+  "end": 14.66
+ },
+ {
+  "text": "one",
+  "start": 14.66,
+  "end": 14.98
+ },
+ {
+  "text": "million",
+  "start": 14.98,
+  "end": 15.3
+ },
+ {
+  "text": "dollars,",
+  "start": 15.3,
+  "end": 15.82
+ },
+ {
+  "text": "even",
+  "start": 16.08,
+  "end": 16.28
+ },
+ {
+  "text": "if",
+  "start": 16.28,
+  "end": 16.46
+ },
+ {
+  "text": "it",
+  "start": 16.46,
+  "end": 16.58
+ },
+ {
+  "text": "takes",
+  "start": 16.58,
+  "end": 16.84
+ },
+ {
+  "text": "up",
+  "start": 16.84,
+  "end": 17.02
+ },
+ {
+  "text": "to",
+  "start": 17.02,
+  "end": 17.18
+ },
+ {
+  "text": "a",
+  "start": 17.18,
+  "end": 17.3
+ },
+ {
+  "text": "year.",
+  "start": 17.3,
+  "end": 17.5
+ },
+ {
+  "text": "And",
+  "start": 17.78,
+  "end": 17.84
+ },
+ {
+  "text": "he",
+  "start": 17.84,
+  "end": 17.92
+ },
+ {
+  "text": "didn't",
+  "start": 17.92,
+  "end": 18.18
+ },
+ {
+  "text": "just",
+  "start": 18.18,
+  "end": 18.32
+ },
+ {
+  "text": "walk",
+  "start": 18.32,
+  "end": 18.54
+ },
+ {
+  "text": "away.",
+  "start": 18.54,
+  "end": 18.8
+ },
+ {
+  "text": "He",
+  "start": 19.14,
+  "end": 19.22
+ },
+ {
+  "text": "promised",
+  "start": 19.22,
+  "end": 19.5
+ },
+ {
+  "text": "to",
+  "start": 19.5,
+  "end": 19.82
+ },
+ {
+  "text": "restock",
+  "start": 19.82,
+  "end": 20.22
+ },
+ {
+  "text": "the",
+  "start": 20.22,
+  "end": 20.42
+ },
+ {
+  "text": "store,",
+  "start": 20.42,
+  "end": 20.72
+ },
+ {
+  "text": "and",
+  "start": 21.12,
+  "end": 21.16
+ },
+ {
+  "text": "add",
+  "start": 21.16,
+  "end": 21.36
+ },
+ {
+  "text": "beds,",
+  "start": 21.36,
+  "end": 21.6
+ },
+ {
+  "text": "showers,",
+  "start": 21.9,
+  "end": 22.08
+ },
+ {
+  "text": "a",
+  "start": 22.5,
+  "end": 22.58
+ },
+ {
+  "text": "nutritionist,",
+  "start": 22.58,
+  "end": 23.22
+ },
+ {
+  "text": "a",
+  "start": 23.38,
+  "end": 23.4
+ },
+ {
+  "text": "personal",
+  "start": 23.4,
+  "end": 23.66
+ },
+ {
+  "text": "trainer",
+  "start": 23.66,
+  "end": 24.02
+ },
+ {
+  "text": "and",
+  "start": 24.02,
+  "end": 24.38
+ },
+ {
+  "text": "a",
+  "start": 24.38,
+  "end": 24.48
+ },
+ {
+  "text": "gym.",
+  "start": 24.48,
+  "end": 24.66
+ },
+ {
+  "text": "So",
+  "start": 25.08,
+  "end": 25.18
+ },
+ {
+  "text": "the",
+  "start": 25.18,
+  "end": 25.3
+ },
+ {
+  "text": "video",
+  "start": 25.3,
+  "end": 25.54
+ },
+ {
+  "text": "doesn't",
+  "start": 25.54,
+  "end": 25.92
+ },
+ {
+  "text": "really",
+  "start": 25.92,
+  "end": 26.292
+ },
+ {
+  "text": "end.",
+  "start": 26.292,
+  "end": 26.54
+ },
+ {
+  "text": "It",
+  "start": 26.54,
+  "end": 26.72
+ },
+ {
+  "text": "turns",
+  "start": 26.72,
+  "end": 26.96
+ },
+ {
+  "text": "into",
+  "start": 26.96,
+  "end": 27.32
+ },
+ {
+  "text": "a",
+  "start": 27.32,
+  "end": 27.44
+ },
+ {
+  "text": "story",
+  "start": 27.44,
+  "end": 27.68
+ },
+ {
+  "text": "millions",
+  "start": 27.68,
+  "end": 28.04
+ },
+ {
+  "text": "of",
+  "start": 28.04,
+  "end": 28.38
+ },
+ {
+  "text": "people",
+  "start": 28.38,
+  "end": 28.56
+ },
+ {
+  "text": "will",
+  "start": 28.56,
+  "end": 28.82
+ },
+ {
+  "text": "want",
+  "start": 28.82,
+  "end": 28.98
+ },
+ {
+  "text": "to",
+  "start": 28.98,
+  "end": 29.14
+ },
+ {
+  "text": "follow.",
+  "start": 29.14,
+  "end": 29.42
+ },
+ {
+  "text": "Here's",
+  "start": 29.74,
+  "end": 29.98
+ },
+ {
+  "text": "the",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "business",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "lesson.",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "Number",
+  "start": 31.24,
+  "end": 31.24
+ },
+ {
+  "text": "one:",
+  "start": 31.24,
+  "end": 31.56
+ },
+ {
+  "text": "end",
+  "start": 31.56,
+  "end": 32.0
+ },
+ {
+  "text": "with",
+  "start": 32.0,
+  "end": 32.16
+ },
+ {
+  "text": "a",
+  "start": 32.16,
+  "end": 32.26
+ },
+ {
+  "text": "reason",
+  "start": 32.26,
+  "end": 32.58
+ },
+ {
+  "text": "for",
+  "start": 32.58,
+  "end": 32.82
+ },
+ {
+  "text": "people",
+  "start": 32.82,
+  "end": 33.04
+ },
+ {
+  "text": "to",
+  "start": 33.04,
+  "end": 33.26
+ },
+ {
+  "text": "come",
+  "start": 33.26,
+  "end": 33.42
+ },
+ {
+  "text": "back.",
+  "start": 33.42,
+  "end": 33.7
+ },
+ {
+  "text": "Number",
+  "start": 34.1,
+  "end": 34.1
+ },
+ {
+  "text": "two:",
+  "start": 34.1,
+  "end": 34.48
+ },
+ {
+  "text": "make",
+  "start": 34.78,
+  "end": 34.94
+ },
+ {
+  "text": "your",
+  "start": 34.94,
+  "end": 35.08
+ },
+ {
+  "text": "people",
+  "start": 35.08,
+  "end": 35.32
+ },
+ {
+  "text": "part",
+  "start": 35.32,
+  "end": 35.52
+ },
+ {
+  "text": "of",
+  "start": 35.52,
+  "end": 35.62
+ },
+ {
+  "text": "the",
+  "start": 35.62,
+  "end": 35.72
+ },
+ {
+  "text": "story,",
+  "start": 35.72,
+  "end": 36.04
+ },
+ {
+  "text": "not",
+  "start": 36.34,
+  "end": 36.48
+ },
+ {
+  "text": "just",
+  "start": 36.48,
+  "end": 36.64
+ },
+ {
+  "text": "your",
+  "start": 36.64,
+  "end": 36.84
+ },
+ {
+  "text": "product.",
+  "start": 36.84,
+  "end": 37.16
+ },
+ {
+  "text": "Number",
+  "start": 37.5,
+  "end": 37.6
+ },
+ {
+  "text": "three:",
+  "start": 37.6,
+  "end": 37.98
+ },
+ {
+  "text": "look",
+  "start": 38.24,
+  "end": 38.42
+ },
+ {
+  "text": "after",
+  "start": 38.42,
+  "end": 38.6
+ },
+ {
+  "text": "them",
+  "start": 38.6,
+  "end": 38.9
+ },
+ {
+  "text": "while",
+  "start": 38.9,
+  "end": 39.06
+ },
+ {
+  "text": "you",
+  "start": 39.06,
+  "end": 39.28
+ },
+ {
+  "text": "do",
+  "start": 39.28,
+  "end": 39.48
+ },
+ {
+  "text": "it.",
+  "start": 39.48,
+  "end": 39.68
+ },
+ {
+  "text": "Would",
+  "start": 39.94,
+  "end": 39.98
+ },
+ {
+  "text": "you",
+  "start": 39.98,
+  "end": 40.12
+ },
+ {
+  "text": "take",
+  "start": 40.12,
+  "end": 40.32
+ },
+ {
+  "text": "that",
+  "start": 40.32,
+  "end": 40.52
+ },
+ {
+  "text": "deal?",
+  "start": 40.52,
+  "end": 40.72
+ },
+ {
+  "text": "Tell",
+  "start": 41.1,
+  "end": 41.16
+ },
+ {
+  "text": "me",
+  "start": 41.16,
+  "end": 41.3
+ },
+ {
+  "text": "below.",
+  "start": 41.3,
+  "end": 41.54
+ }
+]
