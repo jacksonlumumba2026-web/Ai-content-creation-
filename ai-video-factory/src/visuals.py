@@ -128,7 +128,11 @@ def draw_stat(spec: dict, accent) -> Image.Image:
         d.text((cx - w / 2, cy - 72), value, font=vf, fill=(255, 255, 255))
         y = 460
     else:
-        vf = _font(190)
+        size = 190
+        vf = _font(size)
+        while d.textlength(value, font=vf) > CARD_W - 100 and size > 90:  # long values shrink to fit
+            size -= 10
+            vf = _font(size)
         w = d.textlength(value, font=vf)
         d.text(((CARD_W - w) / 2, 90), value, font=vf, fill=accent)
         y = 340
