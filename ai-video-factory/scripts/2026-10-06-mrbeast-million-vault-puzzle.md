@@ -1,6 +1,6 @@
 ---
-title: "60 million people tried. One guy cracked it."
-youtube_title: "MrBeast Hid $1,000,000 Behind a Puzzle — 60 Million People Tried #Shorts"
+title: "60 million people looked. One guy cracked it."
+youtube_title: "MrBeast Hid $1,000,000 Behind a Puzzle — 60 Million People Went Looking #Shorts"
 caption: "MrBeast's Super Bowl ad hid a $1,000,000 puzzle. About 60 million people visited the site, and one guy cracked it. The lesson: give people a game, not just an ad. Would you have tried?"
 hashtags: [mrbeast, marketing, business, superbowl, entrepreneur, smallbusiness]
 sources:
