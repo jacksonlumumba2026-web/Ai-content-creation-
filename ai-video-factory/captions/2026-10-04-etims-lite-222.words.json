@@ -1,0 +1,742 @@
+[
+ {
+  "text": "Picture",
+  "start": 0.0,
+  "end": 0.28
+ },
+ {
+  "text": "a",
+  "start": 0.28,
+  "end": 0.46
+ },
+ {
+  "text": "caterer",
+  "start": 0.46,
+  "end": 0.88
+ },
+ {
+  "text": "in",
+  "start": 0.88,
+  "end": 1.12
+ },
+ {
+  "text": "Eldoret.",
+  "start": 1.12,
+  "end": 1.54
+ },
+ {
+  "text": "Let's",
+  "start": 1.84,
+  "end": 2.14
+ },
+ {
+  "text": "call",
+  "start": 2.14,
+  "end": 2.3
+ },
+ {
+  "text": "her",
+  "start": 2.3,
+  "end": 2.54
+ },
+ {
+  "text": "Mercy.",
+  "start": 2.54,
+  "end": 2.7
+ },
+ {
+  "text": "One",
+  "start": 3.24,
+  "end": 3.3
+ },
+ {
+  "text": "day,",
+  "start": 3.3,
+  "end": 3.6
+ },
+ {
+  "text": "a",
+  "start": 3.88,
+  "end": 4.02
+ },
+ {
+  "text": "company",
+  "start": 4.02,
+  "end": 4.28
+ },
+ {
+  "text": "calls.",
+  "start": 4.28,
+  "end": 4.66
+ },
+ {
+  "text": "They",
+  "start": 5.1,
+  "end": 5.12
+ },
+ {
+  "text": "want",
+  "start": 5.12,
+  "end": 5.3
+ },
+ {
+  "text": "her",
+  "start": 5.3,
+  "end": 5.48
+ },
+ {
+  "text": "to",
+  "start": 5.48,
+  "end": 5.58
+ },
+ {
+  "text": "cater",
+  "start": 5.58,
+  "end": 5.76
+ },
+ {
+  "text": "their",
+  "start": 5.76,
+  "end": 6.04
+ },
+ {
+  "text": "staff",
+  "start": 6.04,
+  "end": 6.26
+ },
+ {
+  "text": "party.",
+  "start": 6.26,
+  "end": 6.58
+ },
+ {
+  "text": "Then",
+  "start": 7.02,
+  "end": 7.04
+ },
+ {
+  "text": "comes",
+  "start": 7.04,
+  "end": 7.24
+ },
+ {
+  "text": "the",
+  "start": 7.24,
+  "end": 7.46
+ },
+ {
+  "text": "question:",
+  "start": 7.46,
+  "end": 7.66
+ },
+ {
+  "text": "can",
+  "start": 8.22,
+  "end": 8.44
+ },
+ {
+  "text": "you",
+  "start": 8.44,
+  "end": 8.58
+ },
+ {
+  "text": "send",
+  "start": 8.58,
+  "end": 8.78
+ },
+ {
+  "text": "a",
+  "start": 8.78,
+  "end": 8.92
+ },
+ {
+  "text": "KRA",
+  "start": 8.92,
+  "end": 9.36
+ },
+ {
+  "text": "eTIMS",
+  "start": 9.36,
+  "end": 9.94
+ },
+ {
+  "text": "invoice?",
+  "start": 9.94,
+  "end": 10.14
+ },
+ {
+  "text": "Mercy",
+  "start": 10.66,
+  "end": 10.76
+ },
+ {
+  "text": "says",
+  "start": 10.76,
+  "end": 11.1
+ },
+ {
+  "text": "no,",
+  "start": 11.1,
+  "end": 11.38
+ },
+ {
+  "text": "and",
+  "start": 11.7,
+  "end": 11.72
+ },
+ {
+  "text": "the",
+  "start": 11.72,
+  "end": 11.8
+ },
+ {
+  "text": "order",
+  "start": 11.8,
+  "end": 11.96
+ },
+ {
+  "text": "goes",
+  "start": 11.96,
+  "end": 12.18
+ },
+ {
+  "text": "to",
+  "start": 12.18,
+  "end": 12.4
+ },
+ {
+  "text": "someone",
+  "start": 12.4,
+  "end": 12.62
+ },
+ {
+  "text": "else.",
+  "start": 12.62,
+  "end": 12.9
+ },
+ {
+  "text": "Here's",
+  "start": 13.34,
+  "end": 13.48
+ },
+ {
+  "text": "what",
+  "start": 13.48,
+  "end": 13.68
+ },
+ {
+  "text": "she",
+  "start": 13.68,
+  "end": 13.86
+ },
+ {
+  "text": "didn't",
+  "start": 13.86,
+  "end": 14.16
+ },
+ {
+  "text": "know.",
+  "start": 14.16,
+  "end": 14.32
+ },
+ {
+  "text": "KRA",
+  "start": 14.6,
+  "end": 14.82
+ },
+ {
+  "text": "says",
+  "start": 14.82,
+  "end": 15.14
+ },
+ {
+  "text": "every",
+  "start": 15.14,
+  "end": 15.54
+ },
+ {
+  "text": "business,",
+  "start": 15.54,
+  "end": 16.0
+ },
+ {
+  "text": "even",
+  "start": 16.44,
+  "end": 16.58
+ },
+ {
+  "text": "small",
+  "start": 16.58,
+  "end": 16.98
+ },
+ {
+  "text": "and",
+  "start": 16.98,
+  "end": 17.28
+ },
+ {
+  "text": "informal",
+  "start": 17.28,
+  "end": 17.58
+ },
+ {
+  "text": "ones,",
+  "start": 17.58,
+  "end": 18.2
+ },
+ {
+  "text": "should",
+  "start": 18.38,
+  "end": 18.52
+ },
+ {
+  "text": "issue",
+  "start": 18.52,
+  "end": 18.82
+ },
+ {
+  "text": "electronic",
+  "start": 18.82,
+  "end": 19.1
+ },
+ {
+  "text": "tax",
+  "start": 19.1,
+  "end": 19.6
+ },
+ {
+  "text": "invoices",
+  "start": 19.6,
+  "end": 20.22
+ },
+ {
+  "text": "through",
+  "start": 20.22,
+  "end": 20.56
+ },
+ {
+  "text": "eTIMS.",
+  "start": 20.56,
+  "end": 21.28
+ },
+ {
+  "text": "And",
+  "start": 21.5,
+  "end": 21.54
+ },
+ {
+  "text": "for",
+  "start": 21.54,
+  "end": 21.72
+ },
+ {
+  "text": "small",
+  "start": 21.72,
+  "end": 21.94
+ },
+ {
+  "text": "businesses",
+  "start": 21.94,
+  "end": 22.38
+ },
+ {
+  "text": "not",
+  "start": 22.38,
+  "end": 22.8
+ },
+ {
+  "text": "registered",
+  "start": 22.8,
+  "end": 23.08
+ },
+ {
+  "text": "for",
+  "start": 23.08,
+  "end": 23.52
+ },
+ {
+  "text": "VAT,",
+  "start": 23.52,
+  "end": 23.74
+ },
+ {
+  "text": "there's",
+  "start": 24.38,
+  "end": 24.58
+ },
+ {
+  "text": "a",
+  "start": 24.58,
+  "end": 24.64
+ },
+ {
+  "text": "free",
+  "start": 24.64,
+  "end": 24.78
+ },
+ {
+  "text": "version",
+  "start": 24.78,
+  "end": 25.14
+ },
+ {
+  "text": "called",
+  "start": 25.14,
+  "end": 25.42
+ },
+ {
+  "text": "eTIMS",
+  "start": 25.42,
+  "end": 26.12
+ },
+ {
+  "text": "Lite.",
+  "start": 26.12,
+  "end": 26.26
+ },
+ {
+  "text": "There",
+  "start": 26.58,
+  "end": 26.68
+ },
+ {
+  "text": "are",
+  "start": 26.68,
+  "end": 26.78
+ },
+ {
+  "text": "three",
+  "start": 26.78,
+  "end": 27.02
+ },
+ {
+  "text": "ways",
+  "start": 27.02,
+  "end": 27.3
+ },
+ {
+  "text": "to",
+  "start": 27.3,
+  "end": 27.52
+ },
+ {
+  "text": "use",
+  "start": 27.52,
+  "end": 27.72
+ },
+ {
+  "text": "it.",
+  "start": 27.72,
+  "end": 27.88
+ },
+ {
+  "text": "On",
+  "start": 28.08,
+  "end": 28.16
+ },
+ {
+  "text": "the",
+  "start": 28.16,
+  "end": 28.26
+ },
+ {
+  "text": "web,",
+  "start": 28.26,
+  "end": 28.44
+ },
+ {
+  "text": "through",
+  "start": 28.76,
+  "end": 28.86
+ },
+ {
+  "text": "eCitizen.",
+  "start": 28.86,
+  "end": 29.32
+ },
+ {
+  "text": "On",
+  "start": 29.82,
+  "end": 29.84
+ },
+ {
+  "text": "the",
+  "start": 29.84,
+  "end": 29.96
+ },
+ {
+  "text": "eTIMS",
+  "start": 29.96,
+  "end": 30.38
+ },
+ {
+  "text": "app.",
+  "start": 30.38,
+  "end": 30.56
+ },
+ {
+  "text": "Or,",
+  "start": 30.86,
+  "end": 31.06
+ },
+ {
+  "text": "with",
+  "start": 31.06,
+  "end": 31.4
+ },
+ {
+  "text": "no",
+  "start": 31.4,
+  "end": 31.62
+ },
+ {
+  "text": "internet",
+  "start": 31.62,
+  "end": 31.94
+ },
+ {
+  "text": "at",
+  "start": 31.94,
+  "end": 32.28
+ },
+ {
+  "text": "all,",
+  "start": 32.28,
+  "end": 32.46
+ },
+ {
+  "text": "dial",
+  "start": 32.78,
+  "end": 32.96
+ },
+ {
+  "text": "star",
+  "start": 32.96,
+  "end": 33.34
+ },
+ {
+  "text": "two",
+  "start": 33.34,
+  "end": 33.633
+ },
+ {
+  "text": "two",
+  "start": 33.633,
+  "end": 33.927
+ },
+ {
+  "text": "two",
+  "start": 33.927,
+  "end": 34.22
+ },
+ {
+  "text": "hash",
+  "start": 34.22,
+  "end": 34.48
+ },
+ {
+  "text": "on",
+  "start": 34.48,
+  "end": 34.8
+ },
+ {
+  "text": "any",
+  "start": 34.8,
+  "end": 34.98
+ },
+ {
+  "text": "phone.",
+  "start": 34.98,
+  "end": 35.28
+ },
+ {
+  "text": "Mercy",
+  "start": 35.66,
+  "end": 35.76
+ },
+ {
+  "text": "sends",
+  "start": 35.76,
+  "end": 36.08
+ },
+ {
+  "text": "her",
+  "start": 36.08,
+  "end": 36.32
+ },
+ {
+  "text": "next",
+  "start": 36.32,
+  "end": 36.52
+ },
+ {
+  "text": "invoice",
+  "start": 36.52,
+  "end": 36.88
+ },
+ {
+  "text": "in",
+  "start": 36.88,
+  "end": 37.16
+ },
+ {
+  "text": "minutes,",
+  "start": 37.16,
+  "end": 37.42
+ },
+ {
+  "text": "and",
+  "start": 37.74,
+  "end": 37.82
+ },
+ {
+  "text": "the",
+  "start": 37.82,
+  "end": 37.9
+ },
+ {
+  "text": "company",
+  "start": 37.9,
+  "end": 38.2
+ },
+ {
+  "text": "books",
+  "start": 38.2,
+  "end": 38.4
+ },
+ {
+  "text": "her",
+  "start": 38.4,
+  "end": 38.62
+ },
+ {
+  "text": "for",
+  "start": 38.62,
+  "end": 38.78
+ },
+ {
+  "text": "every",
+  "start": 38.78,
+  "end": 38.98
+ },
+ {
+  "text": "event",
+  "start": 38.98,
+  "end": 39.26
+ },
+ {
+  "text": "after",
+  "start": 39.26,
+  "end": 39.76
+ },
+ {
+  "text": "that.",
+  "start": 39.76,
+  "end": 40.04
+ },
+ {
+  "text": "This",
+  "start": 40.32,
+  "end": 40.42
+ },
+ {
+  "text": "is",
+  "start": 40.42,
+  "end": 40.54
+ },
+ {
+  "text": "not",
+  "start": 40.54,
+  "end": 40.72
+ },
+ {
+  "text": "tax",
+  "start": 40.72,
+  "end": 40.98
+ },
+ {
+  "text": "advice,",
+  "start": 40.98,
+  "end": 41.32
+ },
+ {
+  "text": "so",
+  "start": 41.76,
+  "end": 41.86
+ },
+ {
+  "text": "check",
+  "start": 41.86,
+  "end": 42.04
+ },
+ {
+  "text": "the",
+  "start": 42.04,
+  "end": 42.24
+ },
+ {
+  "text": "details",
+  "start": 42.24,
+  "end": 42.5
+ },
+ {
+  "text": "with",
+  "start": 42.5,
+  "end": 42.82
+ },
+ {
+  "text": "KRA.",
+  "start": 42.82,
+  "end": 43.26
+ },
+ {
+  "text": "Do",
+  "start": 43.62,
+  "end": 43.68
+ },
+ {
+  "text": "your",
+  "start": 43.68,
+  "end": 43.8
+ },
+ {
+  "text": "customers",
+  "start": 43.8,
+  "end": 44.12
+ },
+ {
+  "text": "ask",
+  "start": 44.12,
+  "end": 44.6
+ },
+ {
+  "text": "for",
+  "start": 44.6,
+  "end": 44.84
+ },
+ {
+  "text": "eTIMS",
+  "start": 44.84,
+  "end": 45.32
+ },
+ {
+  "text": "invoices?",
+  "start": 45.32,
+  "end": 45.74
+ },
+ {
+  "text": "Tell",
+  "start": 46.12,
+  "end": 46.24
+ },
+ {
+  "text": "me",
+  "start": 46.24,
+  "end": 46.36
+ },
+ {
+  "text": "below.",
+  "start": 46.36,
+  "end": 46.64
+ }
+]
