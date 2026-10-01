@@ -1,6 +1,6 @@
 ---
 title: "Day 67. Then he changed the rules."
-youtube_title: "MrBeast Trapped 4 People in a Grocery Store — Then Changed the Rules on Day 67 #Shorts"
+youtube_title: "4 People Lived in a Grocery Store for 67 Days — Then MrBeast Changed the Rules #Shorts"
 caption: "MrBeast's grocery store challenge didn't end — on Day 67 it turned into a year-long, $1,000,000 team challenge. Here's the business lesson in that twist."
 hashtags: [mrbeast, challenge, business, marketing, storytelling, entrepreneur]
 sources:
