@@ -33,7 +33,9 @@ TAIL_SEC = 0.6  # breathing room after the last word
 VISUAL_TOP = 0.235  # graphics card top edge, as a fraction of video height
 TAG_TOP = 0.215     # small tags (e.g. "Illustrative example"), just under the headline
 HANDLE_Y = 0.765   # channel handle, below the captions and above platform UI
-FOOTAGE_DIM = 0.30  # black overlay opacity on stock footage (text readability)
+FOOTAGE_DIM = 0.30  # (old flat dim; replaced by text_shade, owner 2026-10-02: footage looked faded)
+# Footage keeps full colour; only the headline (top) and caption/handle band (bottom) are shaded.
+SHADE_STOPS = [(0.00, 0.70), (0.22, 0.45), (0.32, 0.0), (0.55, 0.0), (0.62, 0.35), (0.80, 0.55), (1.00, 0.70)]
 
 
 def pick_palette(slug: str) -> tuple[tuple[str, str, str], str]:
@@ -126,6 +128,23 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     return header + "\n".join(events) + "\n"
 
 
+def text_shade(width: int, height: int, out: Path) -> Path:
+    """Transparent PNG, dark only where text sits (top headline, bottom captions)."""
+    from PIL import Image
+    col = Image.new("L", (1, height))
+    for y in range(height):
+        f = y / (height - 1)
+        for (f0, a0), (f1, a1) in zip(SHADE_STOPS, SHADE_STOPS[1:]):
+            if f0 <= f <= f1:
+                a = a0 + (a1 - a0) * (f - f0) / (f1 - f0)
+                break
+        col.putpixel((0, y), int(255 * a))
+    img = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    img.putalpha(col.resize((width, height)))
+    img.save(out)
+    return out
+
+
 def build_footage_background(scenes: list, duration: float, settings: Settings, out: Path) -> Path:
     """Cut, crop and join stock clips into one silent 1080x1920 background track."""
     v = settings["video"]
@@ -140,7 +159,7 @@ def build_footage_background(scenes: list, duration: float, settings: Settings, 
         )
     joined = "".join(f"[s{i}]" for i in range(len(scenes)))
     chains.append(f"{joined}concat=n={len(scenes)}:v=1:a=0,trim=duration={duration},"
-                  f"eq=brightness=-0.06:saturation=1.05[bg]")
+                  f"eq=contrast=1.06:saturation=1.3:gamma=1.02[bg]")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chains),
            "-map", "[bg]", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
            "-pix_fmt", "yuv420p", str(out)]
@@ -177,8 +196,10 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
     if scenes:
         # Real footage: darken so white text and graphics stay readable.
         footage = build_footage_background(scenes, duration, settings, out_dir / f"{slug}_bg.mp4")
+        shade = text_shade(v["width"], v["height"], out_dir / f"{slug}_shade.png")
         background_input = ["-i", str(footage)]
-        base = f"[0:v]drawbox=x=0:y=0:w=iw:h=ih:color=black@{FOOTAGE_DIM}:t=fill,vignette=PI/4[bg]"
+        shade_idx = 2 + len(beats)
+        base = f"[0:v][{shade_idx}:v]overlay=0:0[bg]"
     else:
         background_input = ["-f", "lavfi", "-i", (
             f"gradients=s={v['width']}x{v['height']}:r={v['fps']}:d={duration}"
@@ -213,6 +234,7 @@ def render_video(slug: str, cues: list[Cue], title: str, settings: Settings,
         *background_input,
         "-i", str(voice),
         *[arg for beat in beats for arg in ("-loop", "1", "-t", str(duration), "-i", str(beat.image))],
+        *(["-loop", "1", "-t", str(duration), "-i", str(shade)] if scenes else []),
         "-filter_complex", f"{video_chain};{audio_chain}",
         "-map", "[v]", "-map", "[a]", "-t", str(duration),
         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
