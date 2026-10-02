@@ -1,0 +1,747 @@
+[
+ {
+  "text": "Picture",
+  "start": 0.0,
+  "end": 0.2
+ },
+ {
+  "text": "a",
+  "start": 0.2,
+  "end": 0.34
+ },
+ {
+  "text": "shopkeeper",
+  "start": 0.34,
+  "end": 0.8
+ },
+ {
+  "text": "in",
+  "start": 0.8,
+  "end": 1.14
+ },
+ {
+  "text": "Nyeri.",
+  "start": 1.14,
+  "end": 1.84
+ },
+ {
+  "text": "Let's",
+  "start": 1.84,
+  "end": 2.0
+ },
+ {
+  "text": "call",
+  "start": 2.0,
+  "end": 2.16
+ },
+ {
+  "text": "her",
+  "start": 2.16,
+  "end": 2.38
+ },
+ {
+  "text": "Wairimu.",
+  "start": 2.38,
+  "end": 2.88
+ },
+ {
+  "text": "Her",
+  "start": 3.14,
+  "end": 3.24
+ },
+ {
+  "text": "phone",
+  "start": 3.24,
+  "end": 3.56
+ },
+ {
+  "text": "rings.",
+  "start": 3.56,
+  "end": 3.88
+ },
+ {
+  "text": "A",
+  "start": 4.48,
+  "end": 4.52
+ },
+ {
+  "text": "man",
+  "start": 4.52,
+  "end": 4.7
+ },
+ {
+  "text": "sounds",
+  "start": 4.7,
+  "end": 5.02
+ },
+ {
+  "text": "panicked.",
+  "start": 5.02,
+  "end": 5.4
+ },
+ {
+  "text": "\"Sorry,",
+  "start": 5.88,
+  "end": 6.1
+ },
+ {
+  "text": "I",
+  "start": 6.36,
+  "end": 6.52
+ },
+ {
+  "text": "sent",
+  "start": 6.52,
+  "end": 6.68
+ },
+ {
+  "text": "you",
+  "start": 6.68,
+  "end": 6.86
+ },
+ {
+  "text": "money",
+  "start": 6.86,
+  "end": 7.0
+ },
+ {
+  "text": "by",
+  "start": 7.0,
+  "end": 7.24
+ },
+ {
+  "text": "mistake.",
+  "start": 7.24,
+  "end": 7.52
+ },
+ {
+  "text": "It's",
+  "start": 8.02,
+  "end": 8.16
+ },
+ {
+  "text": "my",
+  "start": 8.16,
+  "end": 8.26
+ },
+ {
+  "text": "school",
+  "start": 8.26,
+  "end": 8.54
+ },
+ {
+  "text": "fees.",
+  "start": 8.54,
+  "end": 8.86
+ },
+ {
+  "text": "Please",
+  "start": 9.3,
+  "end": 9.4
+ },
+ {
+  "text": "send",
+  "start": 9.4,
+  "end": 9.66
+ },
+ {
+  "text": "it",
+  "start": 9.66,
+  "end": 9.8
+ },
+ {
+  "text": "back.\"",
+  "start": 9.8,
+  "end": 10.0
+ },
+ {
+  "text": "Wairimu",
+  "start": 10.34,
+  "end": 10.72
+ },
+ {
+  "text": "wants",
+  "start": 10.72,
+  "end": 10.92
+ },
+ {
+  "text": "to",
+  "start": 10.92,
+  "end": 11.1
+ },
+ {
+  "text": "help.",
+  "start": 11.1,
+  "end": 11.3
+ },
+ {
+  "text": "But",
+  "start": 11.62,
+  "end": 11.68
+ },
+ {
+  "text": "here's",
+  "start": 11.68,
+  "end": 12.08
+ },
+ {
+  "text": "how",
+  "start": 12.08,
+  "end": 12.24
+ },
+ {
+  "text": "this",
+  "start": 12.24,
+  "end": 12.42
+ },
+ {
+  "text": "scam",
+  "start": 12.42,
+  "end": 12.64
+ },
+ {
+  "text": "works.",
+  "start": 12.64,
+  "end": 12.9
+ },
+ {
+  "text": "First,",
+  "start": 13.66,
+  "end": 13.66
+ },
+ {
+  "text": "money",
+  "start": 13.9,
+  "end": 14.12
+ },
+ {
+  "text": "arrives,",
+  "start": 14.12,
+  "end": 14.5
+ },
+ {
+  "text": "or",
+  "start": 14.92,
+  "end": 15.02
+ },
+ {
+  "text": "sometimes",
+  "start": 15.02,
+  "end": 15.5
+ },
+ {
+  "text": "just",
+  "start": 15.5,
+  "end": 15.9
+ },
+ {
+  "text": "a",
+  "start": 15.9,
+  "end": 16.08
+ },
+ {
+  "text": "fake",
+  "start": 16.08,
+  "end": 16.22
+ },
+ {
+  "text": "message",
+  "start": 16.22,
+  "end": 16.64
+ },
+ {
+  "text": "that",
+  "start": 16.64,
+  "end": 17.02
+ },
+ {
+  "text": "looks",
+  "start": 17.02,
+  "end": 17.22
+ },
+ {
+  "text": "like",
+  "start": 17.22,
+  "end": 17.48
+ },
+ {
+  "text": "M-Pesa.",
+  "start": 17.48,
+  "end": 18.42
+ },
+ {
+  "text": "Then",
+  "start": 18.42,
+  "end": 18.54
+ },
+ {
+  "text": "comes",
+  "start": 18.54,
+  "end": 18.8
+ },
+ {
+  "text": "the",
+  "start": 18.8,
+  "end": 19.02
+ },
+ {
+  "text": "call,",
+  "start": 19.02,
+  "end": 19.24
+ },
+ {
+  "text": "urgent",
+  "start": 19.72,
+  "end": 19.76
+ },
+ {
+  "text": "and",
+  "start": 19.76,
+  "end": 20.28
+ },
+ {
+  "text": "emotional.",
+  "start": 20.28,
+  "end": 20.48
+ },
+ {
+  "text": "If",
+  "start": 21.02,
+  "end": 21.12
+ },
+ {
+  "text": "you",
+  "start": 21.12,
+  "end": 21.2
+ },
+ {
+  "text": "send",
+  "start": 21.2,
+  "end": 21.4
+ },
+ {
+  "text": "it",
+  "start": 21.4,
+  "end": 21.54
+ },
+ {
+  "text": "back",
+  "start": 21.54,
+  "end": 21.68
+ },
+ {
+  "text": "yourself,",
+  "start": 21.68,
+  "end": 22.08
+ },
+ {
+  "text": "the",
+  "start": 22.34,
+  "end": 22.4
+ },
+ {
+  "text": "scammer",
+  "start": 22.4,
+  "end": 22.7
+ },
+ {
+  "text": "can",
+  "start": 22.7,
+  "end": 22.88
+ },
+ {
+  "text": "also",
+  "start": 22.88,
+  "end": 23.1
+ },
+ {
+  "text": "ask",
+  "start": 23.1,
+  "end": 23.46
+ },
+ {
+  "text": "for",
+  "start": 23.46,
+  "end": 23.64
+ },
+ {
+  "text": "the",
+  "start": 23.64,
+  "end": 23.76
+ },
+ {
+  "text": "original",
+  "start": 23.76,
+  "end": 23.94
+ },
+ {
+  "text": "to",
+  "start": 23.94,
+  "end": 24.3
+ },
+ {
+  "text": "be",
+  "start": 24.3,
+  "end": 24.42
+ },
+ {
+  "text": "reversed,",
+  "start": 24.42,
+  "end": 24.64
+ },
+ {
+  "text": "and",
+  "start": 25.02,
+  "end": 25.14
+ },
+ {
+  "text": "you",
+  "start": 25.14,
+  "end": 25.28
+ },
+ {
+  "text": "lose",
+  "start": 25.28,
+  "end": 25.4
+ },
+ {
+  "text": "twice.",
+  "start": 25.4,
+  "end": 25.66
+ },
+ {
+  "text": "The",
+  "start": 26.12,
+  "end": 26.22
+ },
+ {
+  "text": "safe",
+  "start": 26.22,
+  "end": 26.44
+ },
+ {
+  "text": "way",
+  "start": 26.44,
+  "end": 26.7
+ },
+ {
+  "text": "is",
+  "start": 26.7,
+  "end": 26.96
+ },
+ {
+  "text": "the",
+  "start": 26.96,
+  "end": 27.12
+ },
+ {
+  "text": "official",
+  "start": 27.12,
+  "end": 27.4
+ },
+ {
+  "text": "one.",
+  "start": 27.4,
+  "end": 27.8
+ },
+ {
+  "text": "A",
+  "start": 28.0,
+  "end": 28.16
+ },
+ {
+  "text": "real",
+  "start": 28.16,
+  "end": 28.3
+ },
+ {
+  "text": "mistake",
+  "start": 28.3,
+  "end": 28.76
+ },
+ {
+  "text": "gets",
+  "start": 28.76,
+  "end": 29.14
+ },
+ {
+  "text": "reversed",
+  "start": 29.14,
+  "end": 29.46
+ },
+ {
+  "text": "through",
+  "start": 29.68,
+  "end": 29.92
+ },
+ {
+  "text": "Safaricom,",
+  "start": 29.92,
+  "end": 30.72
+ },
+ {
+  "text": "when",
+  "start": 30.94,
+  "end": 31.06
+ },
+ {
+  "text": "the",
+  "start": 31.06,
+  "end": 31.2
+ },
+ {
+  "text": "sender",
+  "start": 31.2,
+  "end": 31.42
+ },
+ {
+  "text": "forwards",
+  "start": 31.42,
+  "end": 31.86
+ },
+ {
+  "text": "the",
+  "start": 31.86,
+  "end": 32.16
+ },
+ {
+  "text": "M-PESA",
+  "start": 32.16,
+  "end": 32.54
+ },
+ {
+  "text": "message",
+  "start": 32.54,
+  "end": 32.96
+ },
+ {
+  "text": "to",
+  "start": 32.96,
+  "end": 33.24
+ },
+ {
+  "text": "four",
+  "start": 33.24,
+  "end": 33.7
+ },
+ {
+  "text": "five",
+  "start": 33.7,
+  "end": 34.16
+ },
+ {
+  "text": "six.",
+  "start": 34.16,
+  "end": 34.62
+ },
+ {
+  "text": "So",
+  "start": 34.62,
+  "end": 34.72
+ },
+ {
+  "text": "Wairimu",
+  "start": 34.72,
+  "end": 35.1
+ },
+ {
+  "text": "says:",
+  "start": 35.1,
+  "end": 35.32
+ },
+ {
+  "text": "please",
+  "start": 35.84,
+  "end": 35.96
+ },
+ {
+  "text": "request",
+  "start": 35.96,
+  "end": 36.2
+ },
+ {
+  "text": "a",
+  "start": 36.2,
+  "end": 36.46
+ },
+ {
+  "text": "reversal.",
+  "start": 36.46,
+  "end": 36.62
+ },
+ {
+  "text": "The",
+  "start": 37.22,
+  "end": 37.22
+ },
+ {
+  "text": "caller",
+  "start": 37.22,
+  "end": 37.4
+ },
+ {
+  "text": "hangs",
+  "start": 37.4,
+  "end": 37.74
+ },
+ {
+  "text": "up.",
+  "start": 37.74,
+  "end": 38.04
+ },
+ {
+  "text": "If",
+  "start": 38.4,
+  "end": 38.42
+ },
+ {
+  "text": "you",
+  "start": 38.42,
+  "end": 38.56
+ },
+ {
+  "text": "think",
+  "start": 38.56,
+  "end": 38.74
+ },
+ {
+  "text": "you've",
+  "start": 38.74,
+  "end": 38.94
+ },
+ {
+  "text": "been",
+  "start": 38.94,
+  "end": 39.06
+ },
+ {
+  "text": "targeted,",
+  "start": 39.06,
+  "end": 39.42
+ },
+ {
+  "text": "call",
+  "start": 39.86,
+  "end": 40.04
+ },
+ {
+  "text": "Safaricom",
+  "start": 40.04,
+  "end": 40.78
+ },
+ {
+  "text": "on",
+  "start": 40.78,
+  "end": 40.94
+ },
+ {
+  "text": "one",
+  "start": 40.94,
+  "end": 41.076
+ },
+ {
+  "text": "hundred,",
+  "start": 41.076,
+  "end": 41.44
+ },
+ {
+  "text": "or",
+  "start": 41.44,
+  "end": 41.86
+ },
+ {
+  "text": "two",
+  "start": 41.86,
+  "end": 42.077
+ },
+ {
+  "text": "three",
+  "start": 42.077,
+  "end": 42.438
+ },
+ {
+  "text": "four.",
+  "start": 42.438,
+  "end": 42.8
+ },
+ {
+  "text": "Has",
+  "start": 42.8,
+  "end": 42.9
+ },
+ {
+  "text": "someone",
+  "start": 42.9,
+  "end": 43.1
+ },
+ {
+  "text": "tried",
+  "start": 43.1,
+  "end": 43.36
+ },
+ {
+  "text": "this",
+  "start": 43.36,
+  "end": 43.56
+ },
+ {
+  "text": "on",
+  "start": 43.56,
+  "end": 43.74
+ },
+ {
+  "text": "you?",
+  "start": 43.74,
+  "end": 43.96
+ },
+ {
+  "text": "Tell",
+  "start": 44.24,
+  "end": 44.3
+ },
+ {
+  "text": "me",
+  "start": 44.3,
+  "end": 44.46
+ },
+ {
+  "text": "below,",
+  "start": 44.46,
+  "end": 44.72
+ },
+ {
+  "text": "and",
+  "start": 44.72,
+  "end": 45.16
+ },
+ {
+  "text": "share",
+  "start": 45.16,
+  "end": 45.36
+ },
+ {
+  "text": "this",
+  "start": 45.36,
+  "end": 45.6
+ },
+ {
+  "text": "with",
+  "start": 45.6,
+  "end": 45.78
+ },
+ {
+  "text": "a",
+  "start": 45.78,
+  "end": 45.9
+ },
+ {
+  "text": "shop",
+  "start": 45.9,
+  "end": 46.08
+ },
+ {
+  "text": "owner.",
+  "start": 46.08,
+  "end": 46.36
+ }
+]

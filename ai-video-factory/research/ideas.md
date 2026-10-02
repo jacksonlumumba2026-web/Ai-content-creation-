@@ -7,6 +7,8 @@ talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem,
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
 
 ## 💡 Quick wins (leads)
+- Business name registration KES 950 on eCitizen — USED 2026-10-06
+- Free M-PESA statement via *334#/app — USED 2026-10-07
 - eTIMS Lite: free KRA tax invoice via web/app/*222# — USED 2026-10-04
 - Ziidi Money Market Fund: start from KES 100 via M-Pesa — USED 2026-10-05
 - Free annual credit report from each licensed CRB — USED 2026-10-03
@@ -15,6 +17,8 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 - Replying to Google reviews — verify on Google Business Profile help
 
 ## 💎 Hidden gems (verified leads)
+- 'Sent you money by mistake' reversal scam (456) — USED 2026-10-06
+- Don't approve unknown M-PESA PIN prompts (Safaricom Jul 2026) — USED 2026-10-07
 - Google "salon near me" searches: incomplete Google Business Profiles (~4 in 10 small local
   businesses) — USED 2026-10-03
 - Kenya Data Protection Act: CCTV businesses must register with ODPC regardless of size — USED 2026-10-02
