@@ -69,6 +69,10 @@ def quality_gate(script: Script, probe_info: dict, settings: Settings) -> list[s
         problems.append("no sources listed in front matter")
 
     text = (script.narration + " " + " ".join(str(meta.get(k, "")) for k in meta)).lower()
+    opening = script.narration.strip().lower()
+    if opening.startswith(("picture ", "imagine ")) or "let's call" in opening or "let’s call" in opening:
+        problems.append("unnatural opening: don't start with 'Picture…'/'Imagine…' or use "
+                        "'let's call…' — start straight into the moment (owner rule)")
     for phrase in BANNED_PHRASES:
         if phrase in text:
             problems.append(f"banned phrase: {phrase!r}")

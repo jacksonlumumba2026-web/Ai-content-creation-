@@ -54,6 +54,7 @@ Run the environment check after any change to `config/` or `src/config.py`.
 - Scripts are drafts until the user approves them. Don't render from an unapproved script.
 - Only use assets with a clear license; record the source/license next to each asset.
 - Disclose AI-generated voices/visuals where platforms require it.
+- Story openings sound natural: no "Picture a…", "Imagine…" or "Let's call her…" (owner, 2026-10-02).
 - On-screen cards only when they explain something (stat/list/compare/definition); never cards
   that repeat the captions. Illustrative characters get a small `tag`, not a card (owner, 2026-09-28).
 

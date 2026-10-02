@@ -47,14 +47,16 @@ It does **not** authorize other accounts, paid services, or deleting posts.
    `icon` cards, no "Follow for more" cards. Keep the opening clean: footage + headline + captions.
    Emoji only in `icon` fields of list cards. End with a question or follow call-to-action.
    **Tell it as a story** (owner request — stories keep people watching):
-   - *Hook (first sentence):* drop the viewer into a person's situation ("Picture a shop owner in
-     Nakuru…"), not a statistic.
+   - *Hook (first sentence):* start naturally, straight into the moment — a name, a place and what
+     happened ("Mercy runs a small catering business in Eldoret. Last week a company called…"), or a
+     line of dialogue. Never "Picture a…", "Imagine…" or "Let's call her…" (owner, 2026-10-02: sounds
+     unnatural; the quality gate rejects them). Not a statistic.
    - *Problem:* what goes wrong for them. *Turn:* the news/fact/tool that changes things.
    - *Payoff:* the sourced facts, framed as what this means for the character, then the lesson.
    - *End:* a question that puts the viewer in the character's shoes.
    - *On-screen `title`:* a story tease, not a topic label ("Her bank said no. A new bill could fix it").
-   - Characters are either real people from the sources, or clearly **illustrative** ("let's call
-     her Wanjiku"), marked `illustrative: true` and labelled on screen with a small tag
+   - Characters are either real people from the sources, or clearly **illustrative** (just use the
+     name, e.g. "Wanjiku runs a shop in Nakuru"), marked `illustrative: true` and labelled on screen with a small tag
      (`{at: "<first words>", type: tag, label: "Illustrative example"}`), not a card. Never invent quotes, outcomes or "true stories". Facts stay sourced.
    - Add front matter `story: {character, problem, turn, payoff, illustrative}` — the quality gate
      rejects scripts without it.
