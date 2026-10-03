@@ -1,0 +1,757 @@
+[
+ {
+  "text": "Mwangi",
+  "start": 0.0,
+  "end": 0.44
+ },
+ {
+  "text": "has",
+  "start": 0.44,
+  "end": 0.56
+ },
+ {
+  "text": "a",
+  "start": 0.56,
+  "end": 0.7
+ },
+ {
+  "text": "list",
+  "start": 0.7,
+  "end": 0.92
+ },
+ {
+  "text": "of",
+  "start": 0.92,
+  "end": 1.1
+ },
+ {
+  "text": "almost",
+  "start": 1.1,
+  "end": 1.42
+ },
+ {
+  "text": "every",
+  "start": 1.42,
+  "end": 1.7
+ },
+ {
+  "text": "customer",
+  "start": 1.7,
+  "end": 2.14
+ },
+ {
+  "text": "who",
+  "start": 2.14,
+  "end": 2.54
+ },
+ {
+  "text": "ever",
+  "start": 2.54,
+  "end": 2.72
+ },
+ {
+  "text": "called",
+  "start": 2.72,
+  "end": 3.0
+ },
+ {
+  "text": "his",
+  "start": 3.0,
+  "end": 3.18
+ },
+ {
+  "text": "salon",
+  "start": 3.18,
+  "end": 3.5
+ },
+ {
+  "text": "in",
+  "start": 3.5,
+  "end": 3.78
+ },
+ {
+  "text": "Thika.",
+  "start": 3.78,
+  "end": 4.08
+ },
+ {
+  "text": "Hundreds",
+  "start": 4.4,
+  "end": 4.66
+ },
+ {
+  "text": "of",
+  "start": 4.66,
+  "end": 4.9
+ },
+ {
+  "text": "numbers.",
+  "start": 4.9,
+  "end": 5.22
+ },
+ {
+  "text": "This",
+  "start": 5.62,
+  "end": 5.7
+ },
+ {
+  "text": "weekend",
+  "start": 5.7,
+  "end": 5.92
+ },
+ {
+  "text": "he's",
+  "start": 5.92,
+  "end": 6.34
+ },
+ {
+  "text": "running",
+  "start": 6.34,
+  "end": 6.52
+ },
+ {
+  "text": "a",
+  "start": 6.52,
+  "end": 6.7
+ },
+ {
+  "text": "discount,",
+  "start": 6.7,
+  "end": 6.92
+ },
+ {
+  "text": "so",
+  "start": 7.38,
+  "end": 7.5
+ },
+ {
+  "text": "he",
+  "start": 7.5,
+  "end": 7.62
+ },
+ {
+  "text": "types",
+  "start": 7.62,
+  "end": 7.8
+ },
+ {
+  "text": "one",
+  "start": 7.8,
+  "end": 8.14
+ },
+ {
+  "text": "promo",
+  "start": 8.14,
+  "end": 8.38
+ },
+ {
+  "text": "message",
+  "start": 8.38,
+  "end": 8.84
+ },
+ {
+  "text": "for",
+  "start": 8.84,
+  "end": 9.1
+ },
+ {
+  "text": "all",
+  "start": 9.1,
+  "end": 9.28
+ },
+ {
+  "text": "of",
+  "start": 9.28,
+  "end": 9.42
+ },
+ {
+  "text": "them.",
+  "start": 9.42,
+  "end": 9.58
+ },
+ {
+  "text": "He's",
+  "start": 9.9,
+  "end": 10.0
+ },
+ {
+  "text": "about",
+  "start": 10.0,
+  "end": 10.18
+ },
+ {
+  "text": "to",
+  "start": 10.18,
+  "end": 10.38
+ },
+ {
+  "text": "hit",
+  "start": 10.38,
+  "end": 10.54
+ },
+ {
+  "text": "send.",
+  "start": 10.54,
+  "end": 10.82
+ },
+ {
+  "text": "But",
+  "start": 11.18,
+  "end": 11.2
+ },
+ {
+  "text": "here's",
+  "start": 11.2,
+  "end": 11.56
+ },
+ {
+  "text": "what",
+  "start": 11.56,
+  "end": 11.66
+ },
+ {
+  "text": "he",
+  "start": 11.66,
+  "end": 11.8
+ },
+ {
+  "text": "doesn't",
+  "start": 11.8,
+  "end": 12.08
+ },
+ {
+  "text": "know.",
+  "start": 12.08,
+  "end": 12.28
+ },
+ {
+  "text": "In",
+  "start": 12.58,
+  "end": 12.64
+ },
+ {
+  "text": "Kenya,",
+  "start": 12.64,
+  "end": 12.86
+ },
+ {
+  "text": "sending",
+  "start": 13.34,
+  "end": 13.66
+ },
+ {
+  "text": "marketing",
+  "start": 13.66,
+  "end": 13.98
+ },
+ {
+  "text": "messages",
+  "start": 13.98,
+  "end": 14.4
+ },
+ {
+  "text": "without",
+  "start": 14.4,
+  "end": 14.9
+ },
+ {
+  "text": "consent",
+  "start": 14.9,
+  "end": 15.22
+ },
+ {
+  "text": "can",
+  "start": 15.22,
+  "end": 15.6
+ },
+ {
+  "text": "break",
+  "start": 15.6,
+  "end": 15.86
+ },
+ {
+  "text": "the",
+  "start": 15.86,
+  "end": 16.06
+ },
+ {
+  "text": "Data",
+  "start": 16.06,
+  "end": 16.18
+ },
+ {
+  "text": "Protection",
+  "start": 16.18,
+  "end": 16.5
+ },
+ {
+  "text": "Act.",
+  "start": 16.5,
+  "end": 17.04
+ },
+ {
+  "text": "The",
+  "start": 17.42,
+  "end": 17.44
+ },
+ {
+  "text": "Data",
+  "start": 17.44,
+  "end": 17.58
+ },
+ {
+  "text": "Protection",
+  "start": 17.58,
+  "end": 18.02
+ },
+ {
+  "text": "Commissioner",
+  "start": 18.02,
+  "end": 18.72
+ },
+ {
+  "text": "ordered",
+  "start": 18.72,
+  "end": 18.94
+ },
+ {
+  "text": "one",
+  "start": 18.94,
+  "end": 19.3
+ },
+ {
+  "text": "lender,",
+  "start": 19.3,
+  "end": 19.62
+ },
+ {
+  "text": "Platinum",
+  "start": 20.1,
+  "end": 20.44
+ },
+ {
+  "text": "Credit,",
+  "start": 20.44,
+  "end": 20.74
+ },
+ {
+  "text": "to",
+  "start": 21.04,
+  "end": 21.18
+ },
+ {
+  "text": "pay",
+  "start": 21.18,
+  "end": 21.32
+ },
+ {
+  "text": "four",
+  "start": 21.32,
+  "end": 21.52
+ },
+ {
+  "text": "hundred",
+  "start": 21.52,
+  "end": 21.8
+ },
+ {
+  "text": "thousand",
+  "start": 21.8,
+  "end": 22.24
+ },
+ {
+  "text": "shillings",
+  "start": 22.24,
+  "end": 22.64
+ },
+ {
+  "text": "to",
+  "start": 22.64,
+  "end": 22.86
+ },
+ {
+  "text": "someone",
+  "start": 22.86,
+  "end": 23.12
+ },
+ {
+  "text": "it",
+  "start": 23.12,
+  "end": 23.32
+ },
+ {
+  "text": "kept",
+  "start": 23.32,
+  "end": 23.46
+ },
+ {
+  "text": "sending",
+  "start": 23.46,
+  "end": 23.84
+ },
+ {
+  "text": "promotions",
+  "start": 23.84,
+  "end": 24.12
+ },
+ {
+  "text": "to.",
+  "start": 24.12,
+  "end": 24.66
+ },
+ {
+  "text": "And",
+  "start": 25.0,
+  "end": 25.02
+ },
+ {
+  "text": "Pepinos",
+  "start": 25.02,
+  "end": 25.46
+ },
+ {
+  "text": "Pizza",
+  "start": 25.46,
+  "end": 25.74
+ },
+ {
+  "text": "Inn",
+  "start": 25.74,
+  "end": 26.08
+ },
+ {
+  "text": "was",
+  "start": 26.08,
+  "end": 26.24
+ },
+ {
+  "text": "fined",
+  "start": 26.24,
+  "end": 26.52
+ },
+ {
+  "text": "two",
+  "start": 26.52,
+  "end": 26.92
+ },
+ {
+  "text": "hundred",
+  "start": 26.92,
+  "end": 27.24
+ },
+ {
+  "text": "and",
+  "start": 27.24,
+  "end": 27.44
+ },
+ {
+  "text": "fifty",
+  "start": 27.44,
+  "end": 27.62
+ },
+ {
+  "text": "thousand",
+  "start": 27.62,
+  "end": 28.1
+ },
+ {
+  "text": "shillings",
+  "start": 28.1,
+  "end": 28.54
+ },
+ {
+  "text": "over",
+  "start": 28.54,
+  "end": 28.86
+ },
+ {
+  "text": "unsolicited",
+  "start": 28.86,
+  "end": 29.46
+ },
+ {
+  "text": "marketing.",
+  "start": 29.46,
+  "end": 29.94
+ },
+ {
+  "text": "So",
+  "start": 29.94,
+  "end": 30.48
+ },
+ {
+  "text": "here's",
+  "start": 30.48,
+  "end": 30.92
+ },
+ {
+  "text": "how",
+  "start": 30.92,
+  "end": 31.06
+ },
+ {
+  "text": "to",
+  "start": 31.06,
+  "end": 31.16
+ },
+ {
+  "text": "market",
+  "start": 31.16,
+  "end": 31.36
+ },
+ {
+  "text": "safely.",
+  "start": 31.36,
+  "end": 31.68
+ },
+ {
+  "text": "Number",
+  "start": 32.38,
+  "end": 32.38
+ },
+ {
+  "text": "one:",
+  "start": 32.38,
+  "end": 32.62
+ },
+ {
+  "text": "ask",
+  "start": 32.94,
+  "end": 33.24
+ },
+ {
+  "text": "first,",
+  "start": 33.24,
+  "end": 33.46
+ },
+ {
+  "text": "and",
+  "start": 33.46,
+  "end": 33.88
+ },
+ {
+  "text": "make",
+  "start": 33.88,
+  "end": 34.06
+ },
+ {
+  "text": "it",
+  "start": 34.06,
+  "end": 34.24
+ },
+ {
+  "text": "clear",
+  "start": 34.24,
+  "end": 34.42
+ },
+ {
+  "text": "what",
+  "start": 34.42,
+  "end": 34.66
+ },
+ {
+  "text": "you'll",
+  "start": 34.66,
+  "end": 34.88
+ },
+ {
+  "text": "send.",
+  "start": 34.88,
+  "end": 35.14
+ },
+ {
+  "text": "Number",
+  "start": 35.54,
+  "end": 35.6
+ },
+ {
+  "text": "two:",
+  "start": 35.6,
+  "end": 35.96
+ },
+ {
+  "text": "keep",
+  "start": 36.32,
+  "end": 36.54
+ },
+ {
+  "text": "a",
+  "start": 36.54,
+  "end": 36.66
+ },
+ {
+  "text": "record",
+  "start": 36.66,
+  "end": 36.86
+ },
+ {
+  "text": "of",
+  "start": 36.86,
+  "end": 37.08
+ },
+ {
+  "text": "who",
+  "start": 37.08,
+  "end": 37.22
+ },
+ {
+  "text": "said",
+  "start": 37.22,
+  "end": 37.42
+ },
+ {
+  "text": "yes.",
+  "start": 37.42,
+  "end": 37.74
+ },
+ {
+  "text": "Number",
+  "start": 38.14,
+  "end": 38.22
+ },
+ {
+  "text": "three:",
+  "start": 38.22,
+  "end": 38.58
+ },
+ {
+  "text": "give",
+  "start": 38.86,
+  "end": 39.08
+ },
+ {
+  "text": "an",
+  "start": 39.08,
+  "end": 39.22
+ },
+ {
+  "text": "easy",
+  "start": 39.22,
+  "end": 39.4
+ },
+ {
+  "text": "way",
+  "start": 39.4,
+  "end": 39.74
+ },
+ {
+  "text": "to",
+  "start": 39.74,
+  "end": 39.88
+ },
+ {
+  "text": "opt",
+  "start": 39.88,
+  "end": 40.08
+ },
+ {
+  "text": "out",
+  "start": 40.08,
+  "end": 40.3
+ },
+ {
+  "text": "in",
+  "start": 40.3,
+  "end": 40.46
+ },
+ {
+  "text": "every",
+  "start": 40.46,
+  "end": 40.64
+ },
+ {
+  "text": "message.",
+  "start": 40.64,
+  "end": 41.14
+ },
+ {
+  "text": "This",
+  "start": 41.46,
+  "end": 41.58
+ },
+ {
+  "text": "is",
+  "start": 41.58,
+  "end": 41.72
+ },
+ {
+  "text": "not",
+  "start": 41.72,
+  "end": 41.94
+ },
+ {
+  "text": "legal",
+  "start": 41.94,
+  "end": 42.18
+ },
+ {
+  "text": "advice.",
+  "start": 42.18,
+  "end": 42.52
+ },
+ {
+  "text": "Have",
+  "start": 43.06,
+  "end": 43.16
+ },
+ {
+  "text": "you",
+  "start": 43.16,
+  "end": 43.24
+ },
+ {
+  "text": "ever",
+  "start": 43.24,
+  "end": 43.42
+ },
+ {
+  "text": "received",
+  "start": 43.42,
+  "end": 43.74
+ },
+ {
+  "text": "promo",
+  "start": 43.74,
+  "end": 44.06
+ },
+ {
+  "text": "texts",
+  "start": 44.06,
+  "end": 44.42
+ },
+ {
+  "text": "you",
+  "start": 44.42,
+  "end": 44.68
+ },
+ {
+  "text": "never",
+  "start": 44.68,
+  "end": 44.82
+ },
+ {
+  "text": "asked",
+  "start": 44.82,
+  "end": 45.14
+ },
+ {
+  "text": "for?",
+  "start": 45.14,
+  "end": 45.38
+ },
+ {
+  "text": "Tell",
+  "start": 45.68,
+  "end": 45.76
+ },
+ {
+  "text": "me",
+  "start": 45.76,
+  "end": 45.9
+ },
+ {
+  "text": "below.",
+  "start": 45.9,
+  "end": 46.18
+ }
+]

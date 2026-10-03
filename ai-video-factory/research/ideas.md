@@ -7,6 +7,7 @@ talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem,
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
 
 ## 💡 Quick wins (leads)
+- M-Shwari Lock Savings — USED 2026-10-10
 - Read the name on Hakikisha before confirming — USED 2026-10-08
 - Reply to Google reviews — USED 2026-10-09
 - Business name registration KES 950 on eCitizen — USED 2026-10-06
@@ -19,6 +20,7 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 - Replying to Google reviews — verify on Google Business Profile help
 
 ## 💎 Hidden gems (verified leads)
+- Marketing SMS without consent: ODPC KES 400K / 250K — USED 2026-10-10
 - SIM swap warning signs, call 100 — USED 2026-10-08
 - Fake job offers asking for fees (KRA warning Sep 2026) — USED 2026-10-09
 - 'Sent you money by mistake' reversal scam (456) — USED 2026-10-06
@@ -33,6 +35,7 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 - Kenyan banks quietly becoming fintechs (CBK banking report, Sept 2026) — lead: techweez.com
 
 ## 🔥 Viral / timely (verified leads)
+- WhatsApp Business Platform charges from 1 Oct 2026 — USED 2026-10-10
 - Deepfake CFO video call: Arup employee sent $25M in 15 transfers (CNN 2024) — USED 2026-10-02
 - Mombasa +22 places in StartupBlink 2026; Nairobi 107th→116th — USED 2026-10-03
 - Kenya draft National Payment System Bill (22 Sep 2026), views until 9 Oct — USED 2026-09-29

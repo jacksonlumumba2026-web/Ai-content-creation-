@@ -1,0 +1,201 @@
+1
+00:00:00,000 --> 00:00:01,260
+Brian sells
+shoes online
+
+2
+00:00:01,260 --> 00:00:02,560
+in Nairobi,
+
+3
+00:00:02,560 --> 00:00:03,720
+and a WhatsApp
+chatbot
+
+4
+00:00:03,720 --> 00:00:05,060
+answers his
+customers day
+
+5
+00:00:05,060 --> 00:00:05,920
+and night.
+
+6
+00:00:05,920 --> 00:00:06,940
+Then on
+Thursday,
+
+7
+00:00:06,940 --> 00:00:07,780
+a friend sends
+him
+
+8
+00:00:07,780 --> 00:00:08,800
+a headline:
+
+9
+00:00:08,800 --> 00:00:09,840
+WhatsApp is now
+charging
+
+10
+00:00:09,840 --> 00:00:11,160
+Kenyan
+businesses.
+
+11
+00:00:11,160 --> 00:00:12,360
+Brian panics.
+
+12
+00:00:12,360 --> 00:00:13,460
+Here's what
+changed.
+
+13
+00:00:13,460 --> 00:00:14,860
+From October
+first,
+businesses
+
+14
+00:00:14,860 --> 00:00:16,080
+on the WhatsApp
+Business
+
+15
+00:00:16,080 --> 00:00:17,020
+Platform,
+
+16
+00:00:17,020 --> 00:00:18,160
+the system
+behind chatbots
+
+17
+00:00:18,160 --> 00:00:19,980
+and customer
+service tools,
+
+18
+00:00:19,980 --> 00:00:21,520
+pay for service
+replies.
+
+19
+00:00:21,520 --> 00:00:22,800
+About fifty-two
+cents per
+
+20
+00:00:22,800 --> 00:00:23,980
+delivered
+message.
+
+21
+00:00:23,980 --> 00:00:24,800
+But the first
+one
+
+22
+00:00:24,800 --> 00:00:26,240
+thousand service
+replies per
+
+23
+00:00:26,240 --> 00:00:27,820
+number, every
+month, are
+
+24
+00:00:27,820 --> 00:00:28,400
+free.
+
+25
+00:00:28,400 --> 00:00:29,040
+But here's the
+part
+
+26
+00:00:29,040 --> 00:00:30,000
+most people
+miss.
+
+27
+00:00:30,000 --> 00:00:31,000
+If you just use
+
+28
+00:00:31,000 --> 00:00:32,280
+the normal
+WhatsApp
+Business
+
+29
+00:00:32,280 --> 00:00:33,260
+app on your
+phone,
+
+30
+00:00:33,260 --> 00:00:34,380
+and type to
+customers
+
+31
+00:00:34,380 --> 00:00:35,480
+yourself,
+
+32
+00:00:35,480 --> 00:00:36,540
+this charge
+doesn't apply
+
+33
+00:00:36,540 --> 00:00:37,340
+to you.
+
+34
+00:00:37,340 --> 00:00:38,100
+So Brian does
+the
+
+35
+00:00:38,100 --> 00:00:38,880
+maths.
+
+36
+00:00:38,880 --> 00:00:39,560
+He checks how
+many
+
+37
+00:00:39,560 --> 00:00:40,980
+replies his
+chatbot sends
+
+38
+00:00:40,980 --> 00:00:42,120
+each month, and
+plans
+
+39
+00:00:42,120 --> 00:00:42,880
+for it.
+
+40
+00:00:42,880 --> 00:00:43,440
+Which one do you
+
+41
+00:00:43,440 --> 00:00:44,620
+use, the app or
+
+42
+00:00:44,620 --> 00:00:45,620
+the platform?
+
+43
+00:00:45,620 --> 00:00:46,060
+Tell me below.
