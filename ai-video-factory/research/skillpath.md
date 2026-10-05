@@ -1,8 +1,7 @@
 # SkillPath Africa — fact sheet and angle bank (🎓 16:00 promo lane, owner 2026-10-05)
 
 The owner's own learning app. Repo: https://github.com/jacksonlumumba2026-web/skillforge
-(public). Landing page (owner's link): https://jacksonlumumba2026-web.github.io/Skillforge/
-App: https://skillforge-delta-nine.vercel.app (lib/site.ts). Re-check this sheet against the repo
+(public). Link to share (owner, 2026-10-05): https://skillforge-delta-nine.vercel.app/ (lib/site.ts SITE_URL). Re-check this sheet against the repo
 before every promo; prices and features can change.
 
 ## Claims we may make (checked 2026-10-05)

@@ -13,8 +13,8 @@ The owner (Jackson, Jackson web Solutions) has authorized this routine to:
 It does **not** authorize other accounts, paid services, or deleting posts.
 
 ## SkillPath Africa promos (16:00 slot, owner 2026-10-05)
-The owner's own learning app (repo `jacksonlumumba2026-web/skillforge`, landing page
-https://jacksonlumumba2026-web.github.io/Skillforge/). One promo a day.
+The owner's own learning app (repo `jacksonlumumba2026-web/skillforge`, live app
+https://skillforge-delta-nine.vercel.app/). One promo a day.
 - **Facts:** use only claims listed in `research/skillpath.md`. Before each promo, refresh the
   repo (`git clone --depth 1 https://github.com/jacksonlumumba2026-web/skillforge` into the scratchpad)
   and re-check prices in `lib/pricing.ts` and claims in `lib/i18n.ts`. Never claim learner numbers,
@@ -23,7 +23,7 @@ https://jacksonlumumba2026-web.github.io/Skillforge/). One promo a day.
   video (e.g. "learn WordPress and build a site for a local shop"), told as a story with an illustrative
   character, never repeating the previous 3 angles (check `posted.jsonl`, lane `skillpath`).
 - **Script:** same format and rules as the other lanes, plus `promo: true` in the front matter (sets
-  TikTok's own-brand disclosure). Caption ends with `Start here: https://jacksonlumumba2026-web.github.io/Skillforge/`;
+  TikTok's own-brand disclosure). Caption ends with `Start here: https://skillforge-delta-nine.vercel.app/`;
   narration ends with "The link is in the bio." Log with lane `"skillpath"`.
 
 ## Steps

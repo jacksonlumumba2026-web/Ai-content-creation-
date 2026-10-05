@@ -16,7 +16,7 @@ Every claim is checked against the SkillPath Africa codebase (homepage claims ru
 | Built in levels, from zero | README levels table (0046) |
 
 Not claimed: learner numbers, reviews, testimonials, job outcomes, earnings (README: 0 reviews so far).
-Characters are illustrative. Landing link given by the owner: https://jacksonlumumba2026-web.github.io/Skillforge/
+Characters are illustrative. Landing link given by the owner: https://skillforge-delta-nine.vercel.app/
 
 ## Sources
 - https://github.com/jacksonlumumba2026-web/skillforge/blob/main/lib/pricing.ts
