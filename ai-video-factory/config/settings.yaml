@@ -104,8 +104,8 @@ publishing:
     instagram_reels:
       enabled: true           # owner decision 2026-09-28
   auto_publish: true          # owner decision 2026-09-29 (false = approve each post in the Metricool app)
-  posts_per_day: 3           # owner decision 2026-09-29 (was 2)
-  post_times: ["07:30", "12:30", "19:00"]  # daily slots, Africa/Nairobi (morning commute, lunch break, evening)
+  posts_per_day: 4           # owner decision 2026-10-05 (was 3): 4th = SkillPath Africa promo
+  post_times: ["07:30", "12:30", "16:00", "19:00"]  # daily slots, Africa/Nairobi; 16:00 = SkillPath Africa promo
   timezone: Africa/Nairobi
   metricool_blog_id: "7036996"  # Metricool brand "Jackson web Solutions"
   media_branch: media         # public MP4 hosting (orphan branch, raw.githubusercontent.com)

@@ -14,7 +14,7 @@ check, ffmpeg (render), TTS via Piper (selected; falls back to robotic ffmpeg Fl
 - Voiceover: `python3 ai-video-factory/scripts/voiceover.py --slug <slug> --file ai-video-factory/scripts/<slug>.md`
 - Produce a video: `python3 ai-video-factory/scripts/produce.py --slug <slug>` (script -> MP4 + quality gate)
 - Upload + Metricool payload: `python3 ai-video-factory/scripts/prepare_post.py --slug <slug> --date YYYY-MM-DD --time HH:MM`
-  (3 posts/day at `publishing.post_times`: 07:30, 12:30 and 19:00 Nairobi)
+  (4 posts/day at `publishing.post_times`: 07:30, 12:30, 16:00 and 19:00 Nairobi; 16:00 = SkillPath Africa promo)
 - Daily routine steps: `ai-video-factory/ROUTINE.md`
 - Quiz/challenge video: `python3 ai-video-factory/scripts/quiz.py --slug <slug>` (spec: `scripts/<slug>.quiz.yaml`;
   question cards, 3 s countdown with ticks, green answer reveal, synthesized SFX + music bed or a track from `music/`)
@@ -57,6 +57,9 @@ Run the environment check after any change to `config/` or `src/config.py`.
 - Story openings sound natural: no "Picture a…", "Imagine…" or "Let's call her…" (owner, 2026-10-02).
 - On-screen cards only when they explain something (stat/list/compare/definition); never cards
   that repeat the captions. Illustrative characters get a small `tag`, not a card (owner, 2026-09-28).
+
+- SkillPath Africa promos (owner's own app, owner 2026-10-05): only claims in `research/skillpath.md`
+  (checked against the app's code); `promo: true` in the script; no invented learners, reviews or outcomes.
 
 ## File conventions
 - One slug per video: `YYYY-MM-DD-short-topic` (lowercase, hyphens).

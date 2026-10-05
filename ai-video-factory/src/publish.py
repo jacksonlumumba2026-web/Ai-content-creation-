@@ -123,7 +123,7 @@ def metricool_info(script: Script, media_url: str, settings: Settings,
             "title": title.replace("#Shorts", "").strip()[:90],  # required by Metricool
             "privacyOption": "PUBLIC_TO_EVERYONE", "disableComment": False, "disableDuet": False,
             "disableStitch": False, "commercialContentThirdParty": False,
-            "commercialContentOwnBrand": False, "autoAddMusic": False, "isAigc": ai,
+            "commercialContentOwnBrand": bool(script.meta.get("promo")), "autoAddMusic": False, "isAigc": ai,
         }
     if "facebook_reels" in networks:
         info["facebookData"] = {"type": "REEL", "title": title}

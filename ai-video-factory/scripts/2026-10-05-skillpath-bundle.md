@@ -2,6 +2,7 @@
 title: "He wanted to learn everything. On a budget"
 youtube_title: "Any 10 Learning Paths for KSh 1,000 — SkillPath Africa Bundle #Shorts"
 caption: "Pick any 10 learning paths on SkillPath Africa for KSh 1,000, across business and freelancing, marketing, design, tech and work tools. Pay once, keep them for life. Start here: https://jacksonlumumba2026-web.github.io/Skillforge/"
+promo: true  # own-brand promotion (SkillPath Africa): TikTok commercial-content disclosure
 hashtags: [skillpathafrica, kenya, smallbusiness, learnonline, digitalskills, entrepreneur]
 sources:
   - https://github.com/jacksonlumumba2026-web/skillforge/blob/main/lib/pricing.ts

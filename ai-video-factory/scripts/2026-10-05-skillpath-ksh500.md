@@ -2,6 +2,7 @@
 title: "No job yet. One link changed her evening"
 youtube_title: "Learn a Skill That Pays for KSh 500 — First Lesson Free on SkillPath Africa #Shorts"
 caption: "SkillPath Africa: short video lessons in coding, freelancing, design, marketing and work tools. Watch the first lesson free, pay once (KSh 500 a path), keep it for life. English or Kiswahili. Start here: https://jacksonlumumba2026-web.github.io/Skillforge/"
+promo: true  # own-brand promotion (SkillPath Africa): TikTok commercial-content disclosure
 hashtags: [skillpathafrica, kenya, learnonline, freelancing, digitalskills, jobs]
 sources:
   - https://github.com/jacksonlumumba2026-web/skillforge/blob/main/lib/i18n.ts

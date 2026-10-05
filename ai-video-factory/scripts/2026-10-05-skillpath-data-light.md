@@ -2,6 +2,7 @@
 title: "Her bundle ran out halfway through a lesson"
 youtube_title: "Online Lessons That Show Their Data Cost First — SkillPath Africa #Shorts"
 caption: "Made in Kenya, for Kenyan phones: every SkillPath Africa lesson shows its data cost before you press play. First lesson free, KSh 500 a path, English or Kiswahili. Start here: https://jacksonlumumba2026-web.github.io/Skillforge/"
+promo: true  # own-brand promotion (SkillPath Africa): TikTok commercial-content disclosure
 hashtags: [skillpathafrica, kenya, learnonline, data, digitalskills, students]
 sources:
   - https://github.com/jacksonlumumba2026-web/skillforge/blob/main/lib/i18n.ts
