@@ -16,7 +16,7 @@ story:
 scenes:
   - {at: "Kevin fixes phones", query: "phone repair technician"}
   - {at: "But the shop", query: "young man fixing smartphone"}
-  - {at: "On SkillPath Africa", query: "man using smartphone smiling"}
+  - {at: "On SkillPath Africa", query: "african man in shirt using phone"}
   - {at: "Five areas", query: "laptop design work"}
   - {at: "Kevin picks", query: "african man shop owner phone"}
   - {at: "Which ten", query: "young man smiling phone street"}
