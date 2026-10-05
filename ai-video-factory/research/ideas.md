@@ -7,6 +7,9 @@ talking about this week. Slots: 07:30 = 💡 quick win, 12:30 = 💎 hidden gem,
 as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts before scripting.
 
 ## 💡 Quick wins (leads)
+- Get a KRA PIN yourself on iTax, no fee — USED 2026-10-11
+- Buy Goods: payments up to KSh 500 free to receive (from 7 Aug 2026) — USED 2026-10-12
+- Pochi la Biashara promo: no charges on payments up to KSh 200 until 31 Oct 2026 — lead (verify)
 - M-Shwari Lock Savings — USED 2026-10-10
 - Read the name on Hakikisha before confirming — USED 2026-10-08
 - Reply to Google reviews — USED 2026-10-09
@@ -20,6 +23,9 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 - Replying to Google reviews — verify on Google Business Profile help
 
 ## 💎 Hidden gems (verified leads)
+- Fuliza daily maintenance fee at midnight (KSh 30/day on 2,501–70,000) — USED 2026-10-11
+- Safaricom only calls from 0722 000 000; forward scam numbers to 333 — USED 2026-10-12
+- Fuliza daily fee waived for first 3 days on balances up to KSh 1,000 — lead (verify on Safaricom)
 - Marketing SMS without consent: ODPC KES 400K / 250K — USED 2026-10-10
 - SIM swap warning signs, call 100 — USED 2026-10-08
 - Fake job offers asking for fees (KRA warning Sep 2026) — USED 2026-10-09
@@ -48,7 +54,9 @@ as a story. Move an idea to "Used" when it is scheduled. Always re-verify facts 
 ## 🦁 MrBeast (owner: these get lots of views — commentary in our own words only)
 - USED: Ghana village, "even if no one watches", 100 cops (partnership + storytelling), $1M vault puzzle,
   Feastables profit (5 Oct), grocery store Day 67 (7 Oct), Beat Ronaldo (8 Oct), Beast Games S2 (9 Oct)
-- Leads to verify: Beast Philanthropy projects; Feastables in shops (Walmart) strategy
+- USED 2026-10-11: grocery store video record (202 days, most viewed in 24h); 2026-10-12: India trip (local trust)
+- Leads to verify: Beast Games season 3; Beast Philanthropy projects; Feastables in shops (Walmart) strategy
 
 ## Rejected (could not verify)
+- CarryMinati in Beast Games season 2 — single source only; not used.
 - "Mary Atieno, 22, won KSh 500,000 for eco-packaging" — no primary source found; do not use.
