@@ -15,9 +15,9 @@ story:
   payoff: "She applies for a till online; most of her sales cost her nothing to receive"
   illustrative: true
 scenes:
-  - {at: "Wairimu sells tea", query: "tea and snacks street food stall"}
+  - {at: "Wairimu sells tea", query: "african woman selling food street"}
   - {at: "She's heard", query: "woman thinking cafe"}
-  - {at: "Here's what changed", query: "paying with phone shop"}
+  - {at: "Here's what changed", query: "woman using phone at shop counter"}
   - {at: "Above five hundred", query: "cash register small shop"}
   - {at: "Getting a till", query: "woman using laptop at home"}
   - {at: "How do your customers", query: "african woman smiling cafe"}
@@ -35,7 +35,7 @@ visuals:
     label: "above KSh 500, capped at KSh 200"
   - at: "Getting a till"
     type: text
-    label: "Apply: hub.m-pesaforbusiness.co.ke"
+    label: "Apply for a till online on the M-PESA Business Hub"
 ---
 
 ## Narration

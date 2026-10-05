@@ -15,7 +15,7 @@ story:
   illustrative: false
 scenes:
   - {at: "Last week", query: "mumbai city street"}
-  - {at: "But look", query: "cricket stadium crowd"}
+  - {at: "But look", query: "cricket match batsman"}
   - {at: "Here's why", query: "people taking selfie together"}
   - {at: "Number one", query: "handshake business partners"}
   - {at: "For your business", query: "african small business owners talking"}

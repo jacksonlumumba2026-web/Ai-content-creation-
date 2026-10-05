@@ -15,7 +15,7 @@ story:
   payoff: "He hangs up and forwards the number to 333"
   illustrative: true
 scenes:
-  - {at: "Njoroge runs", query: "hardware store owner"}
+  - {at: "Njoroge runs", query: "african man working in hardware store"}
   - {at: "Hello", query: "man answering phone call"}
   - {at: "Njoroge stops", query: "man looking at phone suspicious"}
   - {at: "Rule one", query: "phone screen incoming call"}
