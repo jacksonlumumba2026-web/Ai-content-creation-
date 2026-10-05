@@ -18,9 +18,9 @@ scenes:
   - {at: "Akinyi sells shoes", query: "shoes market stall africa"}
   - {at: "Every morning", query: "woman looking at phone morning"}
   - {at: "Here's what's happening", query: "clock midnight"}
-  - {at: "First", query: "woman using smartphone"}
+  - {at: "First", query: "african woman phone worried"}
   - {at: "For her balance", query: "counting coins table"}
-  - {at: "So Akinyi", query: "african woman selling market smiling"}
+  - {at: "So Akinyi", query: "african woman vendor market stall"}
 visuals:
   - at: "Akinyi sells shoes"
     type: tag

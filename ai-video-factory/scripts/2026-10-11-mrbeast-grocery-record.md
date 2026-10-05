@@ -16,7 +16,7 @@ story:
   illustrative: false
 scenes:
   - {at: "On day sixty-seven", query: "grocery store aisle shelves"}
-  - {at: "So he changed", query: "people shopping supermarket"}
+  - {at: "So he changed", query: "supermarket shelves full of food"}
   - {at: "On October third", query: "person watching video on phone"}
   - {at: "Here's the lesson", query: "man working late night desk"}
   - {at: "Number two", query: "team working together office"}

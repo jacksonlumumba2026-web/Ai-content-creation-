@@ -20,7 +20,7 @@ scenes:
   - {at: "Here's the thing", query: "young man using laptop"}
   - {at: "Step one", query: "typing on laptop close up"}
   - {at: "The law asks", query: "office documents signing"}
-  - {at: "Do you have", query: "smiling young african man"}
+  - {at: "Baraka sends", query: "young black man smiling phone"}
 visuals:
   - at: "Baraka is a welder"
     type: tag
