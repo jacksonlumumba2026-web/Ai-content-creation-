@@ -15,7 +15,7 @@ story:
   payoff: "She applies for a till online; most of her sales cost her nothing to receive"
   illustrative: true
 scenes:
-  - {at: "Wairimu sells tea", query: "african woman selling food street"}
+  - {at: "Wairimu sells tea", query: "woman street food vendor cooking"}
   - {at: "She's heard", query: "woman thinking cafe"}
   - {at: "Here's what changed", query: "woman using phone at shop counter"}
   - {at: "Above five hundred", query: "cash register small shop"}
