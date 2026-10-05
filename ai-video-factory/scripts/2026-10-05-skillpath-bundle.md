@@ -15,7 +15,7 @@ story:
   illustrative: true
 scenes:
   - {at: "Kevin fixes phones", query: "phone repair technician"}
-  - {at: "But the shop", query: "man thinking small shop"}
+  - {at: "But the shop", query: "young man fixing smartphone"}
   - {at: "On SkillPath Africa", query: "man using smartphone smiling"}
   - {at: "Five areas", query: "laptop design work"}
   - {at: "Kevin picks", query: "african man shop owner phone"}

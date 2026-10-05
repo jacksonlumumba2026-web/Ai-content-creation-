@@ -14,7 +14,7 @@ story:
   payoff: "She starts the freelancing path that night on her phone"
   illustrative: true
 scenes:
-  - {at: "Achieng finished", query: "young african woman graduate"}
+  - {at: "Achieng finished", query: "black woman graduation gown"}
   - {at: "Every online course", query: "woman scrolling phone bored"}
   - {at: "Then a friend", query: "friends sharing phone"}
   - {at: "Here's how it works", query: "woman learning on phone"}

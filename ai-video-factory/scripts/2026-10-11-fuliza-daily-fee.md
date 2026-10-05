@@ -20,7 +20,7 @@ scenes:
   - {at: "Here's what's happening", query: "clock midnight"}
   - {at: "First", query: "african woman phone worried"}
   - {at: "For her balance", query: "counting coins table"}
-  - {at: "So Akinyi", query: "african woman vendor market stall"}
+  - {at: "So Akinyi", query: "black woman selling vegetables market"}
 visuals:
   - at: "Akinyi sells shoes"
     type: tag
