@@ -1,0 +1,762 @@
+[
+ {
+  "text": "Akinyi",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "text": "sells",
+  "start": 0.36,
+  "end": 0.5
+ },
+ {
+  "text": "shoes",
+  "start": 0.5,
+  "end": 0.88
+ },
+ {
+  "text": "in",
+  "start": 0.88,
+  "end": 1.18
+ },
+ {
+  "text": "Kisumu.",
+  "start": 1.18,
+  "end": 1.62
+ },
+ {
+  "text": "A",
+  "start": 1.92,
+  "end": 1.98
+ },
+ {
+  "text": "supplier",
+  "start": 1.98,
+  "end": 2.28
+ },
+ {
+  "text": "has",
+  "start": 2.28,
+  "end": 2.62
+ },
+ {
+  "text": "a",
+  "start": 2.62,
+  "end": 2.74
+ },
+ {
+  "text": "good",
+  "start": 2.74,
+  "end": 2.9
+ },
+ {
+  "text": "deal,",
+  "start": 2.9,
+  "end": 3.14
+ },
+ {
+  "text": "so",
+  "start": 3.52,
+  "end": 3.64
+ },
+ {
+  "text": "she",
+  "start": 3.64,
+  "end": 3.84
+ },
+ {
+  "text": "Fulizas",
+  "start": 3.84,
+  "end": 4.32
+ },
+ {
+  "text": "three",
+  "start": 4.32,
+  "end": 4.52
+ },
+ {
+  "text": "thousand",
+  "start": 4.52,
+  "end": 4.88
+ },
+ {
+  "text": "shillings",
+  "start": 4.88,
+  "end": 5.38
+ },
+ {
+  "text": "for",
+  "start": 5.38,
+  "end": 5.56
+ },
+ {
+  "text": "stock.",
+  "start": 5.56,
+  "end": 5.86
+ },
+ {
+  "text": "She'll",
+  "start": 6.26,
+  "end": 6.44
+ },
+ {
+  "text": "pay",
+  "start": 6.44,
+  "end": 6.62
+ },
+ {
+  "text": "it",
+  "start": 6.62,
+  "end": 6.76
+ },
+ {
+  "text": "back",
+  "start": 6.76,
+  "end": 6.96
+ },
+ {
+  "text": "when",
+  "start": 6.96,
+  "end": 7.24
+ },
+ {
+  "text": "the",
+  "start": 7.24,
+  "end": 7.36
+ },
+ {
+  "text": "shoes",
+  "start": 7.36,
+  "end": 7.56
+ },
+ {
+  "text": "sell.",
+  "start": 7.56,
+  "end": 7.92
+ },
+ {
+  "text": "Every",
+  "start": 8.3,
+  "end": 8.34
+ },
+ {
+  "text": "morning,",
+  "start": 8.34,
+  "end": 8.68
+ },
+ {
+  "text": "she",
+  "start": 8.9,
+  "end": 9.0
+ },
+ {
+  "text": "checks",
+  "start": 9.0,
+  "end": 9.18
+ },
+ {
+  "text": "her",
+  "start": 9.18,
+  "end": 9.38
+ },
+ {
+  "text": "balance,",
+  "start": 9.38,
+  "end": 9.66
+ },
+ {
+  "text": "and",
+  "start": 9.96,
+  "end": 10.08
+ },
+ {
+  "text": "she",
+  "start": 10.08,
+  "end": 10.26
+ },
+ {
+  "text": "owes",
+  "start": 10.26,
+  "end": 10.58
+ },
+ {
+  "text": "a",
+  "start": 10.58,
+  "end": 10.82
+ },
+ {
+  "text": "little",
+  "start": 10.82,
+  "end": 10.96
+ },
+ {
+  "text": "more.",
+  "start": 10.96,
+  "end": 11.22
+ },
+ {
+  "text": "Here's",
+  "start": 11.54,
+  "end": 11.8
+ },
+ {
+  "text": "what's",
+  "start": 11.8,
+  "end": 12.1
+ },
+ {
+  "text": "happening.",
+  "start": 12.1,
+  "end": 12.42
+ },
+ {
+  "text": "Fuliza",
+  "start": 12.92,
+  "end": 13.28
+ },
+ {
+  "text": "isn't",
+  "start": 13.28,
+  "end": 13.62
+ },
+ {
+  "text": "one",
+  "start": 13.62,
+  "end": 13.78
+ },
+ {
+  "text": "fee.",
+  "start": 13.78,
+  "end": 14.04
+ },
+ {
+  "text": "First,",
+  "start": 14.42,
+  "end": 14.6
+ },
+ {
+  "text": "a",
+  "start": 14.84,
+  "end": 14.94
+ },
+ {
+  "text": "one-off",
+  "start": 14.94,
+  "end": 15.34
+ },
+ {
+  "text": "access",
+  "start": 15.34,
+  "end": 15.7
+ },
+ {
+  "text": "fee",
+  "start": 15.7,
+  "end": 16.04
+ },
+ {
+  "text": "of",
+  "start": 16.04,
+  "end": 16.28
+ },
+ {
+  "text": "one",
+  "start": 16.28,
+  "end": 16.5
+ },
+ {
+  "text": "percent,",
+  "start": 16.5,
+  "end": 16.9
+ },
+ {
+  "text": "plus",
+  "start": 17.22,
+  "end": 17.46
+ },
+ {
+  "text": "excise",
+  "start": 17.46,
+  "end": 17.66
+ },
+ {
+  "text": "duty.",
+  "start": 17.66,
+  "end": 18.18
+ },
+ {
+  "text": "Then,",
+  "start": 18.68,
+  "end": 18.78
+ },
+ {
+  "text": "every",
+  "start": 18.94,
+  "end": 19.18
+ },
+ {
+  "text": "night",
+  "start": 19.18,
+  "end": 19.44
+ },
+ {
+  "text": "at",
+  "start": 19.44,
+  "end": 19.64
+ },
+ {
+  "text": "midnight,",
+  "start": 19.64,
+  "end": 19.82
+ },
+ {
+  "text": "a",
+  "start": 20.34,
+  "end": 20.38
+ },
+ {
+  "text": "daily",
+  "start": 20.38,
+  "end": 20.58
+ },
+ {
+  "text": "maintenance",
+  "start": 20.58,
+  "end": 21.04
+ },
+ {
+  "text": "fee",
+  "start": 21.04,
+  "end": 21.4
+ },
+ {
+  "text": "on",
+  "start": 21.4,
+  "end": 21.62
+ },
+ {
+  "text": "whatever",
+  "start": 21.62,
+  "end": 21.78
+ },
+ {
+  "text": "you",
+  "start": 21.78,
+  "end": 22.06
+ },
+ {
+  "text": "still",
+  "start": 22.06,
+  "end": 22.26
+ },
+ {
+  "text": "owe.",
+  "start": 22.26,
+  "end": 22.5
+ },
+ {
+  "text": "For",
+  "start": 22.84,
+  "end": 22.9
+ },
+ {
+  "text": "her",
+  "start": 22.9,
+  "end": 23.06
+ },
+ {
+  "text": "balance,",
+  "start": 23.06,
+  "end": 23.3
+ },
+ {
+  "text": "that's",
+  "start": 23.74,
+  "end": 23.96
+ },
+ {
+  "text": "thirty",
+  "start": 23.96,
+  "end": 24.14
+ },
+ {
+  "text": "shillings",
+  "start": 24.14,
+  "end": 24.6
+ },
+ {
+  "text": "a",
+  "start": 24.6,
+  "end": 24.74
+ },
+ {
+  "text": "day,",
+  "start": 24.74,
+  "end": 24.9
+ },
+ {
+  "text": "including",
+  "start": 25.18,
+  "end": 25.54
+ },
+ {
+  "text": "excise.",
+  "start": 25.54,
+  "end": 25.8
+ },
+ {
+  "text": "It",
+  "start": 26.4,
+  "end": 26.48
+ },
+ {
+  "text": "sounds",
+  "start": 26.48,
+  "end": 26.72
+ },
+ {
+  "text": "small.",
+  "start": 26.72,
+  "end": 27.04
+ },
+ {
+  "text": "Fourteen",
+  "start": 27.52,
+  "end": 27.88
+ },
+ {
+  "text": "days",
+  "start": 27.88,
+  "end": 28.12
+ },
+ {
+  "text": "later,",
+  "start": 28.12,
+  "end": 28.46
+ },
+ {
+  "text": "she",
+  "start": 28.72,
+  "end": 28.86
+ },
+ {
+  "text": "has",
+  "start": 28.86,
+  "end": 29.02
+ },
+ {
+  "text": "paid",
+  "start": 29.02,
+  "end": 29.22
+ },
+ {
+  "text": "about",
+  "start": 29.22,
+  "end": 29.52
+ },
+ {
+  "text": "four",
+  "start": 29.52,
+  "end": 29.86
+ },
+ {
+  "text": "hundred",
+  "start": 29.86,
+  "end": 29.98
+ },
+ {
+  "text": "and",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "twenty",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "shillings",
+  "start": 30.64,
+  "end": 31.24
+ },
+ {
+  "text": "in",
+  "start": 31.24,
+  "end": 31.42
+ },
+ {
+  "text": "daily",
+  "start": 31.42,
+  "end": 31.64
+ },
+ {
+  "text": "fees",
+  "start": 31.64,
+  "end": 32.04
+ },
+ {
+  "text": "alone.",
+  "start": 32.04,
+  "end": 32.42
+ },
+ {
+  "text": "That",
+  "start": 32.8,
+  "end": 32.9
+ },
+ {
+  "text": "money",
+  "start": 32.9,
+  "end": 33.06
+ },
+ {
+  "text": "could",
+  "start": 33.06,
+  "end": 33.24
+ },
+ {
+  "text": "have",
+  "start": 33.24,
+  "end": 33.34
+ },
+ {
+  "text": "bought",
+  "start": 33.34,
+  "end": 33.48
+ },
+ {
+  "text": "more",
+  "start": 33.48,
+  "end": 33.68
+ },
+ {
+  "text": "stock.",
+  "start": 33.68,
+  "end": 34.04
+ },
+ {
+  "text": "So",
+  "start": 34.4,
+  "end": 34.54
+ },
+ {
+  "text": "Akinyi",
+  "start": 34.54,
+  "end": 34.9
+ },
+ {
+  "text": "changed",
+  "start": 34.9,
+  "end": 35.36
+ },
+ {
+  "text": "one",
+  "start": 35.36,
+  "end": 35.56
+ },
+ {
+  "text": "habit.",
+  "start": 35.56,
+  "end": 35.9
+ },
+ {
+  "text": "Every",
+  "start": 36.24,
+  "end": 36.38
+ },
+ {
+  "text": "time",
+  "start": 36.38,
+  "end": 36.66
+ },
+ {
+  "text": "a",
+  "start": 36.66,
+  "end": 36.78
+ },
+ {
+  "text": "customer",
+  "start": 36.78,
+  "end": 37.06
+ },
+ {
+  "text": "pays,",
+  "start": 37.06,
+  "end": 37.5
+ },
+ {
+  "text": "she",
+  "start": 37.86,
+  "end": 37.94
+ },
+ {
+  "text": "clears",
+  "start": 37.94,
+  "end": 38.2
+ },
+ {
+  "text": "the",
+  "start": 38.2,
+  "end": 38.44
+ },
+ {
+  "text": "Fuliza",
+  "start": 38.44,
+  "end": 38.9
+ },
+ {
+  "text": "first.",
+  "start": 38.9,
+  "end": 39.1
+ },
+ {
+  "text": "Small",
+  "start": 39.46,
+  "end": 39.76
+ },
+ {
+  "text": "balances",
+  "start": 39.76,
+  "end": 40.24
+ },
+ {
+  "text": "cost",
+  "start": 40.24,
+  "end": 40.66
+ },
+ {
+  "text": "less,",
+  "start": 40.66,
+  "end": 41.06
+ },
+ {
+  "text": "and",
+  "start": 41.46,
+  "end": 41.56
+ },
+ {
+  "text": "paying",
+  "start": 41.56,
+  "end": 41.78
+ },
+ {
+  "text": "back",
+  "start": 41.78,
+  "end": 42.16
+ },
+ {
+  "text": "fast",
+  "start": 42.16,
+  "end": 42.4
+ },
+ {
+  "text": "costs",
+  "start": 42.4,
+  "end": 42.74
+ },
+ {
+  "text": "the",
+  "start": 42.74,
+  "end": 43.16
+ },
+ {
+  "text": "least.",
+  "start": 43.16,
+  "end": 43.34
+ },
+ {
+  "text": "Rates",
+  "start": 43.9,
+  "end": 43.9
+ },
+ {
+  "text": "change,",
+  "start": 43.9,
+  "end": 44.16
+ },
+ {
+  "text": "so",
+  "start": 44.78,
+  "end": 44.92
+ },
+ {
+  "text": "check",
+  "start": 44.92,
+  "end": 45.12
+ },
+ {
+  "text": "Safaricom's",
+  "start": 45.12,
+  "end": 45.9
+ },
+ {
+  "text": "current",
+  "start": 45.9,
+  "end": 46.08
+ },
+ {
+  "text": "tariff.",
+  "start": 46.08,
+  "end": 46.36
+ },
+ {
+  "text": "Not",
+  "start": 46.76,
+  "end": 46.84
+ },
+ {
+  "text": "financial",
+  "start": 46.84,
+  "end": 47.18
+ },
+ {
+  "text": "advice.",
+  "start": 47.18,
+  "end": 47.72
+ },
+ {
+  "text": "Do",
+  "start": 48.28,
+  "end": 48.3
+ },
+ {
+  "text": "you",
+  "start": 48.3,
+  "end": 48.42
+ },
+ {
+  "text": "clear",
+  "start": 48.42,
+  "end": 48.68
+ },
+ {
+  "text": "your",
+  "start": 48.68,
+  "end": 48.84
+ },
+ {
+  "text": "Fuliza",
+  "start": 48.84,
+  "end": 49.36
+ },
+ {
+  "text": "fast?",
+  "start": 49.36,
+  "end": 49.5
+ },
+ {
+  "text": "Tell",
+  "start": 49.94,
+  "end": 50.02
+ },
+ {
+  "text": "me",
+  "start": 50.02,
+  "end": 50.16
+ },
+ {
+  "text": "below.",
+  "start": 50.16,
+  "end": 50.38
+ }
+]

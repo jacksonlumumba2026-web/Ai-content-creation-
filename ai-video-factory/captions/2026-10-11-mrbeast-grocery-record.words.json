@@ -1,0 +1,802 @@
+[
+ {
+  "text": "On",
+  "start": 0.0,
+  "end": 0.12
+ },
+ {
+  "text": "day",
+  "start": 0.12,
+  "end": 0.26
+ },
+ {
+  "text": "sixty-seven,",
+  "start": 0.26,
+  "end": 1.18
+ },
+ {
+  "text": "MrBeast",
+  "start": 1.18,
+  "end": 1.62
+ },
+ {
+  "text": "had",
+  "start": 1.62,
+  "end": 1.88
+ },
+ {
+  "text": "a",
+  "start": 1.88,
+  "end": 1.94
+ },
+ {
+  "text": "problem.",
+  "start": 1.94,
+  "end": 2.24
+ },
+ {
+  "text": "The",
+  "start": 2.56,
+  "end": 2.62
+ },
+ {
+  "text": "last",
+  "start": 2.62,
+  "end": 2.78
+ },
+ {
+  "text": "person",
+  "start": 2.78,
+  "end": 3.12
+ },
+ {
+  "text": "to",
+  "start": 3.12,
+  "end": 3.48
+ },
+ {
+  "text": "leave",
+  "start": 3.48,
+  "end": 3.64
+ },
+ {
+  "text": "his",
+  "start": 3.64,
+  "end": 3.82
+ },
+ {
+  "text": "grocery",
+  "start": 3.82,
+  "end": 4.0
+ },
+ {
+  "text": "store",
+  "start": 4.0,
+  "end": 4.62
+ },
+ {
+  "text": "would",
+  "start": 4.62,
+  "end": 4.84
+ },
+ {
+  "text": "win,",
+  "start": 4.84,
+  "end": 5.1
+ },
+ {
+  "text": "but",
+  "start": 5.4,
+  "end": 5.5
+ },
+ {
+  "text": "four",
+  "start": 5.5,
+  "end": 5.66
+ },
+ {
+  "text": "players",
+  "start": 5.66,
+  "end": 6.06
+ },
+ {
+  "text": "wouldn't",
+  "start": 6.06,
+  "end": 6.38
+ },
+ {
+  "text": "leave.",
+  "start": 6.38,
+  "end": 6.6
+ },
+ {
+  "text": "The",
+  "start": 6.88,
+  "end": 6.94
+ },
+ {
+  "text": "video",
+  "start": 6.94,
+  "end": 7.22
+ },
+ {
+  "text": "had",
+  "start": 7.22,
+  "end": 7.46
+ },
+ {
+  "text": "no",
+  "start": 7.46,
+  "end": 7.7
+ },
+ {
+  "text": "ending.",
+  "start": 7.7,
+  "end": 8.02
+ },
+ {
+  "text": "So",
+  "start": 8.3,
+  "end": 8.48
+ },
+ {
+  "text": "he",
+  "start": 8.48,
+  "end": 8.64
+ },
+ {
+  "text": "changed",
+  "start": 8.64,
+  "end": 8.86
+ },
+ {
+  "text": "the",
+  "start": 8.86,
+  "end": 9.14
+ },
+ {
+  "text": "deal.",
+  "start": 9.14,
+  "end": 9.4
+ },
+ {
+  "text": "Eat",
+  "start": 9.7,
+  "end": 9.78
+ },
+ {
+  "text": "everything",
+  "start": 9.78,
+  "end": 10.06
+ },
+ {
+  "text": "in",
+  "start": 10.06,
+  "end": 10.38
+ },
+ {
+  "text": "the",
+  "start": 10.38,
+  "end": 10.46
+ },
+ {
+  "text": "store",
+  "start": 10.46,
+  "end": 10.74
+ },
+ {
+  "text": "and",
+  "start": 10.74,
+  "end": 11.02
+ },
+ {
+  "text": "win",
+  "start": 11.02,
+  "end": 11.22
+ },
+ {
+  "text": "one",
+  "start": 11.22,
+  "end": 11.52
+ },
+ {
+  "text": "million",
+  "start": 11.52,
+  "end": 11.8
+ },
+ {
+  "text": "dollars.",
+  "start": 11.8,
+  "end": 12.38
+ },
+ {
+  "text": "They",
+  "start": 12.64,
+  "end": 12.78
+ },
+ {
+  "text": "stayed",
+  "start": 12.78,
+  "end": 13.02
+ },
+ {
+  "text": "until",
+  "start": 13.02,
+  "end": 13.32
+ },
+ {
+  "text": "the",
+  "start": 13.32,
+  "end": 13.56
+ },
+ {
+  "text": "shelves",
+  "start": 13.56,
+  "end": 13.76
+ },
+ {
+  "text": "were",
+  "start": 13.76,
+  "end": 14.08
+ },
+ {
+  "text": "empty.",
+  "start": 14.08,
+  "end": 14.38
+ },
+ {
+  "text": "In",
+  "start": 14.74,
+  "end": 14.78
+ },
+ {
+  "text": "total,",
+  "start": 14.78,
+  "end": 15.04
+ },
+ {
+  "text": "two",
+  "start": 15.34,
+  "end": 15.48
+ },
+ {
+  "text": "hundred",
+  "start": 15.48,
+  "end": 15.78
+ },
+ {
+  "text": "and",
+  "start": 15.78,
+  "end": 16.04
+ },
+ {
+  "text": "two",
+  "start": 16.04,
+  "end": 16.3
+ },
+ {
+  "text": "days",
+  "start": 16.3,
+  "end": 16.52
+ },
+ {
+  "text": "inside",
+  "start": 16.52,
+  "end": 16.92
+ },
+ {
+  "text": "a",
+  "start": 16.92,
+  "end": 17.08
+ },
+ {
+  "text": "grocery",
+  "start": 17.08,
+  "end": 17.24
+ },
+ {
+  "text": "store.",
+  "start": 17.24,
+  "end": 17.88
+ },
+ {
+  "text": "On",
+  "start": 18.14,
+  "end": 18.26
+ },
+ {
+  "text": "October",
+  "start": 18.26,
+  "end": 18.48
+ },
+ {
+  "text": "third,",
+  "start": 18.48,
+  "end": 18.94
+ },
+ {
+  "text": "the",
+  "start": 19.18,
+  "end": 19.26
+ },
+ {
+  "text": "video",
+  "start": 19.26,
+  "end": 19.52
+ },
+ {
+  "text": "came",
+  "start": 19.52,
+  "end": 19.76
+ },
+ {
+  "text": "out.",
+  "start": 19.76,
+  "end": 20.04
+ },
+ {
+  "text": "MrBeast",
+  "start": 20.4,
+  "end": 20.78
+ },
+ {
+  "text": "says",
+  "start": 20.78,
+  "end": 21.1
+ },
+ {
+  "text": "it",
+  "start": 21.1,
+  "end": 21.24
+ },
+ {
+  "text": "became",
+  "start": 21.24,
+  "end": 21.48
+ },
+ {
+  "text": "his",
+  "start": 21.48,
+  "end": 21.74
+ },
+ {
+  "text": "most",
+  "start": 21.74,
+  "end": 21.92
+ },
+ {
+  "text": "viewed",
+  "start": 21.92,
+  "end": 22.22
+ },
+ {
+  "text": "video",
+  "start": 22.22,
+  "end": 22.66
+ },
+ {
+  "text": "ever",
+  "start": 22.66,
+  "end": 22.86
+ },
+ {
+  "text": "in",
+  "start": 22.86,
+  "end": 23.18
+ },
+ {
+  "text": "its",
+  "start": 23.18,
+  "end": 23.32
+ },
+ {
+  "text": "first",
+  "start": 23.32,
+  "end": 23.58
+ },
+ {
+  "text": "twenty-four",
+  "start": 23.58,
+  "end": 24.22
+ },
+ {
+  "text": "hours,",
+  "start": 24.22,
+  "end": 24.44
+ },
+ {
+  "text": "and",
+  "start": 24.44,
+  "end": 24.74
+ },
+ {
+  "text": "that",
+  "start": 24.74,
+  "end": 24.86
+ },
+ {
+  "text": "thousands",
+  "start": 24.86,
+  "end": 25.18
+ },
+ {
+  "text": "of",
+  "start": 25.18,
+  "end": 25.46
+ },
+ {
+  "text": "comments",
+  "start": 25.46,
+  "end": 25.68
+ },
+ {
+  "text": "called",
+  "start": 25.68,
+  "end": 26.1
+ },
+ {
+  "text": "it",
+  "start": 26.1,
+  "end": 26.28
+ },
+ {
+  "text": "his",
+  "start": 26.28,
+  "end": 26.42
+ },
+ {
+  "text": "best",
+  "start": 26.42,
+  "end": 26.62
+ },
+ {
+  "text": "video",
+  "start": 26.62,
+  "end": 26.98
+ },
+ {
+  "text": "ever.",
+  "start": 26.98,
+  "end": 27.36
+ },
+ {
+  "text": "After",
+  "start": 27.56,
+  "end": 27.86
+ },
+ {
+  "text": "seventeen",
+  "start": 27.86,
+  "end": 28.26
+ },
+ {
+  "text": "years",
+  "start": 28.26,
+  "end": 28.68
+ },
+ {
+  "text": "of",
+  "start": 28.68,
+  "end": 28.86
+ },
+ {
+  "text": "making",
+  "start": 28.86,
+  "end": 29.06
+ },
+ {
+  "text": "videos,",
+  "start": 29.06,
+  "end": 29.54
+ },
+ {
+  "text": "he",
+  "start": 29.98,
+  "end": 29.98
+ },
+ {
+  "text": "says",
+  "start": 29.98,
+  "end": 30.18
+ },
+ {
+  "text": "his",
+  "start": 30.18,
+  "end": 30.34
+ },
+ {
+  "text": "best",
+  "start": 30.34,
+  "end": 30.54
+ },
+ {
+  "text": "days",
+  "start": 30.54,
+  "end": 30.86
+ },
+ {
+  "text": "are",
+  "start": 30.86,
+  "end": 31.08
+ },
+ {
+  "text": "still",
+  "start": 31.08,
+  "end": 31.28
+ },
+ {
+  "text": "ahead.",
+  "start": 31.28,
+  "end": 31.52
+ },
+ {
+  "text": "Here's",
+  "start": 31.92,
+  "end": 32.0
+ },
+ {
+  "text": "the",
+  "start": 32.0,
+  "end": 32.1
+ },
+ {
+  "text": "lesson",
+  "start": 32.1,
+  "end": 32.38
+ },
+ {
+  "text": "for",
+  "start": 32.38,
+  "end": 32.66
+ },
+ {
+  "text": "your",
+  "start": 32.66,
+  "end": 32.82
+ },
+ {
+  "text": "business.",
+  "start": 32.82,
+  "end": 33.16
+ },
+ {
+  "text": "Number",
+  "start": 33.78,
+  "end": 33.78
+ },
+ {
+  "text": "one:",
+  "start": 33.78,
+  "end": 34.04
+ },
+ {
+  "text": "finish",
+  "start": 34.64,
+  "end": 34.64
+ },
+ {
+  "text": "what",
+  "start": 34.64,
+  "end": 34.84
+ },
+ {
+  "text": "you",
+  "start": 34.84,
+  "end": 35.0
+ },
+ {
+  "text": "start,",
+  "start": 35.0,
+  "end": 35.24
+ },
+ {
+  "text": "even",
+  "start": 35.64,
+  "end": 35.8
+ },
+ {
+  "text": "when",
+  "start": 35.8,
+  "end": 36.0
+ },
+ {
+  "text": "it",
+  "start": 36.0,
+  "end": 36.08
+ },
+ {
+  "text": "takes",
+  "start": 36.08,
+  "end": 36.26
+ },
+ {
+  "text": "longer",
+  "start": 36.26,
+  "end": 36.54
+ },
+ {
+  "text": "than",
+  "start": 36.54,
+  "end": 36.86
+ },
+ {
+  "text": "planned.",
+  "start": 36.86,
+  "end": 37.52
+ },
+ {
+  "text": "Number",
+  "start": 37.52,
+  "end": 37.64
+ },
+ {
+  "text": "two:",
+  "start": 37.64,
+  "end": 38.02
+ },
+ {
+  "text": "when",
+  "start": 38.22,
+  "end": 38.38
+ },
+ {
+  "text": "the",
+  "start": 38.38,
+  "end": 38.48
+ },
+ {
+  "text": "plan",
+  "start": 38.48,
+  "end": 38.74
+ },
+ {
+  "text": "stops",
+  "start": 38.74,
+  "end": 39.02
+ },
+ {
+  "text": "working,",
+  "start": 39.02,
+  "end": 39.5
+ },
+ {
+  "text": "change",
+  "start": 39.5,
+  "end": 39.96
+ },
+ {
+  "text": "the",
+  "start": 39.96,
+  "end": 40.22
+ },
+ {
+  "text": "plan,",
+  "start": 40.22,
+  "end": 40.44
+ },
+ {
+  "text": "not",
+  "start": 40.86,
+  "end": 40.98
+ },
+ {
+  "text": "the",
+  "start": 40.98,
+  "end": 41.14
+ },
+ {
+  "text": "goal.",
+  "start": 41.14,
+  "end": 41.28
+ },
+ {
+  "text": "Number",
+  "start": 41.76,
+  "end": 41.76
+ },
+ {
+  "text": "three:",
+  "start": 41.76,
+  "end": 42.16
+ },
+ {
+  "text": "results",
+  "start": 42.4,
+  "end": 42.7
+ },
+ {
+  "text": "often",
+  "start": 42.7,
+  "end": 43.18
+ },
+ {
+  "text": "come",
+  "start": 43.18,
+  "end": 43.38
+ },
+ {
+  "text": "late,",
+  "start": 43.38,
+  "end": 43.62
+ },
+ {
+  "text": "so",
+  "start": 44.06,
+  "end": 44.08
+ },
+ {
+  "text": "keep",
+  "start": 44.08,
+  "end": 44.32
+ },
+ {
+  "text": "going.",
+  "start": 44.32,
+  "end": 44.66
+ },
+ {
+  "text": "What",
+  "start": 44.94,
+  "end": 45.0
+ },
+ {
+  "text": "would",
+  "start": 45.0,
+  "end": 45.12
+ },
+ {
+  "text": "you",
+  "start": 45.12,
+  "end": 45.24
+ },
+ {
+  "text": "keep",
+  "start": 45.24,
+  "end": 45.4
+ },
+ {
+  "text": "going",
+  "start": 45.4,
+  "end": 45.68
+ },
+ {
+  "text": "on",
+  "start": 45.68,
+  "end": 45.9
+ },
+ {
+  "text": "for",
+  "start": 45.9,
+  "end": 46.06
+ },
+ {
+  "text": "two",
+  "start": 46.06,
+  "end": 46.132
+ },
+ {
+  "text": "hundred",
+  "start": 46.132,
+  "end": 46.3
+ },
+ {
+  "text": "days?",
+  "start": 46.3,
+  "end": 46.82
+ },
+ {
+  "text": "Tell",
+  "start": 47.2,
+  "end": 47.3
+ },
+ {
+  "text": "me",
+  "start": 47.3,
+  "end": 47.44
+ },
+ {
+  "text": "below.",
+  "start": 47.44,
+  "end": 47.68
+ }
+]
