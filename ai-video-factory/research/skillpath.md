@@ -40,6 +40,7 @@ Online Selling; Google Ads & Facebook Ads; SEO; Email Marketing; Notion; Zapier 
 - KSh 500 a path, first lesson free — USED 2026-10-06
 - Bundle: any 10 for KSh 1,000 — USED 2026-10-07
 - Data cost shown before every lesson — USED 2026-10-08
+- WordPress path: cyber café owner builds sites, no code — USED 2026-10-09
 - Next ideas: a mama mboga's daughter learns WhatsApp Business selling; a matatu tout learns Excel;
-  a cyber café owner learns WordPress and builds sites for neighbours; a graduate learns Virtual
+  a graduate learns Virtual
   Assistance; learn in Kiswahili; certificates; "try the first lesson tonight, free".
