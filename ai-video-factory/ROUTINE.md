@@ -29,7 +29,25 @@ https://skillforge-delta-nine.vercel.app/). One promo a day.
   TikTok's own-brand disclosure). Caption ends with `Start here: https://skillforge-delta-nine.vercel.app/`;
   narration ends with "The link is in the bio." Log with lane `"skillpath"`.
 
-## Steps
+## Posting a slot (07:30, 12:30, 16:00, 19:00 Nairobi — owner 2026-10-13)
+Metricool hit its plan limit on 7 Oct; videos now post directly through Composio from
+`research/queue.json` (one entry per slot, `status: "queued"` → `"posted"`).
+1. Take today's entry for this slot. None → report and stop.
+2. **Facebook:** `FACEBOOK_CREATE_VIDEO_POST`, Page `1262716063589637` only, `file_url` = `video_url`,
+   `title` (no `#Shorts`), `description` = `text`.
+3. **Instagram:** `INSTAGRAM_POST_IG_USER_MEDIA` (ig_user_id `27814639221543754`, `video_url`,
+   `media_type: REELS`, `share_to_feed: true`, `caption` = `text`), then
+   `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH` (`max_wait_seconds: 240`).
+4. **YouTube:** in the Composio workbench download `video_url`, `upload_local_file`, then
+   `YOUTUBE_MULTIPART_UPLOAD_VIDEO` (categoryId "28", public, tags + "shorts"). On the shared 429
+   upload quota, set `youtube: "pending"` and retry one pending video at the next slot.
+5. **TikTok:** not connected — send the owner `output/<slug>.mp4` and the caption to upload.
+6. Record the ids, set `status: "posted"`, append to `posted.jsonl` (`"via": "composio"`), commit, push.
+
+## Steps (daily, 08:55: make new videos)
+Since 2026-10-13, step 2 checks `research/queue.json` for empty slots instead of Metricool, and
+steps 9–10 add the finished video to `queue.json` (with `video_url` from `prepare_post.py`'s
+media URL, `title`, `text`, `tags`) instead of calling `createScheduledPost`.
 1. **Environment:** `python3 ai-video-factory/scripts/check_env.py` must end `RESULT: READY`.
    If not, run `bash ai-video-factory/scripts/setup_env.sh` and re-check. If still not ready, stop
    and report.
