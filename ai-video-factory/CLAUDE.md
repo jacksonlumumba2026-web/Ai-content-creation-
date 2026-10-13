@@ -35,8 +35,13 @@ Run the environment check after any change to `config/` or `src/config.py`.
   (YouTube Shorts, TikTok, Facebook Reels, Instagram Reels) via Metricool. **Owner decision 2026-09-29:
   `autoPublish: true`** (follow `publishing.auto_publish`) so all four platforms post by themselves —
   with phone approval, TikTok and Instagram never went live. Only schedule videos that passed the
-  quality gate; the owner can edit or delete any scheduled post in Metricool. Never post outside
-  Metricool or to other accounts.
+  quality gate; the owner can edit or delete any scheduled post in Metricool.
+  **Owner decision 2026-10-13:** Metricool's free-plan limit blocked posting from 7 Oct, so videos
+  now post directly through the Composio connector to the Jackson web Solutions YouTube channel
+  (UCOZl-QEq3i5TJmPfG77vK-A), Facebook Page "Jackson web Solutions" (1262716063589637) and Instagram
+  @jackson_web_solutions, at the slot times (see ROUTINE.md). TikTok isn't connected: send the owner the
+  TikTok file to upload. Never post to other accounts or Pages (e.g. "Irene household collections"),
+  and never through any other service.
 - Commentary on other creators' videos: our own script, voice and graphics only; never use
   their footage, audio or thumbnails; state facts only as far as the sources support.
 - **Never commit secrets.** Keys go in `config/.env` (git-ignored) or environment secrets.

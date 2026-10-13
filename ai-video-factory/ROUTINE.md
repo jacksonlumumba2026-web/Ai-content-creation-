@@ -10,6 +10,9 @@ The owner (Jackson, Jackson web Solutions) has authorized this routine to:
 - schedule posts through the Metricool connector to the Jackson web Solutions YouTube,
   TikTok, Facebook and Instagram accounts **with `autoPublish: true`** (owner decision 2026-09-29:
   posts go live automatically at their slot; the owner can edit/delete them in Metricool first).
+- **Owner decision 2026-10-13:** post directly through Composio (YouTube, Facebook Page
+  1262716063589637, Instagram @jackson_web_solutions) instead of Metricool, which hit its plan limit.
+  Videos are posted at their slot time, so the routine runs at each slot; TikTok files go to the owner.
 It does **not** authorize other accounts, paid services, or deleting posts.
 
 ## SkillPath Africa promos (16:00 slot, owner 2026-10-05)
