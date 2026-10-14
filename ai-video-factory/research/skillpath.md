@@ -41,6 +41,7 @@ Online Selling; Google Ads & Facebook Ads; SEO; Email Marketing; Notion; Zapier 
 - Bundle: any 10 for KSh 1,000 — USED 2026-10-07
 - Data cost shown before every lesson — USED 2026-10-08
 - WordPress path: cyber café owner builds sites, no code — USED 2026-10-09
+- Excel & Spreadsheets for Work: office assistant's sales summary — USED 2026-10-17
 - Next ideas: a mama mboga's daughter learns WhatsApp Business selling; a matatu tout learns Excel;
   a graduate learns Virtual
   Assistance; learn in Kiswahili; certificates; "try the first lesson tonight, free".
