@@ -40,7 +40,8 @@ Metricool hit its plan limit on 7 Oct; videos now post directly through Composio
    `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH` (`max_wait_seconds: 240`).
 4. **YouTube:** in the Composio workbench download `video_url`, `upload_local_file`, then
    `YOUTUBE_MULTIPART_UPLOAD_VIDEO` (categoryId "28", public, tags + "shorts"). On the shared 429
-   upload quota, set `youtube: "pending"` and retry one pending video at the next slot.
+   upload quota, set `youtube: "pending"`. The shared quota resets at 10:00 Nairobi and is used up by
+   mid-afternoon, so the 12:30 slot uploads every pending video first.
 5. **TikTok:** not connected — send the owner `output/<slug>.mp4` and the caption to upload.
 6. Record the ids, set `status: "posted"`, append to `posted.jsonl` (`"via": "composio"`), commit, push.
 
